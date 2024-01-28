@@ -40,26 +40,7 @@ const ResourcesConstructionType2: NextPage = () => {
         propWidth4="422px"
         propMarginTop="-228px"
       />
-      <div className={styles.learnMoreParent}>
-        <div className={styles.learnMore}>Learn More</div>
-        <img className={styles.groupChild} alt="" />
-      </div>
-      <div className={styles.learnMoreGroup}>
-        <div className={styles.learnMore1}>Learn More</div>
-        <img className={styles.groupItem} alt="" />
-      </div>
-      <div className={styles.learnMoreContainer}>
-        <div className={styles.learnMore2}>Learn More</div>
-        <img className={styles.groupInner} alt="" />
-      </div>
-      <div className={styles.groupDiv}>
-        <div className={styles.learnMore3}>Learn More</div>
-        <img className={styles.arrowIcon} alt="" />
-      </div>
-      <div className={styles.learnMoreParent1}>
-        <div className={styles.learnMore4}>Learn More</div>
-        <img className={styles.groupChild1} alt="" />
-      </div>
+     
       <FAQContainer
         faqTitle="FAQs on New Construction Project Management"
         retrofitQuestion="Can Luxa handle the complexities of large-scale new construction projects?"

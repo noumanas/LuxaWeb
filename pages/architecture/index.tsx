@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
-import Header from "../../../components/Header";
-import DataDrivenDesignFrame from "../../../components/DataDrivenDesignFrame";
-import EnvironmentImpactAssessment from "../../../components/EnvironmentImpactAssessment";
+import Header from "../../components/Header";
+import DataDrivenDesignFrame from "../../components/DataDrivenDesignFrame";
+import EnvironmentImpactAssessment from "../../components/EnvironmentImpactAssessment";
 import styles from "./ResourcesIndustryArchitec.module.css";
-import Footer from "../../../components/Footer";
-import ContactFormContainer from "../../../components/ContactFormContainer";
+import Footer from "../../components/Footer";
+import ContactFormContainer from "../../components/ContactFormContainer";
 
 const ResourcesIndustryArchitec: NextPage = () => {
   return (

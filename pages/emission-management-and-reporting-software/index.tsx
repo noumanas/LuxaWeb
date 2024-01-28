@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../../components/FrameComponent2";
-import AdvancedSustainabilityAnalytic from "../../../components/AdvancedSustainabilityAnalytic";
-import RealTimeEmissionMonitoringAndA from "../../../components/RealTimeEmissionMonitoringAndA";
-import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
-import FormContainer1 from "../../../components/FormContainer1";
-import EnvironmentImpactAssessment from "../../../components/EnvironmentImpactAssessment";
+import FrameComponent2 from "../../components/FrameComponent2";
+import AdvancedSustainabilityAnalytic from "../../components/AdvancedSustainabilityAnalytic";
+import RealTimeEmissionMonitoringAndA from "../../components/RealTimeEmissionMonitoringAndA";
+import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
+import FormContainer1 from "../../components/FormContainer1";
+import EnvironmentImpactAssessment from "../../components/EnvironmentImpactAssessment";
 import styles from "./ServicesScope123Emis.module.css";
-import Footer from "../../../components/Footer";
-import ContactFormContainer from "../../../components/ContactFormContainer";
-import CardContainer from "../../../components/CardContainer";
+import Footer from "../../components/Footer";
+import ContactFormContainer from "../../components/ContactFormContainer";
+import CardContainer from "../../components/CardContainer";
 
 const ServicesScope123Emis: NextPage = () => {
   const dataForCard ="Emission Software"

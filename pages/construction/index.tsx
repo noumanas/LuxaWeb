@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import Header from "../../../components/Header";
-import AdvancedEmissionsTrackingSecti from "../../../components/AdvancedEmissionsTrackingSecti";
-import ComprehensiveProjectManagement from "../../../components/ComprehensiveProjectManagement";
-import TrainingAndSupportContainer from "../../../components/TrainingAndSupportContainer";
-import FormContainer2 from "../../../components/FormContainer2";
-import FAQContainer from "../../../components/FAQContainer";
-import EnvironmentImpactAssessment from "../../../components/EnvironmentImpactAssessment";
+import Header from "../../components/Header";
+import AdvancedEmissionsTrackingSecti from "../../components/AdvancedEmissionsTrackingSecti";
+import ComprehensiveProjectManagement from "../../components/ComprehensiveProjectManagement";
+import TrainingAndSupportContainer from "../../components/TrainingAndSupportContainer";
+import FormContainer2 from "../../components/FormContainer2";
+import FAQContainer from "../../components/FAQContainer";
+import EnvironmentImpactAssessment from "../../components/EnvironmentImpactAssessment";
 import styles from "./ResourcesIndustryConstruc.module.css";
-import Footer from "../../../components/Footer";
-import ContactFormContainer from "../../../components/ContactFormContainer";
+import Footer from "../../components/Footer";
+import ContactFormContainer from "../../components/ContactFormContainer";
 
 const ResourcesIndustryConstruc: NextPage = () => {
   return (
