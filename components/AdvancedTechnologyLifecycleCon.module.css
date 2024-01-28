@@ -1,0 +1,126 @@
+.group10000024941 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 602px;
+  height: 314px;
+  object-fit: cover;
+}
+.engineeringProjectFrame {
+  position: absolute;
+  top: calc(50% - 172px);
+  left: calc(50% - 317.5px);
+  border-radius: var(--br-3xs);
+  width: 605px;
+  height: 336.6px;
+  object-fit: cover;
+}
+.group100000249411,
+.rectangleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangleChild {
+  border-radius: var(--br-3xs);
+  display: none;
+}
+.group100000249411 {
+  z-index: 1;
+}
+.rectangle1 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  border-radius: var(--br-3xs);
+  width: 602px;
+  height: 314px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.group10000024991 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.engineeringProjectFrameParent,
+.rectangleParent {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  top: calc(50% - 172px);
+  left: calc(50% - 317.5px);
+}
+.engineeringProjectFrameParent {
+  top: 0;
+  left: 0;
+  filter: drop-shadow(0 0 30px rgba(23, 119, 61, 0.2));
+}
+.group {
+  height: 344px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.groupWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 413px;
+  max-width: 100%;
+}
+.contactExpert,
+.rectangle {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-34xl);
+}
+.contactExpert {
+  width: 1365px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-73xl);
+  min-height: 1294px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 800px) {
+  .groupWrapper {
+    min-width: 100%;
+  }
+  .rectangle {
+    gap: var(--gap-7xl);
+  }
+  .contactExpert {
+    gap: var(--gap-27xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactExpert {
+    gap: var(--gap-4xl);
+  }
+}

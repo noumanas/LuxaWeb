@@ -1,0 +1,1334 @@
+.learnMore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupItem {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreGroup {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupInner {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreContainer {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.arrowIcon {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.groupDiv {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild1 {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent1 {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild2 {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent2 {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.resourcesConstructionTypeInner {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 3011px;
+  max-width: 100%;
+}
+.registrationInfoChild {
+  width: 1920px;
+  height: 619px;
+  position: relative;
+  background-color: var(--color-mintcream);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.luxa {
+  color: var(--color-white);
+}
+.gettingStartedWithContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  white-space: pre-wrap;
+  z-index: 2;
+  font-family: inherit;
+}
+.infrastructureProject {
+  align-self: stretch;
+  width: 147px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  z-index: 1;
+  margin-left: -802px;
+}
+.gettingStarted {
+  align-self: stretch;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.readyToElevate {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 50px;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  z-index: 1;
+}
+.projectFrame {
+  width: 1227px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.frameChild {
+  height: 57px;
+  width: 194px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.requestADemo {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-4xl) var(--padding-mid)
+    var(--padding-8xl);
+  background-color: transparent;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.requestADemoContactChild {
+  height: 57px;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  display: none;
+}
+.contactAnExpert {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  z-index: 2;
+}
+.requestADemoContact {
+  cursor: pointer;
+  border: 2px solid var(--primary-linear-color);
+  padding: var(--padding-mid) var(--padding-3xs) var(--padding-mid)
+    var(--padding-mini);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 123px;
+  z-index: 1;
+}
+.requestADemoContact:hover {
+  background-color: var(--color-seagreen-300);
+  border: 2px solid var(--color-seagreen-100);
+  box-sizing: border-box;
+}
+.contactFrame,
+.requestDemoButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactFrame {
+  width: 422px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.requestDemoButton {
+  width: 473px;
+  justify-content: flex-end;
+}
+.messageTypeInputChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 10px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.group12160252371 {
+  position: absolute;
+  width: calc(100% - 18px);
+  top: 13px;
+  right: 10px;
+  left: 8px;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 206px;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameItem,
+.messageTypeInput {
+  position: absolute;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 10px solid var(--primary-linear-color);
+  box-sizing: border-box;
+}
+.messageTypeInput {
+  top: 279px;
+  left: 589px;
+  width: 469px;
+  height: 228px;
+  z-index: 1;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.group12160252361 {
+  position: absolute;
+  height: calc(100% - 21px);
+  top: 10px;
+  bottom: 11px;
+  left: 198px;
+  max-height: 100%;
+  width: 317px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 10px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  width: 703px;
+  height: 416px;
+}
+.phoneNumberInput {
+  height: 507px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.phoneNumberInputWrapper {
+  width: 1058px;
+  margin: 0 !important;
+  position: absolute;
+  right: 408px;
+  bottom: -281px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.becomeAPartner,
+.registrationInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.registrationInfo {
+  background-color: var(--color-mintcream);
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-6xl) 293px var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-34xl);
+}
+.becomeAPartner {
+  justify-content: center;
+}
+.faqsAboutLuxa,
+.howDoesLuxa {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-family: inherit;
+}
+.faqsAboutLuxa {
+  font-weight: 400;
+  display: inline-block;
+  max-width: 100%;
+}
+.howDoesLuxa {
+  font-weight: 500;
+}
+.frameInner {
+  height: 3px;
+  width: 23px;
+  position: relative;
+}
+.howDoesLuxaCaterToTheSpeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.luxaIsDesigned {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.callContactLinkChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.howDoI {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.groupIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.howDoIRegisterMyFirstProParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callContactLinkItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doesLuxaLeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild1 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.doesLuxaLeedSoftwareWorkFParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callContactLinkInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doYouOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild2 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.doYouOfferATrialOfTheSoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.imSoldHow {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild3 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.imSoldHowDoIActivateMyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callContactLinkChild1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatKindOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild4 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.whatKindOfSupportWillMyTParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callContactLinkChild2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.willIStill {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild5 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.willIStillHaveAccessToMyParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callContactLink,
+.luxaDesign {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.callContactLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.luxaDesign {
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.faqsAboutLuxaInInfrastructParent,
+.frameParent,
+.luxaDesign,
+.resources {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+.faqsAboutLuxaInInfrastructParent,
+.resources {
+  align-items: center;
+  max-width: 100%;
+}
+.faqsAboutLuxaInInfrastructParent {
+  width: 1358px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+}
+.resources {
+  align-self: stretch;
+  gap: 320px;
+  min-height: 1986px;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+.feature01Icon,
+.feature02Icon {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.footerChild {
+  width: 1920px;
+  height: 629px;
+  position: relative;
+  background-color: var(--color-seagreen-200);
+  display: none;
+  max-width: 100%;
+}
+.more,
+.readyToFind {
+  margin: 0;
+}
+.emailOutreachprojectluxaor,
+.readyToFindContainer {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.readyToFindContainer {
+  align-self: stretch;
+  height: 130px;
+  font-size: inherit;
+  line-height: 65px;
+  font-family: inherit;
+  display: inline-block;
+}
+.emailOutreachprojectluxaor {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-dm-sans);
+}
+.readyToFindOutMore {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.callUs123 {
+  height: 29px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  z-index: 1;
+}
+.emailFrame {
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 339px;
+  max-width: 100%;
+}
+.services {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.leedCertificationManagement {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.leedCertificationManagementContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.scope123EmissionManag {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.scope12Container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dataAnalyticsInsights {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.dataAnalyticsContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.environmentalImpactAssessmen {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.environmentalImpactAssessmenContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dataAnalyticsInsightsEnviro {
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.dataAnalyticsInsightsEnviro,
+.reportingSection,
+.servicesSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reportingSection {
+  align-self: stretch;
+  gap: var(--gap-20xl);
+}
+.servicesSection {
+  flex: 1;
+  gap: var(--gap-15xl);
+  min-width: 195px;
+}
+.resources1 {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.contactUs1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.contactUs {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.ourStory1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.ourStory {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.privacyPolicies {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.privacyPoliciesContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.termsConditions {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.termsConditionsContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.careers1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.careers {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.privacyPoliciesTermsConditi,
+.resourcesContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.resourcesContainer {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  min-width: 173px;
+}
+.privacyPoliciesTermsConditi {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+}
+.contactUsOurStory,
+.emailFrameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactUsOurStory {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  min-width: 331px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-dm-sans);
+}
+.emailFrameParent {
+  width: 956px;
+  flex-direction: row;
+  gap: var(--gap-89xl);
+}
+.partners {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.becomeAPartner1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.becomeAPartnerContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.partnerPortal1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.partnerPortal {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.getInTouch {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.getInTouchContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.partnersParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+}
+.frameGroup,
+.frameWrapper,
+.partnersParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-dm-sans);
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.footerInner,
+.lineDiv {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerInner {
+  width: 1317px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+}
+.lineDiv {
+  width: 1273px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-gray-300);
+  z-index: 1;
+}
+.allRightsReserved,
+.span {
+  font-weight: 500;
+}
+.luxaTechnologiesIncContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  font-family: inherit;
+}
+.linkedInIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.linkedinIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22px;
+  height: 22px;
+  z-index: 2;
+}
+.socialMediaIcons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.socialMediaIconsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.twitterIcon {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 25px;
+  height: 22px;
+  z-index: 2;
+}
+.socialMediaIcons1 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.socialMediaIconsItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.facebookIcon {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 13px;
+  height: 22px;
+  z-index: 2;
+}
+.socialMediaIcons2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.socialMediaIconsInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.whatsappIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22.1px;
+  height: 22px;
+  z-index: 2;
+}
+.socialMediaIcons3 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.youtubeIcon {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 32.6px;
+  height: 22px;
+  z-index: 2;
+}
+.socialMediaIcons4 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.socialMediaIconsParent {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.luxaTechnologiesIncAllRiParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.footer,
+.lineParent,
+.resourcesConstructionType {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lineParent {
+  width: 1317px;
+  height: 93px;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-dm-sans);
+}
+.footer,
+.resourcesConstructionType {
+  text-align: left;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-seagreen-200);
+  padding: var(--padding-52xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+.resourcesConstructionType {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+  font-size: var(--font-size-base);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1325px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .resources {
+    gap: var(--gap-141xl);
+  }
+  .emailFrame {
+    flex: 1;
+  }
+  .emailFrameParent {
+    flex-wrap: wrap;
+    gap: var(--gap-35xl);
+  }
+  .luxaTechnologiesIncAllRiParent {
+    flex-wrap: wrap;
+  }
+  .lineParent {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .registrationInfo {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-10xl);
+    padding-bottom: 190px;
+    box-sizing: border-box;
+  }
+  .faqsAboutLuxa {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .luxaDesign {
+    gap: var(--gap-base);
+  }
+  .faqsAboutLuxaInInfrastructParent {
+    gap: var(--gap-20xl);
+  }
+  .resources {
+    gap: var(--gap-61xl);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .resourcesContainer {
+    flex: 1;
+  }
+  .privacyPoliciesTermsConditi {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .emailFrameParent {
+    gap: var(--gap-8xl);
+  }
+  .lineParent {
+    gap: var(--gap-xl);
+  }
+  .footer {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .contactFrame {
+    gap: var(--gap-lgi);
+  }
+  .faqsAboutLuxa {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .doYouOffer,
+  .doesLuxaLeed,
+  .howDoI,
+  .howDoesLuxa,
+  .imSoldHow,
+  .whatKindOf,
+  .willIStill {
+    font-size: var(--font-size-xl);
+    line-height: 40px;
+  }
+  .faqsAboutLuxaInInfrastructParent {
+    gap: var(--gap-lgi);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 39px;
+  }
+  .emailOutreachprojectluxaor {
+    font-size: var(--font-size-lg);
+  }
+  .readyToFindOutMore {
+    gap: var(--gap-5xl);
+  }
+  .callUs123 {
+    font-size: var(--font-size-lg);
+  }
+  .emailFrame {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .services {
+    font-size: var(--font-size-xl);
+  }
+  .dataAnalyticsInsightsEnviro {
+    gap: var(--gap-mid);
+  }
+  .reportingSection {
+    gap: var(--gap-lgi);
+  }
+  .servicesSection {
+    gap: var(--gap-mid);
+  }
+  .partners,
+  .resources1 {
+    font-size: var(--font-size-xl);
+  }
+  .luxaTechnologiesIncContainer {
+    font-size: var(--font-size-lg);
+  }
+  .socialMediaIconsParent {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-xl);
+  }
+}

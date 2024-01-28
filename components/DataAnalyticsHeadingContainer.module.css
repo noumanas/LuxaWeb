@@ -1,0 +1,101 @@
+.keyFeaturesOf {
+  margin: 0;
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.gcsLogoSymbol,
+.gcsLogoSymbol1,
+.gcsLogoSymbol2,
+.gcsLogoSymbol3,
+.gcsLogoSymbol4,
+.gcsLogoSymbol5,
+.gcsLogoSymbol6 {
+  width: 20px;
+  height: 18px;
+  position: relative;
+  object-fit: cover;
+}
+.sustainabilityInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.advancedReportingTools,
+.aiDrivenInsights,
+.customizableDashboards,
+.emissionTrackingAnd,
+.predictiveAnalytics,
+.realTimeDataProcessing,
+.sustainabilityCertificationT {
+  margin: 0;
+}
+.realTimeDataProcessingContainer {
+  height: 287px;
+  flex: 1;
+  position: relative;
+  line-height: 41px;
+  display: inline-block;
+  min-width: 208px;
+  max-width: 100%;
+}
+.dataAnalyticsHeading,
+.fAQs,
+.projectRegistration {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQs {
+  width: 598px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-lg);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-sans);
+}
+.dataAnalyticsHeading,
+.projectRegistration {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.projectRegistration {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+}
+.dataAnalyticsHeading {
+  flex: 1;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  min-width: 413px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 800px) {
+  .keyFeaturesOf {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .fAQs {
+    flex-wrap: wrap;
+  }
+  .dataAnalyticsHeading {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .keyFeaturesOf {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+}

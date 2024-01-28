@@ -1,0 +1,51 @@
+.footerFrameChild {
+  height: 51px;
+  width: 54px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.kickOffYourProject {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.luxaExpertsWill {
+  align-self: stretch;
+  height: 54px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.footerFrame,
+.kickOffYourProjectParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.kickOffYourProjectParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  min-width: 265px;
+}
+.footerFrame {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 450px) {
+  .footerFrame {
+    flex-wrap: wrap;
+  }
+}

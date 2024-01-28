@@ -1,0 +1,161 @@
+.sustainableDesignMade {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.luxaEmpowersArchitects {
+  width: 560px;
+  height: 162px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  max-width: 100%;
+}
+.luxaTechnologiesFooter,
+.partnershipFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.luxaTechnologiesFooter {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.partnershipFrame {
+  width: 599px;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 599px;
+}
+.wrapperRectangle78Child {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100%;
+  mix-blend-mode: normal;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.189);
+}
+.wrapperRectangle78 {
+  position: absolute;
+  width: calc(100% - 12px);
+  top: calc(50% - 159px);
+  right: 6px;
+  left: 6px;
+  border-radius: var(--br-3xs);
+  height: 318px;
+  mix-blend-mode: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group10000024961 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.wrapperRectangle78Parent {
+  height: 344px;
+  flex: 1;
+  position: relative;
+  min-width: 413px;
+  max-width: 100%;
+}
+.servicesListFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+}
+.lEEDCertification {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-60xl);
+}
+.architectureIntegrationParent,
+.efficientDesignFrame,
+.lEEDCertification {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.architectureIntegrationParent {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-59xl);
+}
+.efficientDesignFrame {
+  flex: 1;
+  align-items: flex-end;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1125px) {
+  .partnershipFrame {
+    flex: 1;
+  }
+  .servicesListFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sustainableDesignMade {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .partnershipFrame,
+  .wrapperRectangle78Parent {
+    min-width: 100%;
+  }
+  .servicesListFrame {
+    gap: var(--gap-21xl);
+  }
+  .architectureIntegrationParent,
+  .lEEDCertification {
+    gap: var(--gap-20xl);
+  }
+  .efficientDesignFrame {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sustainableDesignMade {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .lEEDCertification,
+  .servicesListFrame {
+    gap: var(--gap-xl);
+  }
+  .architectureIntegrationParent {
+    gap: var(--gap-lgi);
+  }
+  .efficientDesignFrame {
+    gap: var(--gap-6xl);
+  }
+}

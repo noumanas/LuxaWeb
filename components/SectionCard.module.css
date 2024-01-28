@@ -1,0 +1,257 @@
+.wrapperRectangle33Child {
+  height: 100%;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 475px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  transform: scale(1.039);
+}
+.wrapperRectangle33 {
+  height: 717px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 475px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whoWeAre {
+  margin: 0;
+  height: 55px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.itHasSurvived,
+.itWasPopularised,
+.loremIpsumIsSimply,
+.loremIpsumIsSimply1 {
+  margin: 0;
+}
+.loremIpsumIsSimplyContainer {
+  align-self: stretch;
+  height: 595px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 35px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+}
+.clickableButton,
+.iconGroup,
+.whoWeAreParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whoWeAreParent {
+  width: 646px;
+  flex-direction: column;
+  gap: var(--gap-31xl);
+  min-width: 646px;
+}
+.clickableButton,
+.iconGroup {
+  flex-direction: row;
+}
+.clickableButton {
+  width: 1442px;
+  gap: var(--gap-46xl);
+}
+.iconGroup {
+  align-self: stretch;
+}
+.ourValues {
+  margin: 0;
+  height: 55px;
+  position: relative;
+  font-size: var(--font-size-26xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  color: var(--color-black);
+  display: inline-block;
+}
+.gcsLogoSymbol,
+.gcsLogoSymbol1,
+.gcsLogoSymbol2,
+.gcsLogoSymbol3,
+.gcsLogoSymbol4,
+.gcsLogoSymbol5,
+.gcsLogoSymbol6 {
+  width: 20px;
+  height: 18px;
+  position: relative;
+  object-fit: cover;
+}
+.circleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.adaptabilityAndReslience,
+.collaborationAndTeamwork,
+.customerCentricApproach,
+.empowermentThroughEducation,
+.innovationAndExcellence,
+.integrityAndTransparency,
+.sustainabilityFirst {
+  margin: 0;
+}
+.sustainabilityFirstInnovatioContainer {
+  height: 287px;
+  flex: 1;
+  position: relative;
+  line-height: 41px;
+  display: inline-block;
+  min-width: 200px;
+  max-width: 100%;
+}
+.circleGroupParent {
+  width: 598px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.luxasCommittedTo {
+  align-self: stretch;
+  height: 105px;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+}
+.ourValuesParent {
+  width: 646px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  min-width: 646px;
+  max-width: 100%;
+}
+.frameGroupLine {
+  height: 100%;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 469px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 100%;
+  transform: scale(1.055);
+}
+.wrapperFrameGroupLine {
+  height: 507px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-3xs);
+  min-width: 469px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent,
+.iconGroupParent {
+  width: 1425px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-39xl);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-sans);
+}
+.iconGroupParent {
+  width: 1557px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-122xl);
+  min-height: 1608px;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1225px) {
+  .whoWeAreParent {
+    flex: 1;
+  }
+  .clickableButton {
+    flex-wrap: wrap;
+  }
+  .ourValuesParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .iconGroupParent {
+    gap: var(--gap-51xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .wrapperRectangle33Child {
+    min-width: 100%;
+  }
+  .whoWeAre {
+    font-size: var(--font-size-17xl);
+  }
+  .whoWeAreParent {
+    gap: var(--gap-6xl);
+    min-width: 100%;
+  }
+  .clickableButton {
+    gap: var(--gap-13xl);
+  }
+  .ourValues {
+    font-size: var(--font-size-17xl);
+  }
+  .circleGroupParent {
+    flex-wrap: wrap;
+  }
+  .frameGroupLine,
+  .ourValuesParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-10xl);
+  }
+  .iconGroupParent {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .whoWeAre {
+    font-size: var(--font-size-8xl);
+  }
+  .clickableButton {
+    gap: var(--gap-base);
+  }
+  .ourValues {
+    font-size: var(--font-size-8xl);
+  }
+  .iconGroupParent {
+    gap: var(--gap-lg);
+  }
+}

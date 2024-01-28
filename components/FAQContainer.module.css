@@ -1,0 +1,283 @@
+.faqsOnRetrofit,
+.howDoesLuxa {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-family: inherit;
+}
+.faqsOnRetrofit {
+  font-weight: 400;
+  display: inline-block;
+  max-width: 100%;
+}
+.howDoesLuxa {
+  font-weight: 500;
+}
+.fAQNodesChild {
+  height: 3px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQNodesItem,
+.luxaIsDesigned {
+  align-self: stretch;
+  position: relative;
+}
+.luxaIsDesigned {
+  height: 64px;
+  line-height: 32px;
+  display: inline-block;
+}
+.fAQNodesItem {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.howDoI {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.fAQNodesInner {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doesLuxaLeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.groupIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQNodesChild1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doYouOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.fAQNodesChild2 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQNodesChild3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.imSoldHow {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.fAQNodesChild4 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQNodesChild5 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatKindOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.fAQNodesChild6 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQNodesChild7 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.willIStill {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.fAQNodesChild8 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.fAQNodes10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fAQNodes3,
+.fAQNodes4 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.fAQNodes4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.fAQNodes3 {
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.fAQNodes,
+.fAQNodes1,
+.fAQNodes3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.fAQNodes1 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+.fAQNodes {
+  width: 1358px;
+  align-items: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+  min-height: 1047px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 800px) {
+  .faqsOnRetrofit {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .fAQNodes3 {
+    gap: var(--gap-base);
+  }
+  .fAQNodes {
+    gap: var(--gap-20xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .faqsOnRetrofit {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .doYouOffer,
+  .doesLuxaLeed,
+  .howDoI,
+  .howDoesLuxa,
+  .imSoldHow,
+  .whatKindOf,
+  .willIStill {
+    font-size: var(--font-size-xl);
+    line-height: 40px;
+  }
+  .fAQNodes {
+    gap: var(--gap-lgi);
+  }
+}

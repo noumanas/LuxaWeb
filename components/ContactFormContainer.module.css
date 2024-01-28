@@ -1,0 +1,420 @@
+
+@import url('/public/fonts/clash-display.css');
+.fAQNodesChild,
+.registrationFormChild {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.fAQNodesChild {
+  width: 1920px;
+  height: 933px;
+  background-color: var(--color-seagreen-400);
+  z-index: 0;
+}
+.registrationFormChild {
+  height: 458px;
+  width: 1318px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+.groupRequestaDemo {
+  height: 141px;
+  width: 141px;
+  position: absolute;
+  margin: 0 !important;
+  right: -118px;
+  bottom: -89px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.contactUsFor {
+  margin: 0;
+  height: 210px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+  
+
+}
+.frameRegistrationForm,
+.registrationForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameRegistrationForm {
+  width: 584px;
+  align-items: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.registrationForm {
+  width: 1318px;
+  margin: 0 !important;
+  position: absolute;
+  top: 322px;
+  left: -410px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  padding: var(--padding-105xl) var(--padding-60xl);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.nameFieldFrameChild {
+  width: 499px;
+  height: 653px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 4px 0 14px rgba(0, 0, 0, 0.1);
+  display: none;
+  max-width: 100%;
+}
+.name {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-200);
+  text-align: left;
+  z-index: 4;
+}
+.lineFrameContactUs,
+.messageFieldFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.lineFrameContactUs {
+  width: 88px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.emailFieldFrameChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.emailFieldFrame {
+  align-self: stretch;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.email {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-200);
+  text-align: left;
+  z-index: 4;
+}
+.emailFieldFrameItem,
+.emailWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.emailFieldFrameItem {
+  width: 165px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.emailFieldFrameInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.emailFieldFrame1 {
+  align-self: stretch;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.phone {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-200);
+  text-align: left;
+  z-index: 4;
+}
+.frameInput,
+.phoneWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.frameInput {
+  width: 187px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.emailFieldFrame2 {
+  align-self: stretch;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.message {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  color: var(--color-gray-200);
+  text-align: left;
+  z-index: 4;
+}
+.emailFieldFrameChild1,
+.messageWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.emailFieldFrameChild1 {
+  width: 296px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 23px;
+  box-sizing: border-box;
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+}
+.emailFieldFrameChild2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 4;
+}
+.emailFieldFrame3 {
+  align-self: stretch;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameChild {
+  height: 66px;
+  width: 165px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  display: none;
+}
+.submit {
+  height: 29px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-29xl) var(--padding-lg)
+    var(--padding-26xl);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.frameFAQs,
+.nameFieldFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameFAQs {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mainform{
+  left: 300px;
+  top: 11px;
+  width: 100%;
+  margin: 0;
+  /* flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 4px 0 14px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-21xl) var(--padding-3xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+  max-width: 100%;*/
+  z-index: 3; 
+  position: absolute;
+}
+.nameFieldFrame {
+  margin: 0;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  box-shadow: 4px 0 14px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-21xl) var(--padding-3xl) var(--padding-16xl);
+  box-sizing: border-box;
+  gap: var(--gap-34xl);
+  max-width: 100%;
+  z-index: 3;
+  position: absolute;
+}
+.frameGettingStarted {
+  height: 171.3px;
+  width: 171.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: -81px;
+  right: -346.3px;
+  object-fit: contain;
+  z-index: 4;
+}
+.fAQNodes1 {
+  width: 499px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.polygonBackgroundIcon {
+  width: 112.2px;
+  height: 112.2px;
+  position: absolute;
+  margin: 0 !important;
+  top: 397px;
+  left: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 2;
+}
+.fAQNodes {
+  align-self: stretch;
+  height: 933px;
+  background-color: var(--color-seagreen-400);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-103xl) var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1125px) {
+  .fAQNodes {
+    padding-top: var(--padding-60xl);
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contactUsFor {
+    font-size: var(--font-size-29xl);
+    line-height: 56px;
+  }
+  .nameFieldFrame {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUsFor {
+    font-size: var(--font-size-17xl);
+    line-height: 42px;
+  }
+  .submit {
+    font-size: var(--font-size-lg);
+  }
+  .fAQNodes {
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}

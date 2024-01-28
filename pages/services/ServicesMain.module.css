@@ -1,0 +1,531 @@
+.servicesMainInner {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-22xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 915px;
+  max-width: 100%;
+}
+.servicesMain,.servicesMainInner {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.servicesMainInner.loaded{
+  opacity: 1;
+
+}
+.servicesMain.loaded {
+  opacity: 1;
+}
+
+.callUsTextChild {
+  width: 1920px;
+  height: 225px;
+  position: relative;
+  background-color: var(--color-mintcream);
+  display: none;
+  max-width: 100%;
+}
+.dontWantTo,
+.referringOrFind {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.referringOrFind {
+  margin: 0;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.dontWantTo {
+  width: 917px;
+  height: 54px;
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  white-space: pre-wrap;
+  text-align: center;
+}
+.callUsText,
+.emailLinkText {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.callUsText {
+  flex: 1;
+  background-color: var(--color-mintcream);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-28xl) var(--padding-xl) var(--padding-27xl)
+    var(--padding-2xl);
+  gap: var(--gap-9xl);
+}
+.emailLinkText {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 112px;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--primary-linear-color);
+  font-family: var(--font-clash-display);
+}
+.leedCertificationManagement,
+.software {
+  margin: 0;
+}
+.leedCertificationManagementContainer {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  line-height: 50px;
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  max-width: 100%;
+}
+.learnMore,
+.stayOnTrack {
+  position: relative;
+  line-height: 27px;
+}
+.stayOnTrack {
+  align-self: stretch;
+  height: 108px;
+  color: var(--color-darkslategray);
+  display: inline-block;
+}
+.learnMore {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.frameChild {
+  height: 14.7px;
+  width: 32px;
+  position: relative;
+}
+.learnMoreParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--primary-linear-color);
+}
+.frameWrapper,
+.leedCertificationManagementParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.leedCertificationManagementParent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 560px;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.group10000024972 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  transform: scale(1.079);
+}
+.wrapperGroup10000024972 {
+  position: absolute;
+  top: 0;
+  left: 89px;
+  border-radius: var(--br-xs);
+  width: 471px;
+  height: 266px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group12160252332 {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  transform: scale(1.09);
+}
+.wrapperGroup12160252332 {
+  position: absolute;
+  top: 146px;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 358px;
+  height: 201px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactAnExpertFrame {
+  height: 347px;
+  width: 560px;
+  position: relative;
+  max-width: 100%;
+}
+.emissionManagementTitle,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1242px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.emissionManagementTitle {
+  width: 1358px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 488px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+.readyToLearnFrameChild {
+  height: 408px;
+  width: 555px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 4px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.group100000249312 {
+  height: 379px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.readyToLearnFrame {
+  flex: 0.9171;
+  border-radius: var(--br-xs);
+  background-color: var(--color-whitesmoke-200);
+  border: 4px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-smi) var(--padding-xs) var(--padding-base)
+    var(--padding-7xl);
+  min-width: 361px;
+  max-width: 100%;
+}
+.dataAnalyticsIn {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  line-height: 50px;
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  max-width: 100%;
+}
+.experienceTheFuture,
+.learnMore1 {
+  position: relative;
+  line-height: 27px;
+}
+.experienceTheFuture {
+  align-self: stretch;
+  height: 108px;
+  color: var(--color-darkslategray);
+  display: inline-block;
+}
+.learnMore1 {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.environmentalImpactAssessmenChild {
+  height: 14.7px;
+  width: 32px;
+  position: relative;
+}
+.environmentalImpactAssessmen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  color: var(--primary-linear-color);
+}
+.leedCertificationManagement1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.leedCertificationManagement1,
+.readyToLearnFrameParent,
+.servicesSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.servicesSection {
+  flex: 1;
+  flex-direction: column;
+  padding: 61px 0 0;
+  box-sizing: border-box;
+  min-width: 364px;
+}
+.readyToLearnFrameParent {
+  width: 1242px;
+  flex-direction: row;
+  gap: 127px;
+}
+.andReportingSoftware,
+.scope12 {
+  margin: 0;
+}
+.scope12Container {
+  margin: 0;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.learnMore2,
+.takeControlOf {
+  position: relative;
+  line-height: 27px;
+}
+.takeControlOf {
+  align-self: stretch;
+  height: 108px;
+  display: inline-block;
+}
+.learnMore2 {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild {
+  height: 14.7px;
+  width: 32px;
+  position: relative;
+}
+.group1,
+.line,
+.text {
+  display: flex;
+  justify-content: flex-start;
+}
+.group1 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-sm);
+  color: var(--primary-linear-color);
+}
+.line,
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.text {
+  width: 560px;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-dm-sans);
+}
+.line {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.group12160252431,
+.lineWrapper {
+  flex: 1;
+  max-width: 100%;
+  min-width: 390px;
+}
+.lineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+}
+.group12160252431 {
+  height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.07);
+}
+.wrapperGroup12160252431 {
+  height: 328px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-sm);
+  min-width: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup,
+.group {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-57xl);
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-clash-display);
+}
+.frameGroup {
+  width: 1276px;
+  flex-direction: column;
+  gap: var(--gap-63xl);
+}
+.frameGroup,
+.servicesMain,
+.servicesMainChild {
+  display: flex;
+  justify-content: flex-start;
+}
+.servicesMainChild {
+  width: 1358px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 1004px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+.servicesMain {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .readyToLearnFrameParent {
+    gap: var(--gap-44xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .readyToLearnFrame,
+  .servicesSection {
+    flex: 1;
+  }
+  .readyToLearnFrameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .referringOrFind {
+    font-size: var(--font-size-29xl);
+    line-height: 40px;
+  }
+  .dataAnalyticsIn,
+  .leedCertificationManagementContainer {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .readyToLearnFrameParent {
+    gap: var(--gap-13xl);
+  }
+  .scope12Container {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .group12160252431,
+  .lineWrapper {
+    min-width: 100%;
+  }
+  .group {
+    gap: var(--gap-19xl);
+  }
+  .frameGroup {
+    gap: var(--gap-22xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .referringOrFind {
+    font-size: var(--font-size-17xl);
+    line-height: 30px;
+  }
+  .leedCertificationManagementContainer {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .readyToLearnFrame {
+    min-width: 100%;
+  }
+  .dataAnalyticsIn {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .servicesSection {
+    min-width: 100%;
+  }
+  .readyToLearnFrameParent {
+    gap: var(--gap-base);
+  }
+  .scope12Container {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .group {
+    gap: var(--gap-lgi);
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+}

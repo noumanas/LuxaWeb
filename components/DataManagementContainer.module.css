@@ -1,0 +1,95 @@
+.advancedDataManagement {
+  margin: 0;
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.luxaHarnessesAdvanced {
+  width: 560px;
+  height: 135px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  max-width: 100%;
+}
+.projectRegistration,
+.serviceSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.projectRegistration {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.serviceSection {
+  width: 599px;
+  padding: 0 0 var(--padding-base);
+  box-sizing: border-box;
+  min-width: 599px;
+}
+.wrapperGroup33401Child {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.189);
+}
+.wrapperGroup33401 {
+  height: 318px;
+  width: 623px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentArea {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1325px) {
+  .serviceSection,
+  .wrapperGroup33401Child {
+    flex: 1;
+  }
+  .contentArea {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .advancedDataManagement {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .serviceSection {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .advancedDataManagement {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+}

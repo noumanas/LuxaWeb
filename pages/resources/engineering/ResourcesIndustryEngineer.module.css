@@ -1,0 +1,1275 @@
+.learnMore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupItem {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreGroup {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupInner {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreContainer {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.arrowIcon {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.groupDiv {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.drivingEfficiencyIn {
+  margin: 0;
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.catalyzingEnhancedEfficiency {
+  width: 560px;
+  height: 162px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  max-width: 100%;
+}
+.sustainabilityText,
+.sustainabilityTextWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sustainabilityText {
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.sustainabilityTextWrapper {
+  width: 599px;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 599px;
+}
+.frameGroupIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.189);
+}
+.rectangleTextIcon,
+.wrapperFrameGroup {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-3xs);
+}
+.wrapperFrameGroup {
+  top: 0;
+  width: 623px;
+  height: 318px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangleTextIcon {
+  top: 0.4px;
+  width: 605px;
+  height: 336.6px;
+  object-fit: cover;
+  z-index: 1;
+}
+.projectDetails {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.projectDetailsWrapper {
+  height: 337px;
+  width: 623px;
+  position: relative;
+  min-width: 623px;
+  max-width: 100%;
+}
+.gettingStartedGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 var(--padding-base) 0 var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.wrapperGroup33400Child {
+  height: 100%;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 413px;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transform: scale(1.174);
+}
+.wrapperGroup33400 {
+  height: 344px;
+  flex: 1;
+  position: relative;
+  min-width: 413px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sustainabilityAndCompliance {
+  margin: 0;
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.luxaEmpowersEngineering {
+  width: 560px;
+  height: 108px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+  max-width: 100%;
+}
+.sustainabilityAndComplianceParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper,
+.sustainabilityAndComplianceParent,
+.wrapperGroup33400Parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  min-width: 413px;
+}
+.wrapperGroup33400Parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-49xl);
+}
+.howDoesLuxaHelpFrame {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-54xl);
+}
+.fAQsFrame,
+.howDoesLuxaHelpFrame,
+.rectangle {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.fAQsFrame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-101xl);
+}
+.rectangle {
+  width: 1400px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-22xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 1372px;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+.faqsByEngineering,
+.howDoesLuxa {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-family: inherit;
+}
+.faqsByEngineering {
+  font-weight: 400;
+  display: inline-block;
+  max-width: 100%;
+}
+.howDoesLuxa {
+  font-weight: 500;
+}
+.softwareIntegrationChild {
+  height: 3px;
+  width: 23px;
+  position: relative;
+}
+.softwareIntegration {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.luxasSoftwareIs {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  color: var(--color-darkslategray);
+  display: inline-block;
+}
+.howDoesLuxaHelp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.servicesFrameworkChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.howDoI {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.partnershipOutreachChild {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.partnershipOutreach {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.servicesFrameworkItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doesLuxaLeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.partnershipOutreachItem {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.partnershipOutreach1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.servicesFrameworkInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doYouOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.partnershipOutreachInner {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.partnershipOutreach2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.imSoldHow {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.groupIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.partnershipOutreach3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.servicesFrameworkChild1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatKindOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.partnershipOutreachChild1 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.partnershipOutreach4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.servicesFrameworkChild2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.willIStill {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.partnershipOutreachChild2 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.partnershipOutreach5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.servicesFramework {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  color: var(--color-black);
+}
+.fAQs,
+.gettingStarted,
+.servicesFramework {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gettingStarted {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-20xl);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+.fAQs {
+  width: 1358px;
+  align-items: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+  min-height: 1047px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+.feature01Icon,
+.feature02Icon {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.learnMore4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild1 {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.footerChild,
+.learnMoreParent1 {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.footerChild {
+  width: 1920px;
+  height: 629px;
+  background-color: var(--color-seagreen-200);
+  max-width: 100%;
+}
+.more,
+.readyToFind {
+  margin: 0;
+}
+.emailOutreachprojectluxaor,
+.readyToFindContainer {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.readyToFindContainer {
+  align-self: stretch;
+  height: 130px;
+  font-size: inherit;
+  line-height: 65px;
+  font-family: inherit;
+  display: inline-block;
+}
+.emailOutreachprojectluxaor {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-dm-sans);
+}
+.fAQsengineers {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.callUs123 {
+  height: 29px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  z-index: 1;
+}
+.groupdemosrequest {
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 339px;
+  max-width: 100%;
+}
+.services {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.leedCertificationManagement {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.leedCertificationManagementContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.scope123EmissionManag {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.scope12Container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dataAnalyticsInsights {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.dataAnalyticsContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.environmentalImpactAssessmen {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.environmentalImpactAssessmenContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.environmentalimpactassessments {
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.environmentalimpactassessments,
+.partnerspage,
+.scopeemissionmanagementreporti {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.scopeemissionmanagementreporti {
+  align-self: stretch;
+  gap: var(--gap-20xl);
+}
+.partnerspage {
+  flex: 1;
+  gap: var(--gap-15xl);
+  min-width: 195px;
+}
+.resources {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.contactUs1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.contactUs {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.ourStory1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.ourStory {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.privacyPolicies {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.privacyPoliciesContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.termsConditions {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.termsConditionsContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.careers1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.careers {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.contactusourstorylink {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  min-width: 173px;
+}
+.contactusframe,
+.contactusourstorylink,
+.frameemailform,
+.serviceslisting {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactusframe {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+}
+.frameemailform,
+.serviceslisting {
+  max-width: 100%;
+}
+.serviceslisting {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  min-width: 331px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-dm-sans);
+}
+.frameemailform {
+  width: 956px;
+  flex-direction: row;
+  gap: var(--gap-89xl);
+}
+.partners {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.becomeAPartner {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.becomeAPartnerContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.partnerPortal1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.partnerPortal {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.getInTouch {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.getInTouchContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.luxaTechnologiescopyrightnoti,
+.partnerZone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.partnerZone {
+  gap: var(--gap-15xl);
+}
+.luxaTechnologiescopyrightnoti {
+  padding: var(--padding-lgi) 0 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-dm-sans);
+}
+.readyframe {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.footercontent,
+.luxaBrand {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footercontent {
+  width: 1317px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+}
+.luxaBrand {
+  width: 1273px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-gray-300);
+  z-index: 1;
+}
+.allRightsReserved,
+.span {
+  font-weight: 500;
+}
+.luxaTechnologiesIncContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  font-family: inherit;
+}
+.lEEDCertManagement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.linkedinIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22px;
+  height: 22px;
+  z-index: 2;
+}
+.servicesFrame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.servicesFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.twitterIcon {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 25px;
+  height: 22px;
+  z-index: 2;
+}
+.servicesFrame1 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.servicesFrameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.facebookIcon {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 13px;
+  height: 22px;
+  z-index: 2;
+}
+.servicesFrame2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.servicesFrameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.whatsappIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22.1px;
+  height: 22px;
+  z-index: 2;
+}
+.servicesFrame3 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.youtubeIcon {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 32.6px;
+  height: 22px;
+  z-index: 2;
+}
+.servicesFrame4 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.emailOutreach {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.footer,
+.footerFrame,
+.getInTouch1 {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.footerFrame {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footer,
+.getInTouch1 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.getInTouch1 {
+  width: 1317px;
+  height: 93px;
+  gap: var(--gap-22xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-dm-sans);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-seagreen-200);
+  padding: var(--padding-52xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+.learnMore5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild2 {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent2 {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.resourcesIndustryEngineer {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1325px) {
+  .projectDetailsWrapper,
+  .sustainabilityTextWrapper {
+    flex: 1;
+  }
+  .gettingStartedGroup,
+  .readyframe {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .groupdemosrequest {
+    flex: 1;
+  }
+  .frameemailform {
+    flex-wrap: wrap;
+    gap: var(--gap-35xl);
+  }
+  .footerFrame {
+    flex-wrap: wrap;
+  }
+  .getInTouch1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .drivingEfficiencyIn {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .projectDetailsWrapper,
+  .sustainabilityTextWrapper,
+  .wrapperGroup33400Child {
+    min-width: 100%;
+  }
+  .sustainabilityAndCompliance {
+    font-size: var(--font-size-9xl);
+    line-height: 40px;
+  }
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .wrapperGroup33400Parent {
+    gap: var(--gap-15xl);
+  }
+  .howDoesLuxaHelpFrame {
+    gap: var(--gap-17xl);
+  }
+  .fAQsFrame {
+    gap: var(--gap-41xl);
+  }
+  .faqsByEngineering {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .gettingStarted {
+    gap: var(--gap-lgi);
+  }
+  .fAQs {
+    gap: var(--gap-20xl);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .contactusourstorylink {
+    flex: 1;
+  }
+  .contactusframe {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .frameemailform {
+    gap: var(--gap-8xl);
+  }
+  .getInTouch1 {
+    gap: var(--gap-xl);
+  }
+  .footer {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .drivingEfficiencyIn,
+  .sustainabilityAndCompliance {
+    font-size: var(--font-size-2xl);
+    line-height: 30px;
+  }
+  .wrapperGroup33400Parent {
+    gap: var(--gap-mid);
+  }
+  .howDoesLuxaHelpFrame {
+    gap: var(--gap-lg);
+  }
+  .fAQsFrame {
+    gap: var(--gap-11xl);
+  }
+  .faqsByEngineering {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .doYouOffer,
+  .doesLuxaLeed,
+  .howDoI,
+  .howDoesLuxa,
+  .imSoldHow,
+  .whatKindOf,
+  .willIStill {
+    font-size: var(--font-size-xl);
+    line-height: 40px;
+  }
+  .fAQs {
+    gap: var(--gap-lgi);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 39px;
+  }
+  .emailOutreachprojectluxaor {
+    font-size: var(--font-size-lg);
+  }
+  .fAQsengineers {
+    gap: var(--gap-5xl);
+  }
+  .callUs123 {
+    font-size: var(--font-size-lg);
+  }
+  .groupdemosrequest {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .services {
+    font-size: var(--font-size-xl);
+  }
+  .environmentalimpactassessments {
+    gap: var(--gap-mid);
+  }
+  .scopeemissionmanagementreporti {
+    gap: var(--gap-lgi);
+  }
+  .partnerspage {
+    gap: var(--gap-mid);
+  }
+  .partners,
+  .resources {
+    font-size: var(--font-size-xl);
+  }
+  .luxaTechnologiesIncContainer {
+    font-size: var(--font-size-lg);
+  }
+  .emailOutreach {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-xl);
+  }
+}

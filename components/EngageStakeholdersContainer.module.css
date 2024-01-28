@@ -1,0 +1,128 @@
+.feature011Icon {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.engageStakeholders {
+  position: relative;
+  font-weight: 500;
+}
+.leverageEsgData {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 27px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+  display: inline-block;
+}
+.rectangle {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.feature031Icon {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extendErmTo {
+  position: relative;
+  font-weight: 500;
+}
+.bringAuditRisk {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+}
+.rectangle1 {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.feature031Icon1 {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ensureAuditReadiness {
+  position: relative;
+  font-weight: 500;
+}
+.centralizeAllEsg {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-dm-sans);
+  color: var(--color-darkslategray);
+}
+.rectangle2 {
+  width: 293px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame {
+  width: 1191px;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--light-blue-gray);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textNode {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-43xl);
+  min-height: 267px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1125px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .textNode {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .textNode {
+    gap: var(--gap-mini);
+  }
+}

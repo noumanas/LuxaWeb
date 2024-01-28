@@ -1,0 +1,1320 @@
+.learnMore {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupItem {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreGroup {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupInner {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreContainer {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.arrowIcon {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.groupDiv {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild1 {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent1 {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.learnMore5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 27px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.groupChild2 {
+  position: absolute;
+  top: 14px;
+  left: 99px;
+  width: 32px;
+  height: 0;
+}
+.learnMoreParent2 {
+  width: 131px;
+  height: 27px;
+  position: relative;
+  display: none;
+}
+.projectManagementFrame {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 3011px;
+  max-width: 100%;
+}
+.integrationFrameChild {
+  width: 1920px;
+  height: 571px;
+  position: relative;
+  background-color: var(--color-mintcream);
+  display: none;
+  max-width: 100%;
+}
+.luxa {
+  color: var(--color-white);
+}
+.gettingStartedWithContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  white-space: pre-wrap;
+  z-index: 2;
+  font-family: inherit;
+}
+.elevateArchitectureFrame {
+  align-self: stretch;
+  width: 147px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  z-index: 1;
+  margin-left: -662px;
+}
+.initialConceptFrame,
+.luxaSoftwareFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.luxaSoftwareFrame {
+  align-self: stretch;
+  flex: 1;
+}
+.initialConceptFrame {
+  width: 1098px;
+  height: 54px;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.discoverHowLuxa {
+  width: 1308px;
+  height: 100px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 50px;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild {
+  height: 57px;
+  width: 194px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.requestADemo {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-4xl) var(--padding-mid)
+    var(--padding-8xl);
+  background-color: transparent;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.emailFrameChild {
+  height: 57px;
+  width: 189px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  display: none;
+}
+.contactAnExpert {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  z-index: 2;
+}
+.emailFrame,
+.readyToFindOutFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.emailFrame {
+  cursor: pointer;
+  border: 2px solid var(--primary-linear-color);
+  padding: var(--padding-mid) var(--padding-3xs) var(--padding-mid)
+    var(--padding-mini);
+  background-color: transparent;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  align-items: center;
+  min-width: 123px;
+  z-index: 1;
+}
+.emailFrame:hover {
+  background-color: var(--color-seagreen-300);
+  border: 2px solid var(--color-seagreen-100);
+  box-sizing: border-box;
+}
+.readyToFindOutFrame {
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-20xl);
+  max-width: 100%;
+}
+.footerFrame,
+.integrationFrame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerFrame {
+  width: 438px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-base);
+}
+.integrationFrame {
+  align-self: stretch;
+  background-color: var(--color-mintcream);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-26xl) var(--padding-17xl) 281px var(--padding-xl);
+  gap: var(--gap-mid);
+}
+.scopeEMFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 10px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.group12160252371 {
+  position: absolute;
+  width: calc(100% - 18px);
+  top: 13px;
+  right: 10px;
+  left: 8px;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 206px;
+  object-fit: cover;
+  z-index: 2;
+}
+.environmentalImpactAssessmenChild,
+.scopeEMFrame {
+  position: absolute;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 10px solid var(--primary-linear-color);
+  box-sizing: border-box;
+}
+.scopeEMFrame {
+  top: 279px;
+  left: 589px;
+  width: 469px;
+  height: 228px;
+  z-index: 1;
+}
+.environmentalImpactAssessmenChild {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.group12160252361 {
+  position: absolute;
+  height: calc(100% - 21px);
+  top: 10px;
+  bottom: 11px;
+  left: 198px;
+  max-height: 100%;
+  width: 317px;
+  object-fit: cover;
+  z-index: 1;
+}
+.environmentalImpactAssessmen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-100);
+  border: 10px solid var(--primary-linear-color);
+  box-sizing: border-box;
+  width: 703px;
+  height: 416px;
+}
+.lEEDCertMgmtFrame {
+  height: 507px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.lEEDCertMgmtFrameWrapper {
+  width: 1098px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -214px;
+}
+.efficientCollabFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.faqs,
+.howDoesLuxa {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.howDoesLuxa {
+  font-weight: 500;
+}
+.requestaDemoFrameChild {
+  height: 3px;
+  width: 23px;
+  position: relative;
+}
+.requestaDemoFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.luxaIsDesigned {
+  align-self: stretch;
+  height: 64px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.scopeEmissionManagementFramChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.howDoI {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.reportingFrameChild {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.reportingFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.scopeEmissionManagementFramItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doesLuxaLeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.reportingFrameItem {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.reportingFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.scopeEmissionManagementFramInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doYouOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.reportingFrameInner {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.reportingFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.imSoldHow {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.groupIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.reportingFrame3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.scopeEmissionManagementFramChild1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatKindOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.reportingFrameChild1 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.reportingFrame4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.scopeEmissionManagementFramChild2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.willIStill {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.reportingFrameChild2 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.reportingFrame5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.projectRegistrationFrame,
+.registrationFrameLine,
+.scopeEmissionManagementFram {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.projectRegistrationFrame,
+.registrationFrameLine {
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.projectRegistrationFrame {
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+.architectureFrame,
+.ourStoryPrivacyPoliciesTer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.ourStoryPrivacyPoliciesTer {
+  width: 1358px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+}
+.architectureFrame {
+  align-self: stretch;
+  gap: 75px;
+  min-height: 1986px;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+.feature01Icon,
+.feature02Icon {
+  width: 54px;
+  height: 54px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.footerChild {
+  width: 1920px;
+  height: 629px;
+  position: relative;
+  background-color: var(--color-seagreen-200);
+  display: none;
+  max-width: 100%;
+}
+.more,
+.readyToFind {
+  margin: 0;
+}
+.emailOutreachprojectluxaor,
+.readyToFindContainer {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.readyToFindContainer {
+  align-self: stretch;
+  height: 130px;
+  font-size: inherit;
+  line-height: 65px;
+  font-family: inherit;
+  display: inline-block;
+}
+.emailOutreachprojectluxaor {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-dm-sans);
+}
+.contactUsGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-30xl);
+}
+.callUs123 {
+  height: 29px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  display: inline-block;
+  z-index: 1;
+}
+.nameInput {
+  width: 339px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 339px;
+  max-width: 100%;
+}
+.services {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.leedCertificationManagement {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.leedCertificationManagementContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.scope123EmissionManag {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.scope12Container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dataAnalyticsInsights1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.dataAnalyticsContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.environmentalImpactAssessmen1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.environmentalImpactAssessmenContainer {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.dataAnalyticsInsights {
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.dataAnalyticsInsights,
+.lEEDCertManagement,
+.termsConditionsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lEEDCertManagement {
+  align-self: stretch;
+  gap: var(--gap-20xl);
+}
+.termsConditionsGroup {
+  flex: 1;
+  gap: var(--gap-15xl);
+  min-width: 195px;
+}
+.resources {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.contactUs1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.contactUs {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.ourStory1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.ourStory {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.privacyPolicies {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.privacyPoliciesContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.termsConditions {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.termsConditionsContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.careers1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.careers {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.contactUsFooter {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  min-width: 173px;
+}
+.contactInformation,
+.contactUsFooter,
+.emailAddressInput,
+.privacyPoliciesGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privacyPoliciesGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-17xl);
+}
+.contactInformation,
+.emailAddressInput {
+  max-width: 100%;
+}
+.contactInformation {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  min-width: 331px;
+  font-size: var(--font-size-base);
+  font-family: var(--font-dm-sans);
+}
+.emailAddressInput {
+  width: 956px;
+  flex-direction: row;
+  gap: var(--gap-89xl);
+}
+.partners {
+  margin: 0;
+  height: 31px;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 400;
+  font-family: var(--font-clash-display);
+  display: inline-block;
+  z-index: 1;
+}
+.becomeAPartner {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.becomeAPartnerContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.partnerPortal1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.partnerPortal {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.getInTouch {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-2xl);
+}
+.getInTouchContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.becomeAPartnerLink,
+.lineDivider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineDivider {
+  gap: var(--gap-15xl);
+}
+.becomeAPartnerLink {
+  padding: var(--padding-lgi) 0 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-dm-sans);
+}
+.readyToLearn,
+.readyToLearnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.readyToLearn {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.readyToLearnWrapper {
+  width: 1317px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+}
+.servicesFrame {
+  width: 1273px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-gray-300);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.allRightsReserved,
+.span {
+  font-weight: 500;
+}
+.luxaTechnologiesIncContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  font-family: inherit;
+}
+.twitterFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.linkedinIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22px;
+  height: 22px;
+  z-index: 2;
+}
+.emailOutreachLinkedIn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.emailOutreachLinkedInChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.twitterIcon {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 25px;
+  height: 22px;
+  z-index: 2;
+}
+.emailOutreachLinkedIn1 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.emailOutreachLinkedInItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.facebookIcon {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 13px;
+  height: 22px;
+  z-index: 2;
+}
+.emailOutreachLinkedIn2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.emailOutreachLinkedInInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.whatsappIcon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22.1px;
+  height: 22px;
+  z-index: 2;
+}
+.emailOutreachLinkedIn3 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.youtubeIcon {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  width: 32.6px;
+  height: 22px;
+  z-index: 2;
+}
+.emailOutreachLinkedIn4 {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  min-width: 51px;
+  max-width: 52px;
+}
+.footerFrames,
+.readyToFindMore {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.footerFrames {
+  width: 360px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-6xl);
+}
+.readyToFindMore {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.callUsFrame,
+.footer,
+.resourcesIndustryArchitec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.callUsFrame {
+  width: 1317px;
+  height: 93px;
+  gap: var(--gap-22xl);
+  max-width: 100%;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-dm-sans);
+}
+.footer,
+.resourcesIndustryArchitec {
+  text-align: left;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-seagreen-200);
+  padding: var(--padding-52xl) var(--padding-xl) var(--padding-41xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+.resourcesIndustryArchitec {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+  font-size: var(--font-size-base);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 1325px) {
+  .readyToLearn {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .architectureFrame {
+    gap: var(--gap-18xl);
+  }
+  .nameInput {
+    flex: 1;
+  }
+  .emailAddressInput {
+    flex-wrap: wrap;
+    gap: var(--gap-35xl);
+  }
+  .readyToFindMore {
+    flex-wrap: wrap;
+  }
+  .callUsFrame {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .integrationFrame {
+    padding-top: var(--padding-10xl);
+    padding-bottom: 183px;
+    box-sizing: border-box;
+  }
+  .faqs {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .registrationFrameLine {
+    gap: var(--gap-base);
+  }
+  .ourStoryPrivacyPoliciesTer {
+    gap: var(--gap-20xl);
+  }
+  .architectureFrame {
+    gap: var(--gap-lgi);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .contactUsFooter {
+    flex: 1;
+  }
+  .privacyPoliciesGroup {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .emailAddressInput {
+    gap: var(--gap-8xl);
+  }
+  .callUsFrame {
+    gap: var(--gap-xl);
+  }
+  .footer {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .readyToFindOutFrame {
+    gap: var(--gap-lgi);
+  }
+  .faqs {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .doYouOffer,
+  .doesLuxaLeed,
+  .howDoI,
+  .howDoesLuxa,
+  .imSoldHow,
+  .whatKindOf,
+  .willIStill {
+    font-size: var(--font-size-xl);
+    line-height: 40px;
+  }
+  .ourStoryPrivacyPoliciesTer {
+    gap: var(--gap-lgi);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 39px;
+  }
+  .emailOutreachprojectluxaor {
+    font-size: var(--font-size-lg);
+  }
+  .contactUsGroup {
+    gap: var(--gap-5xl);
+  }
+  .callUs123 {
+    font-size: var(--font-size-lg);
+  }
+  .nameInput {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .services {
+    font-size: var(--font-size-xl);
+  }
+  .dataAnalyticsInsights {
+    gap: var(--gap-mid);
+  }
+  .lEEDCertManagement {
+    gap: var(--gap-lgi);
+  }
+  .termsConditionsGroup {
+    gap: var(--gap-mid);
+  }
+  .partners,
+  .resources {
+    font-size: var(--font-size-xl);
+  }
+  .luxaTechnologiesIncContainer {
+    font-size: var(--font-size-lg);
+  }
+  .footerFrames {
+    flex-wrap: wrap;
+  }
+  .footer {
+    gap: var(--gap-xl);
+  }
+}

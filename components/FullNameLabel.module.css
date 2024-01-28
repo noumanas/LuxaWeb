@@ -1,0 +1,198 @@
+.subscriptionsAreOn {
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  color: var(--color-darkslategray);
+  display: inline-block;
+}
+.fullNameLabelChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.howDoI {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.emailLabelChild {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.emailLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fullNameLabelItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doesLuxaLeed {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.emailLabelItem {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.emailLabel1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fullNameLabelInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.doYouOffer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.emailLabelInner {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.emailLabel2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.lineIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.imSoldHow {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.groupIcon {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.emailLabel3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fullNameLabelChild1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whatKindOf {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.emailLabelChild1 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.emailLabel4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fullNameLabelChild2 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.willIStill {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.emailLabelChild2 {
+  height: 23px;
+  width: 23px;
+  position: relative;
+}
+.emailLabel5,
+.fullNameLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fullNameLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-dm-sans);
+}
+@media screen and (max-width: 450px) {
+  .doYouOffer,
+  .doesLuxaLeed,
+  .howDoI,
+  .imSoldHow,
+  .whatKindOf,
+  .willIStill {
+    font-size: var(--font-size-xl);
+    line-height: 40px;
+  }
+}
