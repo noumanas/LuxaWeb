@@ -271,3 +271,12 @@
     gap: var(--gap-lgi);
   }
 }
+/* @media screen and (max-width: 450px) {
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+  .ourStory {
+    gap: var(--gap-lgi);
+  }
+} */
