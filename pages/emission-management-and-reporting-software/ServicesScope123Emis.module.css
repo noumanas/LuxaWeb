@@ -276,30 +276,13 @@
   display: inline-block;
   max-width: 100%;
 }
-.whatAreScope {
-  font-weight: 500;
-}
+
 .frameChild {
   height: 3px;
   width: 23px;
   position: relative;
 }
 
-.frameFrame,
-.frameParent {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.frameParent {
-  align-self: stretch;
-  align-items: flex-start;
-  gap: var(--gap-5xl);
-  text-align: left;
-  font-size: var(--font-size-6xl);
-  color: var(--primary-linear-color);
-  font-family: var(--font-dm-sans);
-}
 .frameFrame {
   width: 1358px;
   align-items: center;
@@ -307,7 +290,9 @@
   box-sizing: border-box;
   gap: var(--gap-59xl);
   margin-top:350px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   /* min-height: 1049px; */
   max-width: 100%;
   text-align: center;
@@ -399,25 +384,6 @@
   .shape {
     gap: 47px;
   }
-  .faqsAnsweringYour {
-    font-size: var(--font-size-17xl);
-    line-height: 40px;
-  }
-  .frameFrame {
-    gap: var(--gap-20xl);
-  }
-
-  .footerFrame {
-    flex: 1;
-  }
-  .partnerPortalGetInTouch {
-    flex-wrap: wrap;
-    gap: var(--gap-lg);
-  }
-  .emailReachOutProject {
-    gap: var(--gap-8xl);
-  }
-
 
 }
 @media screen and (max-width: 450px) {

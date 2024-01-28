@@ -1,38 +1,22 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../components/FrameComponent2";
 import AdvancedSustainabilityAnalytic from "../../components/AdvancedSustainabilityAnalytic";
 import RealTimeEmissionMonitoringAndA from "../../components/RealTimeEmissionMonitoringAndA";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
-import FormContainer1 from "../../components/FormContainer1";
 import styles from "./ServicesScope123Emis.module.css";
 import Footer from "../../components/Footer";
 import ContactFormContainer from "../../components/ContactFormContainer";
 import CardContainer from "../../components/CardContainer";
+import Header from "../../components/Header";
 
 const ServicesScope123Emis: NextPage = () => {
   const dataForCard ="Emission Software"
   return (
     <div className={styles.servicesScope123Emis}>
-      <FrameComponent2
-        stroke3="/stroke-3.svg"
-        stroke2="/stroke-2.svg"
-        yourSustainabilityCommand={`Streamline Your Scope 1, 2, & 3 Emissions Management and Reporting with Luxa`}
-        gainUnparalleledInsightsI="Take control of your project’s environmental impact with Luxa’s advanced emissions management software. Seamlessly track, analyze, and report Scope 1, 2, and 3 emissions, ensuring compliance and sustainability in every aspect of your construction project."
-        frameSectionPadding="0px 0px 99px"
-        frameDivGap="155px"
-        servicesColor="6px solid #d36135"
-        servicesFontWeight="unset"
-        frameDivGap1="13px"
-        resourcesColor="#454545"
-        resourcesFontWeight="unset"
-        advancedAnalyticsGap="81px"
-        footerGap="30px"
-        yourSustainabilityCommandHeight="120px"
-        gainUnparalleledInsightsHeight="54px"
-        linkedInIconWidth="39px"
-        linkedInIconHeight="90px"
-        rectangleDivWidth="39px"
-        rectangleDivHeight="90px"
+      <Header
+        projectDescription="Streamline Your Scope 1, 2, & 3 Emissions Management and Reporting with Luxa"
+        constructionManagementDes="Take control of your project’s environmental impact with Luxa’s advanced emissions management software. Seamlessly track, analyze, and report Scope 1, 2, and 3 emissions, ensuring compliance and sustainability in every aspect of your construction project."
+        readyToLearnFrameGap="174px"
+        propPadding="0px 0px var(--padding-8xs)"
       />
       <section className={styles.shape}>
         <div className={styles.textComponent}>

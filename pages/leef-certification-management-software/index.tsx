@@ -1,14 +1,13 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../components/FrameComponent2";
 import BoostProductivityContainer from "../../components/BoostProductivityContainer";
 import DataAnalyticsHeadingContainer from "../../components/DataAnalyticsHeadingContainer";
 import CardContainer from "../../components/CardContainer";
 import ContactFormContainer from "../../components/ContactFormContainer";
 import styles from "./ServicesLEEDCertificationM.module.css";
-import Footer from "../../components/Footer";
-import Accordions from "../../components/Accordion";
+import Footer from "../../components/Footer"
 import { useEffect, useState } from "react";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
+import Header from "../../components/Header";
 const ServicesLEEDCertificationM: NextPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -17,39 +16,13 @@ const ServicesLEEDCertificationM: NextPage = () => {
     }, []);
   return (
     <div className={`${styles.servicesLeedCertificationM} ${isLoaded ? styles.loaded : ''}`} >
-      <div className={styles.learnMoreParent}>
-        <div className={styles.learnMore}>Learn More</div>
-        <img className={styles.groupChild} alt="" />
-      </div>
-      <div className={styles.learnMoreGroup}>
-        <div className={styles.learnMore1}>Learn More</div>
-        <img className={styles.groupItem} alt="" />
-      </div>
-      <div className={styles.learnMoreContainer}>
-        <div className={styles.learnMore2}>Learn More</div>
-        <img className={styles.groupInner} alt="" />
-      </div>
-      <FrameComponent2
-        stroke3="/stroke-3.svg"
-        stroke2="/stroke-2.svg"
-        yourSustainabilityCommand="Streamline Your Path to LEED Certification with Luxa"
-        gainUnparalleledInsightsI="Luxa's innovative software transforms the LEED certification journey, offering an integrated, user-friendly platform that simplifies every step from compliance tracking to documentation submission, making sustainable certification more accessible and manageable than ever before."
-        frameSectionPadding="0px 0px 102px"
-        frameDivGap="146px"
-        servicesColor="6px solid #d36135"
-        servicesFontWeight="unset"
-        frameDivGap1="13px"
-        resourcesColor="#454545"
-        resourcesFontWeight="unset"
-        advancedAnalyticsGap="90px"
-        footerGap="30px"
-        yourSustainabilityCommandHeight="120px"
-        gainUnparalleledInsightsHeight="54px"
-        linkedInIconWidth="39px"
-        linkedInIconHeight="90px"
-        rectangleDivWidth="39px"
-        rectangleDivHeight="90px"
+      <Header
+        projectDescription="Streamline Your Path to LEED Certification with Luxa"
+        constructionManagementDes="Luxa's innovative software transforms the LEED certification journey, offering an integrated, user-friendly platform that simplifies every step from compliance tracking to documentation submission, making sustainable certification more accessible and manageable than ever before."
+        readyToLearnFrameGap="174px"
+        propPadding="0px 0px var(--padding-8xs)"
       />
+     
       <div className={styles.groupDiv}>
         <div className={styles.learnMore3}>Learn More</div>
         <img className={styles.arrowIcon} alt="" />
@@ -225,61 +198,7 @@ const ServicesLEEDCertificationM: NextPage = () => {
           </div>
         </div>
       </section>
-      {/* <section className={styles.dataAnalyticsInsights}>
-        <div className={styles.environmentalImpactAssessmen1}>
-          <div className={styles.environmentalImpactAssessmenChild} />
-          <div className={styles.contactUsOurStoryPrivacyP}>
-            <div className={styles.resourcesTextNode}>
-              <h1 className={styles.gettingStartedWithContainer}>
-                <span>{`Getting started with `}</span>
-                <b className={styles.luxa}>{`LUXA `}</b>
-                <span>for LEED Certification</span>
-              </h1>
-              <div className={styles.linkedInTwitterFacebookWha} />
-            </div>
-          </div>
-          <div className={styles.embarkOnYour}>
-            Embark on your LEED certification journey with Luxa by simply
-            signing up, inputting your project details, and let our platform
-            guide you through each step - from initial data entry to continuous
-            monitoring and management of your LEED compliance
-          </div>
-          <div className={styles.becomeAPartnerPartnerPorta}>
-            <div className={styles.requestDemoFrame1}>
-              <button className={styles.rectangleParent}>
-                <div className={styles.frameChild} />
-                <div className={styles.requestADemo}>Request a Demo</div>
-              </button>
-              <button className={styles.requestADemo1}>
-                <div className={styles.requestADemoChild} />
-                <div className={styles.contactAnExpert}>Contact an expert</div>
-              </button>
-            </div>
-          </div>
-          <div className={styles.environmentalImpactAssessmenInner}>
-            <div className={styles.groupGroup}>
-              <div className={styles.group1}>
-                <div className={styles.rectangleDiv} />
-                <img
-                  className={styles.group12160252371}
-                  loading="eager"
-                  alt=""
-                  src="/group-1216025237-1@2x.png"
-                />
-              </div>
-              <div className={styles.rectangle1}>
-                <div className={styles.rectangleChild} />
-                <img
-                  className={styles.group12160252361}
-                  loading="eager"
-                  alt=""
-                  src="/group-1216025236-1@2x.png"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+   
       <DataAnalyticsInsightsContainer dataforcard={"for LEED Certification"} />
 
       <section className={styles.faqsOnLeedCertificationManParent}>

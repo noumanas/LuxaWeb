@@ -1,12 +1,4 @@
-/* .feature01Icon,
-.feature02Icon {
-  width: 54px;
-  height: 54px;
-  position: relative;
-  overflow: hidden;
-  flex-shrink: 0;
-  display: none;
-}
+
 .frameParent {
   width: 1406px;
   display: flex;
@@ -17,115 +9,10 @@
   box-sizing: border-box;
   min-height: 2733px;
   max-width: 100%;
-}
-.learnMore {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 27px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.groupChild {
-  position: absolute;
-  top: 14px;
-  left: 99px;
-  width: 32px;
-  height: 0;
-}
-.learnMoreParent {
-  width: 131px;
-  height: 27px;
-  position: relative;
-  display: none;
-}
-.learnMore1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 27px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.groupItem {
-  position: absolute;
-  top: 14px;
-  left: 99px;
-  width: 32px;
-  height: 0;
-}
-.learnMoreGroup {
-  width: 131px;
-  height: 27px;
-  position: relative;
-  display: none;
-}
-.learnMore2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 27px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.groupInner {
-  position: absolute;
-  top: 14px;
-  left: 99px;
-  width: 32px;
-  height: 0;
-}
-.learnMoreContainer {
-  width: 131px;
-  height: 27px;
-  position: relative;
-  display: none;
-}
-.learnMore3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 27px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.arrowIcon {
-  position: absolute;
-  top: 14px;
-  left: 99px;
-  width: 32px;
-  height: 0;
-}
-.groupDiv {
-  width: 131px;
-  height: 27px;
-  position: relative;
-  display: none;
-}
-.learnMore4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 27px;
-  font-weight: 500;
-  white-space: nowrap;
-}
-.groupChild1 {
-  position: absolute;
-  top: 14px;
-  left: 99px;
-  width: 32px;
-  height: 0;
-}
-.learnMoreParent1 {
-  width: 131px;
-  height: 27px;
-  position: relative;
-  display: none;
-}
+} 
+
 
 .resourcesConstructionType {
-
   width: 100%;
   position: relative;
   background-color: var(--color-white);
@@ -147,7 +34,22 @@
 }
 .resourcesConstructionType.loaded{
   opacity: 1;
-
+}
+.faqsOnLeedCertificationManParent {
+  width: 1358px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+  margin-top:315px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
 }
 @media screen and (max-width: 1325px) {
   .frameParent {
@@ -164,4 +66,4 @@
   .resourcesConstructionType {
     gap: var(--gap-mid);
   }
-} */
+}

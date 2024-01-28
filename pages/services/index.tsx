@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../components/FrameComponent2";
 import FrameComponent1 from "../../components/FrameComponent1";
 import FrameComponent from "../../components/FrameComponent";
 import Footer from "../../components/Footer";
@@ -7,6 +6,7 @@ import styles from "./ServicesMain.module.css";
 import ContactFormContainer from "../../components/ContactFormContainer";
 import { useEffect, useState } from "react";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
+import Header from "../../components/Header";
 
 const ServicesMain: NextPage = () => {
   const [loaded, setLoaded] = useState(false);
@@ -17,25 +17,11 @@ const ServicesMain: NextPage = () => {
   }, []);
   return (
     <div  className={`${styles.servicesMain} ${loaded && styles.loaded}`}>
-      <FrameComponent2
-        stroke3="/stroke-3.svg"
-        stroke2="/stroke-2.svg"
-        yourSustainabilityCommand="Your Sustainability Command Center LUXA Dashboard"
-        gainUnparalleledInsightsI="Gain unparalleled insights into your sustainable projects with our interactive dashboard. Monitor ongoing projects, track certification progress, and dive into key data analytics. Empower your team to make informed decisions, leading to more sustainable and environmentally conscious outcomes."
-        frameSectionPadding="0px 0px var(--padding-60xl)"
-        frameDivGap="163px"
-        servicesColor="6px solid #d36135"
-        servicesFontWeight="bold"
-        frameDivGap1="13px"
-        resourcesColor="#454545"
-        advancedAnalyticsGap="73px"
-        footerGap="30px"
-        yourSustainabilityCommandHeight="120px"
-        gainUnparalleledInsightsHeight="54px"
-        linkedInIconWidth="39px"
-        linkedInIconHeight="90px"
-        rectangleDivWidth="39px"
-        rectangleDivHeight="90px"
+     <Header
+        projectDescription="Your Sustainability Command Center LUXA Dashboard"
+        constructionManagementDes="Gain unparalleled insights into your sustainable projects with our interactive dashboard. Monitor ongoing projects, track certification progress, and dive into key data analytics. Empower your team to make informed decisions, leading to more sustainable and environmentally conscious outcomes."
+        readyToLearnFrameGap="174px"
+        propPadding="0px 0px var(--padding-8xs)"
       />
       <section className={`${styles.servicesMainInner} ${loaded && styles.loaded}` }>
         <FrameComponent1 />

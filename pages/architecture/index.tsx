@@ -4,7 +4,6 @@ import DataDrivenDesignFrame from "../../components/DataDrivenDesignFrame";
 import styles from "./ResourcesIndustryArchitec.module.css";
 import Footer from "../../components/Footer";
 import ContactFormContainer from "../../components/ContactFormContainer";
-import CardContainer from "../../components/CardContainer";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
 
 const ResourcesIndustryArchitec: NextPage = () => {

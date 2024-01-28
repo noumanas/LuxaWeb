@@ -27,6 +27,7 @@
     "dev": "next dev",
     "build": "next build && next export -o build/",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   }
 }

@@ -1,60 +1,21 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../components/FrameComponent2";
 import BoostProductivityContainer from "../../components/BoostProductivityContainer";
 import DataAnalyticsHeadingContainer from "../../components/DataAnalyticsHeadingContainer";
-import FormContainer from "../../components/FormContainer";
 import styles from "./ServicesDataAnalyticsAndI.module.css";
 import Footer from "../../components/Footer";
 import ContactFormContainer from "../../components/ContactFormContainer";
+import Header from "../../components/Header";
+import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
+import CardContainer from "../../components/CardContainer";
 
 const ServicesDataAnalyticsAndI: NextPage = () => {
   return (
     <div className={styles.servicesDataAnalyticsAndI}>
-      <div className={styles.highlightingTheSpecific}>
-        Highlighting the specific features of Luxa’s data analytics, such as
-        real-time data processing, predictive analytics, customizable
-        dashboards, etc.
-      </div>
-      <div className={styles.learnMoreParent}>
-        <div className={styles.learnMore}>Learn More</div>
-        <img className={styles.groupChild} alt="" />
-      </div>
-      <div className={styles.learnMoreGroup}>
-        <div className={styles.learnMore1}>Learn More</div>
-        <img className={styles.groupItem} alt="" />
-      </div>
-      <div className={styles.learnMoreContainer}>
-        <div className={styles.learnMore2}>Learn More</div>
-        <img className={styles.groupInner} alt="" />
-      </div>
-      <div className={styles.groupDiv}>
-        <div className={styles.learnMore3}>Learn More</div>
-        <img className={styles.arrowIcon} alt="" />
-      </div>
-      <div className={styles.learnMoreParent1}>
-        <div className={styles.learnMore4}>Learn More</div>
-        <img className={styles.groupChild1} alt="" />
-      </div>
-      <FrameComponent2
-        stroke3="/stroke-3.svg"
-        stroke2="/stroke-2.svg"
-        yourSustainabilityCommand="Unleashing the Power of Sustainability Data in Construction"
-        gainUnparalleledInsightsI="Step into a realm of data-driven sustainability as we bring your projects to life through detailed analytics and impactful insights. Transform complex information into clear visuals that empower you to drive meaningful change."
-        frameSectionPadding="0px 0px var(--padding-51xl)"
-        frameDivGap="148px"
-        servicesColor="6px solid #d36135"
-        servicesFontWeight="unset"
-        frameDivGap1="13px"
-        resourcesColor="#454545"
-        resourcesFontWeight="unset"
-        advancedAnalyticsGap="98px"
-        footerGap="20px"
-        yourSustainabilityCommandHeight="120px"
-        gainUnparalleledInsightsHeight="54px"
-        linkedInIconWidth="39px"
-        linkedInIconHeight="90px"
-        rectangleDivWidth="39px"
-        rectangleDivHeight="90px"
+        <Header
+        projectDescription="Unleashing the Power of Sustainability Data in Construction"
+        constructionManagementDes="Step into a realm of data-driven sustainability as we bring your projects to life through detailed analytics and impactful insights. Transform complex information into clear visuals that empower you to drive meaningful change."
+        readyToLearnFrameGap="174px"
+        propPadding="0px 0px var(--padding-8xs)"
       />
       <section className={styles.lineframecontact}>
         <BoostProductivityContainer
@@ -212,7 +173,13 @@ const ServicesDataAnalyticsAndI: NextPage = () => {
           </div>
         </div>
       </section>
-      <FormContainer />
+      <DataAnalyticsInsightsContainer dataforcard={"Analytics"} />
+      <section className={styles.faqsOnLeedCertificationManParent}>
+        <h1 className={styles.faqsOnLeed}>
+        FAQs About Data Analytics in Construction
+        </h1>
+        <CardContainer />
+      </section>
       <ContactFormContainer
         imageSize="/frame1.svg"
         contactMessage="We are here to help you grow your business"
