@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../../components/FrameComponent2";
-import BoostProductivityContainer from "../../../components/BoostProductivityContainer";
-import DataAnalyticsHeadingContainer from "../../../components/DataAnalyticsHeadingContainer";
-import CardContainer from "../../../components/CardContainer";
-import ContactFormContainer from "../../../components/ContactFormContainer";
+import FrameComponent2 from "../../components/FrameComponent2";
+import BoostProductivityContainer from "../../components/BoostProductivityContainer";
+import DataAnalyticsHeadingContainer from "../../components/DataAnalyticsHeadingContainer";
+import CardContainer from "../../components/CardContainer";
+import ContactFormContainer from "../../components/ContactFormContainer";
 import styles from "./ServicesLEEDCertificationM.module.css";
-import Footer from "../../../components/Footer";
-import Accordions from "../../../components/Accordion";
+import Footer from "../../components/Footer";
+import Accordions from "../../components/Accordion";
 import { useEffect, useState } from "react";
-import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
+import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
 const ServicesLEEDCertificationM: NextPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 

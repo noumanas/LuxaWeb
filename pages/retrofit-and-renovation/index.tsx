@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../../components/FrameComponent2";
-import RenovationCertificationForm from "../../../components/RenovationCertificationForm";
-import RenovationProjectContainer from "../../../components/RenovationProjectContainer";
-import FAQContainer from "../../../components/FAQContainer";
-import ContactFormContainer from "../../../components/ContactFormContainer";
+import FrameComponent2 from "../../components/FrameComponent2";
+import RenovationCertificationForm from "../../components/RenovationCertificationForm";
+import RenovationProjectContainer from "../../components/RenovationProjectContainer";
+import FAQContainer from "../../components/FAQContainer";
+import ContactFormContainer from "../../components/ContactFormContainer";
 import styles from "./ResourcesConstructionType.module.css";
-import Footer from "../../../components/Footer";
+import Footer from "../../components/Footer";
 
 const ResourcesConstructionType: NextPage = () => {
   return (
