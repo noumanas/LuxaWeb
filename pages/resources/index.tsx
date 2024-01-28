@@ -4,7 +4,7 @@ import SustainabilityForm from "../../components/SustainabilityForm";
 import RenovationProjectContainer from "../../components/RenovationProjectContainer";
 import FAQContainer from "../../components/FAQContainer";
 import ContactUsFormContainer from "../../components/ContactUsFormContainer";
-import styles from "./ResourcesConstructionType2.module.css";
+import styles from "./resource.module.css";
 import { useEffect, useState } from "react";
 
 const ResourcesConstructionType2: NextPage = () => {

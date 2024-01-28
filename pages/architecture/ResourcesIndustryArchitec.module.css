@@ -1,0 +1,177 @@
+.resourcesIndustryArchitec {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+  font-size: var(--font-size-base);
+  color: var(--primary-linear-color);
+  font-family: var(--font-dm-sans);
+}
+.callUsFrame,
+.footer,
+.resourcesIndustryArchitec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer,
+.resourcesIndustryArchitec {
+  text-align: left;
+}
+.projectManagementFrame {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 3011px;
+  max-width: 100%;
+}
+.architectureFrame,
+.ourStoryPrivacyPoliciesTer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.architectureFrame {
+  align-self: stretch;
+  gap: 75px;
+  min-height: 1986px;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-clash-display);
+}
+.efficientCollabFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.integrationFrameChild {
+  width: 1920px;
+  height: 571px;
+  position: relative;
+  background-color: var(--color-mintcream);
+  display: none;
+  max-width: 100%;
+}
+.footerFrame,
+.integrationFrame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.integrationFrame {
+  align-self: stretch;
+  background-color: var(--color-mintcream);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-26xl) var(--padding-17xl) 281px var(--padding-xl);
+  gap: var(--gap-mid);
+}
+.initialConceptFrame,
+.luxaSoftwareFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.initialConceptFrame {
+  width: 1098px;
+  height: 54px;
+  padding: 0 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.luxaSoftwareFrame {
+  align-self: stretch;
+  flex: 1;
+}
+.gettingStartedWithContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  white-space: pre-wrap;
+  z-index: 2;
+  font-family: inherit;
+}
+.luxa {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1125px) {
+  .architectureFrame {
+    gap: var(--gap-18xl);
+  }
+  /* .nameInput {
+    flex: 1;
+  }
+  .emailAddressInput {
+    flex-wrap: wrap;
+    gap: var(--gap-35xl);
+  }
+  .readyToFindMore {
+    flex-wrap: wrap;
+  }
+  .callUsFrame {
+    height: auto;
+  } */
+}
+@media screen and (max-width: 800px) {
+   .gettingStartedWithContainer {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .integrationFrame {
+    padding-top: var(--padding-10xl);
+    padding-bottom: 183px;
+    box-sizing: border-box;
+  }
+  .faqs {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .registrationFrameLine {
+    gap: var(--gap-base);
+  }
+  .ourStoryPrivacyPoliciesTer {
+    gap: var(--gap-20xl);
+  }
+  .architectureFrame {
+    gap: var(--gap-lgi);
+  }
+  .readyToFindContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 52px;
+  }
+  .contactUsFooter {
+    flex: 1;
+  }
+  .privacyPoliciesGroup {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .emailAddressInput {
+    gap: var(--gap-8xl);
+  }
+  .callUsFrame {
+    gap: var(--gap-xl);
+  }
+  .footer {
+    gap: var(--gap-21xl);
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  } */
+}
