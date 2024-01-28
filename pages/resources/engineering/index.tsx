@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
-import FrameComponent2 from "../../components/FrameComponent2";
-import AdvancedTechnologyLifecycleCon from "../../components/AdvancedTechnologyLifecycleCon";
-import DataManagementContainer from "../../components/DataManagementContainer";
-import RenovationProjectContainer from "../../components/RenovationProjectContainer";
-import ContactFormContainer from "../../components/ContactFormContainer";
+import FrameComponent2 from "../../../components/FrameComponent2";
+import AdvancedTechnologyLifecycleCon from "../../../components/AdvancedTechnologyLifecycleCon";
+import DataManagementContainer from "../../../components/DataManagementContainer";
+import RenovationProjectContainer from "../../../components/RenovationProjectContainer";
+import ContactFormContainer from "../../../components/ContactFormContainer";
 import styles from "./ResourcesIndustryEngineer.module.css";
-import Footer from "../../components/Footer";
+import Footer from "../../../components/Footer";
 
 const ResourcesIndustryEngineer: NextPage = () => {
   return (

@@ -2,8 +2,6 @@ import type { NextPage } from "next";
 import FrameComponent2 from "../../components/FrameComponent2";
 import FrameComponent1 from "../../components/FrameComponent1";
 import FrameComponent from "../../components/FrameComponent";
-import Group from "../../components/Group";
-import EnvironmentImpactAssessment from "../../components/EnvironmentImpactAssessment";
 import Footer from "../../components/Footer";
 import styles from "./ServicesMain.module.css";
 import ContactFormContainer from "../../components/ContactFormContainer";

@@ -29,8 +29,8 @@ const LineSection: NextPage = () => {
               <div className={styles.groupLogoText} />
               <div className={clicked ? styles.groupLogoText1Clicked : styles.groupLogoText1}></div>
              
-              <div className={styles.withoutLuxa} onClick={handleClick}>Without LUXA</div>
-              <div className={styles.withLuxa} onClick={handleChande}>With LUXA</div>
+              <div className={clicked ? styles.removecolorwithoutLuxa: styles.withoutLuxa} onClick={handleClick} >Without LUXA</div>
+              <div className={clicked ? styles.withLuxa: styles.removecolorwithoutLuxa} onClick={handleChande}>With LUXA</div>
             </div>
             {!clicked && (
               <div className={styles.rectangle}>

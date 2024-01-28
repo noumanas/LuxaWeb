@@ -6,8 +6,6 @@ import LineSection from "../components/LineSection";
 import FrameComponent4 from "../components/FrameComponent4";
 import FrameComponent3 from "../components/FrameComponent3";
 import ColumnFrame from "../components/ColumnFrame";
-import FullNameLabel from "../components/FullNameLabel";
-import EnvironmentImpactAssessment from "../components/EnvironmentImpactAssessment";
 import Footer from "../components/Footer";
 import styles from "./HomeLandingPage.module.css";
 import SecondAccordion from "../components/SecondAccordion";

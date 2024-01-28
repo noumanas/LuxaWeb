@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
-import Header from "../../components/Header";
-import AdvancedEmissionsTrackingSecti from "../../components/AdvancedEmissionsTrackingSecti";
-import ComprehensiveProjectManagement from "../../components/ComprehensiveProjectManagement";
-import TrainingAndSupportContainer from "../../components/TrainingAndSupportContainer";
-import FormContainer2 from "../../components/FormContainer2";
+import Header from "../../../components/Header";
+import AdvancedEmissionsTrackingSecti from "../../../components/AdvancedEmissionsTrackingSecti";
+import ComprehensiveProjectManagement from "../../../components/ComprehensiveProjectManagement";
+import TrainingAndSupportContainer from "../../../components/TrainingAndSupportContainer";
+import FormContainer2 from "../../../components/FormContainer2";
 import styles from "./ResourcesIndustryConstruc.module.css";
-import Footer from "../../components/Footer";
-import ContactFormContainer from "../../components/ContactFormContainer";
-import CardContainer from "../../components/CardContainer";
+import Footer from "../../../components/Footer";
+import ContactFormContainer from "../../../components/ContactFormContainer";
+import CardContainer from "../../../components/CardContainer";
 
 const ResourcesIndustryConstruc: NextPage = () => {
   return (

@@ -8,20 +8,6 @@
   transform: translateY(0);
 }
 
-.maskGroupIcon {
-  width: 100%;
-  position: absolute;
-  margin: 0 !important;
-  height: calc(100% - 142px);
-  top: 0;
-  right: 0;
-  bottom: 142px;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 1;
-}
 .maskGroupParent {
   align-self: stretch;
   display: flex;
@@ -235,8 +221,7 @@
   color: var(--color-darkslategray);
   font-family: var(--font-dm-sans);
 }
-.faqs,
-.howMuchDoes {
+.faqs {
   margin: 0;
   position: relative;
   font-size: inherit;
@@ -244,14 +229,8 @@
   font-weight: 400;
   font-family: inherit;
 }
-.howMuchDoes {
-  font-weight: 500;
-}
-.contactUsFrameChild {
-  height: 3px;
-  width: 23px;
-  position: relative;
-}
+
+
 .contactUsFrame {
   align-self: stretch;
   flex-direction: row;
@@ -370,10 +349,6 @@
   .faqs {
     font-size: var(--font-size-8xl);
     line-height: 30px;
-  }
-  .howMuchDoes {
-    font-size: var(--font-size-xl);
-    line-height: 40px;
   }
   .faqsParent {
     gap: var(--gap-xl);
