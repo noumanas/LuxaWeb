@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import AdvancedTechnologyLifecycleCon from "../../components/AdvancedTechnologyLifecycleCon";
-import DataManagementContainer from "../../components/DataManagementContainer"
-import ContactFormContainer from "../../components/ContactFormContainer";
+import AdvancedTechnologyLifecycleCon from "../../../components/AdvancedTechnologyLifecycleCon";
+import DataManagementContainer from "../../../components/DataManagementContainer"
+import ContactFormContainer from "../../../components/ContactFormContainer";
 import styles from "./ResourcesIndustryEngineer.module.css";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
-import CardContainer from "../../components/CardContainer";
+import Footer from "../../../components/Footer";
+import Header from "../../../components/Header";
+import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
+import CardContainer from "../../../components/CardContainer";
 
 const ResourcesIndustryEngineer: NextPage = () => {
   return (

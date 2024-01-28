@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import BoostProductivityContainer from "../../components/BoostProductivityContainer";
-import DataAnalyticsHeadingContainer from "../../components/DataAnalyticsHeadingContainer";
+import BoostProductivityContainer from "../../../components/BoostProductivityContainer";
+import DataAnalyticsHeadingContainer from "../../../components/DataAnalyticsHeadingContainer";
 import styles from "./ServicesDataAnalyticsAndI.module.css";
-import Footer from "../../components/Footer";
-import ContactFormContainer from "../../components/ContactFormContainer";
-import Header from "../../components/Header";
-import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
-import CardContainer from "../../components/CardContainer";
+import Footer from "../../../components/Footer";
+import ContactFormContainer from "../../../components/ContactFormContainer";
+import Header from "../../../components/Header";
+import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
+import CardContainer from "../../../components/CardContainer";
 
 const ServicesDataAnalyticsAndI: NextPage = () => {
   return (

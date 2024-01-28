@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
-import InfrastructureConstructionCont from "../../components/InfrastructureConstructionCont";
+import InfrastructureConstructionCont from "../../../components/InfrastructureConstructionCont";
 import styles from "./ResourcesConstructionType1.module.css";
-import Footer from "../../components/Footer";
-import ContactFormContainer from "../../components/ContactFormContainer";
-import CardContainer from "../../components/CardContainer";
-import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
-import Header from "../../components/Header";
+import Footer from "../../../components/Footer";
+import ContactFormContainer from "../../../components/ContactFormContainer";
+import CardContainer from "../../../components/CardContainer";
+import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
+import Header from "../../../components/Header";
 
 const ResourcesConstructionType1: NextPage = () => {
   return (

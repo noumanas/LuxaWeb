@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
-import BoostProductivityContainer from "../../components/BoostProductivityContainer";
-import DataAnalyticsHeadingContainer from "../../components/DataAnalyticsHeadingContainer";
-import CardContainer from "../../components/CardContainer";
-import ContactFormContainer from "../../components/ContactFormContainer";
+import BoostProductivityContainer from "../../../components/BoostProductivityContainer";
+import DataAnalyticsHeadingContainer from "../../../components/DataAnalyticsHeadingContainer";
+import CardContainer from "../../../components/CardContainer";
+import ContactFormContainer from "../../../components/ContactFormContainer";
 import styles from "./ServicesLEEDCertificationM.module.css";
-import Footer from "../../components/Footer"
+import Footer from "../../../components/Footer"
 import { useEffect, useState } from "react";
-import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
-import Header from "../../components/Header";
+import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
+import Header from "../../../components/Header";
 const ServicesLEEDCertificationM: NextPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 

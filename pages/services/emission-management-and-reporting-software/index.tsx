@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import AdvancedSustainabilityAnalytic from "../../components/AdvancedSustainabilityAnalytic";
-import RealTimeEmissionMonitoringAndA from "../../components/RealTimeEmissionMonitoringAndA";
-import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
+import AdvancedSustainabilityAnalytic from "../../../components/AdvancedSustainabilityAnalytic";
+import RealTimeEmissionMonitoringAndA from "../../../components/RealTimeEmissionMonitoringAndA";
+import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
 import styles from "./ServicesScope123Emis.module.css";
-import Footer from "../../components/Footer";
-import ContactFormContainer from "../../components/ContactFormContainer";
-import CardContainer from "../../components/CardContainer";
-import Header from "../../components/Header";
+import Footer from "../../../components/Footer";
+import ContactFormContainer from "../../../components/ContactFormContainer";
+import CardContainer from "../../../components/CardContainer";
+import Header from "../../../components/Header";
 
 const ServicesScope123Emis: NextPage = () => {
   const dataForCard ="Emission Software"
