@@ -4,14 +4,14 @@ import AdvancedEmissionsTrackingSecti from "../../components/AdvancedEmissionsTr
 import ComprehensiveProjectManagement from "../../components/ComprehensiveProjectManagement";
 import TrainingAndSupportContainer from "../../components/TrainingAndSupportContainer";
 import FormContainer2 from "../../components/FormContainer2";
-import FAQContainer from "../../components/FAQContainer";
-import EnvironmentImpactAssessment from "../../components/EnvironmentImpactAssessment";
 import styles from "./ResourcesIndustryConstruc.module.css";
 import Footer from "../../components/Footer";
 import ContactFormContainer from "../../components/ContactFormContainer";
+import CardContainer from "../../components/CardContainer";
 
 const ResourcesIndustryConstruc: NextPage = () => {
   return (
+ 
     <div className={styles.resourcesIndustryConstruc}>
       {/* <div className={styles.resourcesIndustryConstrucChild} /> */}
       <Header
@@ -24,20 +24,14 @@ const ResourcesIndustryConstruc: NextPage = () => {
       <section className={styles.lEEDServices}>
         <ComprehensiveProjectManagement />
       </section>
-      <div className={styles.learnMoreParent2}>
-        <div className={styles.learnMore5}>Learn More</div>
-        <img className={styles.groupChild2} alt="" />
-      </div>
       <TrainingAndSupportContainer />
       <FormContainer2 />
-      <FAQContainer
-        faqTitle="FAQs"
-        retrofitQuestion="What sustainability certifications can Luxa help us achieve?"
-        retrofitFaqTitle=" Luxa is designed to assist with a range of sustainability certifications, including LEED, BREEAM, and WELL Building Standards. Our platform streamlines the compliance process by managing documentation, tracking sustainability metrics, and providing actionable insights to meet certification criteria effectively."
-        propMinHeight="1047px"
-      />
-      <img className={styles.feature01Icon} alt="" />
-      <img className={styles.feature02Icon} alt="" />
+      <section className={styles.faqsOnLeedCertificationManParent}>
+        <h1 className={styles.faqsOnLeed}>
+          FAQs
+        </h1>
+        <CardContainer />
+      </section>
       <ContactFormContainer
         imageSize="/frame1.svg"
         contactMessage="Schedule a Demo or Consultation"

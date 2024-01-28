@@ -62,14 +62,7 @@ const HomeLandingPage: NextPage = () => {
             </div>
           </div>
           <div className={styles.text}>
-            {/* <FRAME
-              propFlex="1"
-              propMinWidth="415px"
-              propBorder="2px solid var(--primary-linear-color)"
-              propPadding="var(--padding-4xs) var(--padding-mid) var(--padding-smi)"
-              propBorder1="2px solid var(--primary-linear-color)"
-              propAlignSelf="stretch"
-            /> */}
+
             <SecondAccordion/>
             <div className={styles.wrapperContactDetails}>
               <img
@@ -104,7 +97,6 @@ const HomeLandingPage: NextPage = () => {
       </section>
       <FrameComponent3 />
       <section className={styles.homeLandingPageChild}>
-        {/* Accordion */}
         <FRAME/>
       </section>
       <section className={styles.text1}>
@@ -123,16 +115,6 @@ const HomeLandingPage: NextPage = () => {
         <div className={styles.yourName}>
           <div className={styles.contactUsFrame}>
           <Accordions/>
-
-            {/* <h3 className={styles.howMuchDoes}>
-              How much does a subscription cost?
-            </h3>
-            <img
-              className={styles.contactUsFrameChild}
-              loading="eager"
-              alt=""
-              src="/group-37.svg"
-            /> */}
           </div>
         </div>
       </section>
