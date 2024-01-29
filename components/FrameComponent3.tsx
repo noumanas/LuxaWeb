@@ -18,11 +18,12 @@ const FrameComponent3: NextPage = () => {
         <span className={styles.ourSoftwareImpact}>Our Software Impact</span>
       </h1>
       <div className={styles.gcsLogoSymbolParent}>
-        {/* <img
+        <img
           className={styles.gcsLogoSymbol}
           alt=""
           src="/gcs-logo-symbol@2x.png"
-        /> */}
+        />
+    
         <div className={styles.frameGroup}>
           <div className={styles.iconlylightarrowRight3Parent}>
             <img
@@ -39,7 +40,7 @@ const FrameComponent3: NextPage = () => {
               src="/iconlylightarrow--right-2.svg"
             />
           </div>
-          <div className={styles.frameItem} />
+          {/* <div className={styles.frameItem} /> */}
         </div>
         <div className={styles.frameWrapper}>
           <div className={styles.learnMoreParent}>

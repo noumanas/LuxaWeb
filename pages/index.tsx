@@ -94,8 +94,10 @@ const HomeLandingPage: NextPage = () => {
         </div>
       </section>
       <FrameComponent3 />
+      
       <section className={styles.homeLandingPageChild}>
         <FRAME/>
+        
       </section>
       <section className={styles.text1}>
         <div className={styles.asAnArchitecture}>

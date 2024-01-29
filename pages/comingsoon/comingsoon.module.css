@@ -1,0 +1,23 @@
+.comingSoon,
+.comingSoonChild {
+  position: relative;
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+}
+.comingSoonChild {
+  width: 1920px;
+  height: 1080px;
+  display: none;
+  max-width: 100%;
+}
+.comingSoon {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-xl) var(--padding-98xl);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+  letter-spacing: normal;
+}
