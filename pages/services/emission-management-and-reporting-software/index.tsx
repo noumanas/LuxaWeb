@@ -7,8 +7,15 @@ import Footer from "../../../components/Footer";
 import ContactFormContainer from "../../../components/ContactFormContainer";
 import CardContainer from "../../../components/CardContainer";
 import Header from "../../../components/Header";
+import { useEffect, useState } from "react";
 
 const ServicesScope123Emis: NextPage = () => {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    // Set loaded to true after the component mounts
+    setLoaded(true);
+  }, []);
   const accordionData = [
     {
       header: "What are Scope 1, 2, and 3 emissions, and why are they important for my construction project?",
@@ -47,7 +54,7 @@ const ServicesScope123Emis: NextPage = () => {
   ];
   const dataForCard ="Emission Software"
   return (
-    <div className={styles.servicesScope123Emis}>
+    <div className={`${styles.servicesScope123Emis} ${loaded && styles.loaded}`}>
       <Header
         projectDescription="Streamline Your Scope 1, 2, & 3 Emissions Management and Reporting with Luxa"
         constructionManagementDes="Take control of your project’s environmental impact with Luxa’s advanced emissions management software. Seamlessly track, analyze, and report Scope 1, 2, and 3 emissions, ensuring compliance and sustainability in every aspect of your construction project."
