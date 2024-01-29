@@ -9,6 +9,39 @@ import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsIns
 import CardContainer from "../../../components/CardContainer";
 
 const ServicesDataAnalyticsAndI: NextPage = () => {
+  const accordionData = [
+    {
+      header: " How does data analytics contribute to sustainability in construction projects?",
+      description: "Data analytics plays a crucial role in sustainability by enabling accurate tracking of resource usage, waste generation, and carbon emissions. This information helps in making informed decisions that reduce environmental impact, improve energy efficiency, and ensure compliance with sustainability standards."
+    },
+    {
+      header:"Can Luxa's data analytics help in achieving green building certifications like LEED?",
+      description:"Absolutely. Luxa’s analytics tools can track and report on the specific metrics required for certifications like LEED. By providing detailed data on energy efficiency, material sourcing, and waste management, our platform simplifies the process of meeting certification criteria."
+    },
+    {
+      header:"What type of sustainability data does Luxa analyze?",
+      description:"Luxa analyzes a wide range of data, including but not limited to energy consumption, water usage, waste generation, recycling rates, carbon emissions, and the environmental impact of building materials. This comprehensive approach ensures a holistic view of sustainability in construction projects."
+    },
+    {
+      header:"How does Luxa ensure the accuracy of its sustainability data?",
+      description:"Luxa utilizes advanced data validation techniques and integrates with various trusted data sources, ensuring that the information processed is both accurate and reliable. Continuous updates and user feedback further enhance the precision of our data analytics."
+    },
+    {
+      header:"Can Luxa's analytics integrate with other project management tools?",
+      description:"Yes, Luxa is designed to seamlessly integrate with various project management tools, allowing for easy consolidation and analysis of sustainability data alongside other project metrics."
+    },
+    {
+      header:" How does Luxa's data analytics support decision-making in construction projects?",
+      description:"By providing real-time insights and predictive analytics, Luxa empowers project managers to make proactive decisions that enhance sustainability. Whether it’s optimizing resource allocation, reducing waste, or improving energy efficiency, our analytics provide the necessary data to guide these decisions."
+    },
+    {
+      header:"Is Luxa suitable for projects of all sizes?",
+      description:"Definitely. Luxa’s data analytics platform is scalable and can be tailored to projects of any size, from small residential builds to large commercial developments. It provides valuable sustainability insights regardless of the project scale."
+    }
+
+
+    // Add more accordion items as needed
+  ];
   return (
     <div className={styles.servicesDataAnalyticsAndI}>
         <Header
@@ -178,7 +211,7 @@ const ServicesDataAnalyticsAndI: NextPage = () => {
         <h1 className={styles.faqsOnLeed}>
         FAQs About Data Analytics in Construction
         </h1>
-        <CardContainer />
+        <CardContainer  accordionData={accordionData}/>
       </section>
       <ContactFormContainer
         imageSize="/frame1.svg"

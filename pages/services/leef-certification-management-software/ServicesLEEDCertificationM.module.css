@@ -503,7 +503,7 @@
   box-sizing: border-box;
   gap: var(--gap-59xl);
   /* min-height: 1084px; */
-  margin-top:315px;
+  /* margin-top:315px; */
   max-width: 100%;
   text-align: center;
   font-size: var(--font-size-26xl);

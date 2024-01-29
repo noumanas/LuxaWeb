@@ -289,14 +289,14 @@
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
   gap: var(--gap-59xl);
-  margin-top:350px;
+  /* margin-top:350px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   /* min-height: 1049px; */
   max-width: 100%;
   text-align: center;
-  font-size: var(--font-size-26xl);
+  font-size:25px;
   color: var(--color-black);
   font-family: var(--font-clash-display);
 }

@@ -9,6 +9,17 @@ import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsIns
 import CardContainer from "../../../components/CardContainer";
 
 const ResourcesIndustryEngineer: NextPage = () => {
+  const accordionData = [
+    {
+      header: "What is LEED Certification and Why is it Important?",
+      description: "LEED (Leadership in Energy and Environmental Design) is a globally recognized green building certification system. It provides a framework for healthy, efficient, carbon-saving green buildings. LEED certification is important as it demonstrates a building's commitment to environmental sustainability and can lead to reduced operational costs, increased asset value, and a healthier environment for occupants."
+    },
+    {
+      header: "How do I register my first project?",
+      description: "Quisque eget luctus mi, vehicula mollis lorem. Proin fringilla vel erat quis sodales. Nam ex enim, eleifend venenatis lectus vitae."
+    },
+    // Add more accordion items as needed
+  ];
   return (
     <div className={styles.resourcesIndustryEngineer}>
       <Header
@@ -98,7 +109,7 @@ const ResourcesIndustryEngineer: NextPage = () => {
         <h1 className={styles.faqsByEngineering}>
           FAQs by Engineering Professionals
         </h1>
-        <CardContainer/>
+        <CardContainer  accordionData={accordionData}/>
       </section>
       <ContactFormContainer
         imageSize="/frame4.svg"
