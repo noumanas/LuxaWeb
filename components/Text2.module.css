@@ -9,6 +9,7 @@
   max-width: 100%;
 }
 .dropdownMenu {
+  color: #333; /* Link color */
   position: absolute;
   top:100px;
   width: 519px;
@@ -67,7 +68,7 @@
 }
 
 .dropdownMenu ul li:hover {
-  background-color: #599676; /* Background color on hover */
+  background-color: #B7D5C5; /* Background color on hover */
 }
 
 /* Optional: Style the links inside the dropdown */

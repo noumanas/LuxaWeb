@@ -136,22 +136,21 @@ const mainheader: NextPage = () => {
               onMouseLeave={closeDropdownmenu}
             >
                 <ul>
-                  
+                <Link href="/resources">
                   <li>
-                    <Link href="/resources">
                     New Construction - Residential and Commercial
-                    </Link>
                   </li>
+                  </Link>
+                  <Link href="/resources/retrofit-and-renovation">
                   <li>
-                    <Link href="/resources/retrofit-and-renovation">
                     Retrofit & Renovation
-                    </Link>
                   </li>
+                  </Link> 
+                  <Link href="/resources/infrastructure">
                   <li>
-                    <Link href="/resources/infrastructure">
                     Infrastructure
-                    </Link>
                   </li>
+                  </Link>
                  
                 </ul>
                 
@@ -164,21 +163,22 @@ const mainheader: NextPage = () => {
               onMouseLeave={closeDropdownmenusecond}
             >
                 <ul>
+                <Link href="/resources/architecture">
                   <li>
-                    <Link href="/resources/architecture">
                     Architecture
-                    </Link>
                   </li>
-                  <li>
-                    <Link href="/resources/engineering">
-                    Engineering
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/resources/construction">
-                    Construction
-                    </Link>
-                  </li>
+                  </Link>
+                  <Link href="/resources/engineering">
+                    <li>
+                    
+                      Engineering
+                    </li>
+                  </Link>
+                  <Link href="/resources/construction">
+                    <li>
+                      Construction
+                    </li>
+                  </Link>
                  
                 </ul>
                 
