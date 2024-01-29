@@ -29,6 +29,13 @@
   justify-content: flex-start;
   gap: var(--gap-30xl);
 }
+.serviceLinks1 input{
+  width: 348px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #B7D5C5;
+}
 .callUs123 {
   height: 29px;
   position: relative;
@@ -37,6 +44,25 @@
   font-family: var(--font-dm-sans);
   display: inline-block;
   z-index: 1;
+}
+.subscribe{
+  display: flex;
+  color:green;
+  width: 178px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 0px 30px 8px rgba(69, 69, 69, 0.15);
+color: var(--dark-green, #0D703C);
+text-align: center;
+align-items: center;
+justify-content: center;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .emailoutreachprojectluxaorg {
   width: 339px;

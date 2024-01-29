@@ -130,11 +130,10 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
             <div className={styles.serviceLinks1}>
               <h1 className={styles.readyToFindContainer}>
                 <p className={styles.readyToFind}>Subscribe News Letter</p>
-                <p className={styles.more}>More</p>
               </h1>
               <input type="text" alt=""/>
             </div>
-            <div className={styles.callUs123}>Call us: 123 456 789</div>
+            <div className={styles.subscribe}>Subscribe</div>
           </div>
           <div className={styles.contactUsFooter}>
             <div className={styles.servicesFrame}>
