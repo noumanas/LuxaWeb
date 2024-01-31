@@ -48,8 +48,7 @@ const ServicesDataAnalyticsAndI: NextPage = () => {
         projectDescription="Unleashing the Power of Sustainability Data in Construction"
         constructionManagementDes="Step into a realm of data-driven sustainability as we bring your projects to life through detailed analytics and impactful insights. Transform complex information into clear visuals that empower you to drive meaningful change."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-8xs)"
-      />
+        propPadding="0px 0px var(--padding-8xs)" activeLink={""}      />
       <section className={styles.lineframecontact}>
         <BoostProductivityContainer
           productDimensions="/feature01.svg"

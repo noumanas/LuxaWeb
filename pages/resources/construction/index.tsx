@@ -46,8 +46,7 @@ const ResourcesIndustryConstruc: NextPage = () => {
         projectDescription="Revolutionizing the Construction Industry with Luxa"
         constructionManagementDes="At the forefront of innovation, Luxa is redefining construction project management by integrating cutting-edge sustainability solutions. Our platform uniquely combines real-time emissions tracking, streamlined certification processes, and data-driven insights, setting a new standard in eco-conscious construction practices."
         readyToLearnFrameGap="152px"
-        propPadding="0px 0px var(--padding-8xl)"
-      />
+        propPadding="0px 0px var(--padding-8xl)" activeLink={""}      />
       <AdvancedEmissionsTrackingSecti />
       <section className={styles.lEEDServices}>
         <ComprehensiveProjectManagement />

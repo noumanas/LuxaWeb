@@ -42,7 +42,7 @@ const HomeLandingPage: NextPage = () => {
     <div className={`${styles.homeLandingPage} ${loaded && styles.loaded}  ${isScrolled ? styles.scrolled : ''}`}>
       <section className={styles.maskGroupParent}>
         {/* <img className={styles.maskGroupIcon} alt="" src="/mask-group.svg" /> */}
-        <Header />
+        <Header activeLink={""} />
         <WelcomeTo />
       </section>
       <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>

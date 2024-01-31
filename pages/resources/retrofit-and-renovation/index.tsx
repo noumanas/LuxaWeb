@@ -25,8 +25,7 @@ const ResourcesConstructionType: NextPage = () => {
         projectDescription="Tailored Solutions for Retrofit and Renovation Projects"
         constructionManagementDes="Retrofit and renovation projects in construction present unique challenges, from integrating new systems into existing structures to meeting updated sustainability standards. Luxa offers tailored solutions that navigate these complexities, providing seamless project management, environmental compliance, and enhanced efficiency for every renovation need."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-8xs)"
-      />
+        propPadding="0px 0px var(--padding-8xs)" activeLink={""}      />
       <section className={styles.rectangleGroup}>
         <RenovationCertificationForm />
       </section>

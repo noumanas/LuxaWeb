@@ -14,8 +14,7 @@ const ResourcesIndustryArchitec: NextPage = () => {
         projectDescription="Revolutionizing Architecture with Advanced Technology"
         constructionManagementDes="Luxa introduces a groundbreaking fusion of sustainability-focused technology and efficient project management, tailored specifically for the modern architect. This innovative platform seamlessly bridges the gap between ecological responsibility and the complex project oversight duties of architects, elevating the standard for sustainable design and construction."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-8xs)"
-      />
+        propPadding="0px 0px var(--padding-8xs)" activeLink={""}      />
       <section className={styles.projectManagementFrame}>
         <DataDrivenDesignFrame />
       </section>

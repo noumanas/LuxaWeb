@@ -59,8 +59,7 @@ const ServicesScope123Emis: NextPage = () => {
         projectDescription="Streamline Your Scope 1, 2, & 3 Emissions Management and Reporting with Luxa"
         constructionManagementDes="Take control of your project’s environmental impact with Luxa’s advanced emissions management software. Seamlessly track, analyze, and report Scope 1, 2, and 3 emissions, ensuring compliance and sustainability in every aspect of your construction project."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-8xs)"
-      />
+        propPadding="0px 0px var(--padding-8xs)" activeLink={""}      />
       <section className={styles.shape}>
         <div className={styles.textComponent}>
           <div className={styles.separator}>

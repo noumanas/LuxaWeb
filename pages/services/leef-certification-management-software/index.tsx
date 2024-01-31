@@ -51,8 +51,7 @@ const ServicesLEEDCertificationM: NextPage = () => {
         projectDescription="Streamline Your Path to LEED Certification with Luxa"
         constructionManagementDes="Luxa's innovative software transforms the LEED certification journey, offering an integrated, user-friendly platform that simplifies every step from compliance tracking to documentation submission, making sustainable certification more accessible and manageable than ever before."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-8xs)"
-      />
+        propPadding="0px 0px var(--padding-8xs)" activeLink={""}      />
      
       <div className={styles.groupDiv}>
         <div className={styles.learnMore3}>Learn More</div>

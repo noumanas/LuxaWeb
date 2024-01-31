@@ -46,8 +46,7 @@ const ResourcesConstructionType1: NextPage = () => {
         projectDescription="Tailored Solutions for Infrastructure Projectsy"
         constructionManagementDes="Luxa brings unparalleled expertise and technology to the forefront of infrastructure construction, offering specialized solutions designed to tackle the intricate challenges and scale of these projects. With our innovative platform, we empower your infrastructure projects with advanced tools for data management, compliance tracking, and sustainability, ensuring every phase meets the highest standards of efficiency and excellence."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-8xs)"
-      />
+        propPadding="0px 0px var(--padding-8xs)" activeLink={""}      />
 
   
       <section className={styles.resourcesConstructionTypeInner}>

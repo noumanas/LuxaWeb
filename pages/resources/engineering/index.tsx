@@ -26,8 +26,7 @@ const ResourcesIndustryEngineer: NextPage = () => {
         projectDescription="Tailored Solutions for the Engineering Industry"
         constructionManagementDes="We understand that sustainability is a cornerstone of modern engineering projects. Our specialized solutions are designed to seamlessly address the unique sustainability challenges faced by engineers, integrating cutting-edge technology with eco-friendly practices to ensure your projects not only meet but exceed environmental standards and goals."
         readyToLearnFrameGap="174px"
-        propPadding="0px 0px var(--padding-51xl)"
-      />
+        propPadding="0px 0px var(--padding-51xl)" activeLink={""}      />
       <AdvancedTechnologyLifecycleCon />
       <section className={styles.rectangle}>
         <div className={styles.fAQsFrame}>

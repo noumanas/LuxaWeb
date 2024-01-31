@@ -5,7 +5,7 @@ const Header1: NextPage = () => {
   return (
     <section className={styles.frameGroup}>
       <div className={styles.frameGroupChild} />
-        <Mheader/>
+        <Mheader activeLink={""}/>
       <div className={styles.emailField}>
         <div className={styles.messageField}>
           <h1 className={styles.optimizedSolutionsFor}>
