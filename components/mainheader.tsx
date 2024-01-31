@@ -2,12 +2,17 @@ import type { NextPage } from "next";
 import React, { useState } from "react";
 import styles from "./Text2.module.css";
 import Link from "next/link";
-const mainheader: NextPage = () => {
+interface HeaderProps {
+  activeLink: string;
+}
+const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isknolegdeDropdownOpen, setisknolegdeDropdownOpen] = useState(false);
   const [resourceisDropdownOpen, setresourceisDropdownOpen] = useState(false);
   const [submenushow, setsubmenushow] = useState(false);
   const [submenushowsecond, setsubmenushowsecond] = useState(false);
+  const [activeLinks, setActiveLink] =  useState("");
+  console.log('activeLink',activeLink);
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
   };
@@ -48,6 +53,9 @@ const mainheader: NextPage = () => {
   const closeDropdownmenusecond = () => {
     setsubmenushowsecond(false);
   };
+  const handleLinkClick = (fieldname:any) => {
+    setActiveLink(fieldname); // Set the clicked link as active
+  };
   return (
     <header className={styles.text}>
       <div className={styles.rectangleParent}>
@@ -59,15 +67,18 @@ const mainheader: NextPage = () => {
             loading="eager"
             alt=""
             src="/color-logo--no-background@2x.png"
+            onClick={() => handleLinkClick("")}
           />
         </div>
         </Link>
        
         <div className={styles.polygon}>
        
-        <div className={styles.servicesParent} onMouseEnter={handleMouseEnter} onMouseLeave={closeDropdown}>
-           <Link href="/services">
-              <div className={styles.services}>Services</div>
+        <div  className={styles.servicesParent} onClick={() => handleLinkClick("services")} onMouseEnter={handleMouseEnter} onMouseLeave={closeDropdown}>
+           <Link href="/services" >
+              <div className={`${styles.services} ${
+              activeLink === "services" ? styles.activeLink : ""
+            }`}>Services</div>
            </Link>
                 <div className={styles.group}>
                   <img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />
@@ -105,10 +116,15 @@ const mainheader: NextPage = () => {
               </div>
             )}
           </div>
+          <Link href='/comingsoon'>
           <div className={styles.pricing}>Pricing</div>
+          </Link>
+          
           <Link href='/resources'>
-          <div className={styles.resourcesParent} onMouseEnter={handleMouseEnter2} onMouseLeave={closeDropdown2}>
-            <div className={styles.resources} >Resources</div>
+          <div className={styles.resourcesParent} onMouseEnter={handleMouseEnter2} onMouseLeave={closeDropdown2} onClick={() => handleLinkClick("resources")} >
+            <div className={`${styles.resources} ${
+              activeLink === "resources" ? styles.activeLink : "color: orange"
+            }`}>Resources</div>
             <div className={styles.stroke2Wrapper}>
               <img className={styles.stroke2Icon} alt="" src="/stroke-3.svg" />
             </div>
@@ -205,22 +221,22 @@ const mainheader: NextPage = () => {
             >
                 <ul>
                   <li>
-                    <Link href="/leed-certification-management-software">
+                    <Link href="/comingsoon">
                     Certifications
                     </Link>
                   </li>
                   <li>
-                    <Link href="/scope-emission-management-reporting-software">
+                    <Link href="/comingsoon">
                     Emissions
                     </Link>
                   </li>
                   <li>
-                    <Link href="/data-analytics-insights">
+                    <Link href="/comingsoon">
                     Reporting
                     </Link>
                   </li>
                   <li>
-                    <Link href="/data-analytics-insights">
+                    <Link href="/comingsoon">
                     Climate Initiatives
                     </Link>
                   </li>
@@ -230,7 +246,10 @@ const mainheader: NextPage = () => {
           </div>
         </div>
         <div className={styles.text1}>
+          <Link href="comingsoon">
           <div className={styles.login}>Login</div>
+          </Link>
+         
           <button className={styles.rectangleGroup}>
             <div className={styles.frameItem} />
             <img

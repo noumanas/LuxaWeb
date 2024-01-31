@@ -9,6 +9,7 @@ import CardContainer from "../../components/CardContainer";
 
 const ResourcesConstructionType2: NextPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [activeLink, setActiveLink] =  useState("resources");
 
   useEffect(() => {
       setIsLoaded(true);
@@ -44,6 +45,7 @@ const ResourcesConstructionType2: NextPage = () => {
   return (
     <div className={`${styles.resourcesConstructionType} ${isLoaded ? styles.loaded : ''}`}>
       <Header
+        activeLink={activeLink}
         projectDescription="Optimized Solutions for New Construction Projects"
         constructionManagementDes="Luxa introduces a groundbreaking approach to new construction, seamlessly blending advanced technology with the unique demands of modern residential and commercial building projects. Our platform is designed to address the diverse challenges of new construction, offering tailored solutions that enhance efficiency, ensure sustainability, and streamline project management from concept to completion."
         readyToLearnFrameGap="174px"

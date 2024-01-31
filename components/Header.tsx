@@ -5,7 +5,7 @@ import Mheader from "./mainheader";
 type HeaderType = {
   projectDescription?: string;
   constructionManagementDes?: string;
-
+  activeLink: string;
   /** Style props */
   readyToLearnFrameGap?: CSSProperties["gap"];
   propPadding?: CSSProperties["padding"];
@@ -16,6 +16,7 @@ const Header: NextPage<HeaderType> = ({
   constructionManagementDes,
   readyToLearnFrameGap,
   propPadding,
+  activeLink,
 }) => {
   const frameDivStyle: CSSProperties = useMemo(() => {
     return {
@@ -33,7 +34,7 @@ const Header: NextPage<HeaderType> = ({
     <section className={styles.contactInfoFrame}>
       <div className={styles.rectangleParent} style={frameDivStyle}>
         <div className={styles.frameChild} />
-       <Mheader/>
+       <Mheader activeLink={activeLink}/>
         <div className={styles.services1}>
           <h1 className={styles.revolutionizingTheConstructi}>
             {projectDescription}

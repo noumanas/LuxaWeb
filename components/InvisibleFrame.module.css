@@ -218,7 +218,7 @@
 .comingsoon1 {
   height: 185px;
   top: 165px;
-  left: -115.5px;
+  /* left: -115.5px; */
   font-size: inherit;
   font-weight: 700;
   font-family: inherit;
@@ -254,6 +254,7 @@
   min-width: 298px;
   max-width: 100%;
   z-index: 2;
+  display: none;
 }
 .frame-inner {
   height: 66px;
@@ -281,6 +282,7 @@
   justify-content: center;
 }
 .rectanglecontainer {
+  display: none;
   cursor: pointer;
   border: 0;
   padding: var(--padding-lgi) 48px 18px 45px;

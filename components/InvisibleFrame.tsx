@@ -6,7 +6,7 @@ const InvisibleFrame: NextPage = () => {
   return (
     <div className={styles.comingsoon}>
     <div className={styles.comingsoonchild}></div>
-    <Mheader/>
+    <Mheader activeLink={""}/>
     <div className={styles.monthlynewsletter}>
       <img
         className={styles.emptyframeicon}
@@ -16,10 +16,10 @@ const InvisibleFrame: NextPage = () => {
       />
 
       <h1 className={styles.comingsoon1}>COMING SOON</h1>
-      <h3 className={styles.inthemeantime}>
+      {/* <h3 className={styles.inthemeantime}>
         In the meantime, Sign up for our monthly newsletter to stay up to
         date.
-      </h3>
+      </h3> */}
       <div className={styles.emailaddressgroup}>
         <input
           className={styles.emailaddressgroupchild}
