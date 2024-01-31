@@ -41,7 +41,7 @@ const ColumnFrame: NextPage = () => {
                   className={styles.emissionManagementFrame}
                   loading="eager"
                   alt=""
-                  src="/rectangle-621@2x.png"
+                  src="/Rectangle62.png"
                 />
                 <div className={styles.dataAnalyticsInsights}>
                   <div className={styles.createYourProject}>
@@ -53,13 +53,13 @@ const ColumnFrame: NextPage = () => {
                 </div>
               </div>
               <FooterFrame
-                rectangle63="/rectangle-63@2x.png"
+                rectangle63="/Rectangle63.png"
                 kickOffYourProject="Kick-off your project"
                 luxaExpertsWillTrainYourP="Luxa experts will train your project team during a project kick-off call."
                 propHeight="54px"
               />
               <FooterFrame
-                rectangle63="/rectangle-64@2x.png"
+                rectangle63="/Rectangle64.png"
                 kickOffYourProject="Achieve your certification goals"
                 luxaExpertsWillTrainYourP="Use Luxa to track all of your certification construction related documentation and stay on track of credit progress."
                 propHeight="81px"

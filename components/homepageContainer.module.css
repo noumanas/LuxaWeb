@@ -1,16 +1,12 @@
 /* @import url('../'); */
-.groupContainer {
-  position: absolute;
-  top: 0;
-  left: 386px;
-  border-radius: var(--br-3xs);
-  background: linear-gradient(96.43deg, #0d703c, #a2d255);
-  width: 279px;
-  height: 84px;
-}
 .luxa {
   color: var(--color-white);
-  font-family: ClashDisplay-Bold;
+  font-weight: 700;
+  font-size: 60px;
+
+  font-family: 'ClashDisplay-Bold', sans-serif; 
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
 }
 .welcomeToLuxaContainer {
   margin: 0;
@@ -49,12 +45,19 @@
 }
 .groupInput {
   margin: 0;
-  height: 19px;
-  width: 19px;
+  height:12px;
+  width: 12px;
   position: relative;
   z-index: 1;
-  background-color: #FFFFFF;
+}
+.iconOfscheduleACall{
   border-radius: 50%;
+  background-color: #FFFFFF;
+  height: 19px;
+  width: 19px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .scheduleACall {
   position: relative;

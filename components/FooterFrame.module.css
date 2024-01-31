@@ -1,6 +1,6 @@
 .footerFrameChild {
   height: 51px;
-  width: 54px;
+  /* width: 54px; */
   position: relative;
   object-fit: cover;
   z-index: 1;

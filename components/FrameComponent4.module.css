@@ -91,9 +91,18 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+.hoverarrow{
+  width: 36px;
+}
 .rectangleIcon,
 .retrofits {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  /* background-color: red; */
+  width: 268px;
 }
 .rectangleContainer {
   flex: 1;

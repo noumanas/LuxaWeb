@@ -14,7 +14,12 @@ line-height: 32px; /* 177.778% */
   .item {
     border-bottom: 1px solid #ccc;
   }
-  
+  .itemBtn:hover{
+    color: var(--dark-green, #0D703C);
+  }
+  .itemBtn:active{
+    color: var(--dark-green, #0D703C);
+  }
   .itemBtn {
     cursor: pointer;
     display: flex;
@@ -29,12 +34,11 @@ line-height: 32px; /* 177.778% */
     /* color: #0D703C; */
     background-color: transparent;
     border: none;
-    color: var(--dark-green, #0D703C);
-font-family: "DM Sans";
-font-size: 25px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px; /* 200% */
+  font-family: "DM Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px; /* 200% */
   }
   
   .itemBtn:hover {

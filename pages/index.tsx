@@ -109,6 +109,8 @@ const HomeLandingPage: NextPage = () => {
           architecture.
         </div>
       </section>
+      
+      {/* Getting started */}
       <ColumnFrame />
       <section className={styles.faqsParent}>
         <h1 className={styles.faqs}>FAQs</h1>

@@ -8,11 +8,15 @@
 }
 .luxa {
   color: var(--color-white);
-font-family: "Clash Display";
+font-family: "ClashDisplay-Bold" ,sans-serif;
 font-size: 45px;
 font-style: normal;
 font-weight: 700;
 line-height: 50px;
+border-radius: var(--br-3xs);
+background: linear-gradient(96.43deg, #0d703c, #a2d255);
+padding-left: 10px;
+padding-right: 10px;
 }
 .gettingStartedWithContainer {
   margin: 0;
@@ -26,8 +30,7 @@ line-height: 50px;
   align-self: stretch;
   width: 135px;
   position: relative;
-  border-radius: var(--br-3xs);
-  background: linear-gradient(96.43deg, #0d703c, #a2d255);
+
   z-index: 1;
   margin-left: -123px;
 }
