@@ -51,6 +51,15 @@ body {
   margin: 0;
   line-height: normal;
 }
+h1{
+  /* color: #000; */
+/* text-align: center; */
+font-family: "Clash Display";
+font-size: 45px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 111.111% */
+}
 :root {
   /* fonts */
   --font-dm-sans: "DM Sans";
