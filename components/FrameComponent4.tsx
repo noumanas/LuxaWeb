@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import styles from "./FrameComponent4.module.css";
 import { useState } from "react";
+import Image from 'next/image'
 
 const FrameComponent4: NextPage = () => {
    const [arrowActive, setarrowActive] = useState(false)
@@ -12,7 +13,7 @@ const FrameComponent4: NextPage = () => {
   return (
     <div className={styles.frameParent}>
       <div className={styles.rectangleContainer}  onMouseLeave={()=>setarrowActive(false)} onMouseEnter={()=>setarrowActive(true)}>
-        <img
+        <Image
           className={styles.rectangleIcon}
           loading="eager"
           alt=""
@@ -21,7 +22,7 @@ const FrameComponent4: NextPage = () => {
    
           <div className={styles.retrofits}>New Construction
           {arrowActive ===true && (
-          <img
+          <Image
             className={styles.hoverarrow}
             loading="eager"
             alt=""
@@ -51,7 +52,7 @@ const FrameComponent4: NextPage = () => {
       {/* </div> */}
       <div className={styles.rectangleContainer} onMouseLeave={()=>setarrowActive1(false)} onMouseEnter={()=>setarrowActive1(true)}>
       
-        <img
+        <Image
           className={styles.rectangleIcon}
           loading="eager"
           alt=""
@@ -59,7 +60,7 @@ const FrameComponent4: NextPage = () => {
         />
         <div className={styles.retrofits}>Retrofits
         {arrowActive1 ===true && (
-          <img
+          <Image
           className={styles.hoverarrow}
           loading="eager"
           alt=""
@@ -69,7 +70,7 @@ const FrameComponent4: NextPage = () => {
         </div>
       </div>
       <div className={styles.frameDiv} onMouseLeave={()=>setarrowActive2(false)} onMouseEnter={()=>setarrowActive2(true)}>
-        <img
+        <Image
           className={styles.frameChild1}
           loading="eager"
           alt=""
@@ -77,7 +78,7 @@ const FrameComponent4: NextPage = () => {
         />
         <div className={styles.retrofits}>Renovations 
         {arrowActive2===true && (
-           <img
+           <Image
            className={styles.hoverarrow}
            loading="eager"
            alt=""
@@ -87,7 +88,7 @@ const FrameComponent4: NextPage = () => {
        </div>
       </div>
       <div className={styles.rectangleParent1} onMouseLeave={()=>setarrowActive3(false)} onMouseEnter={()=>setarrowActive3(true)}>
-        <img
+        <Image
           className={styles.frameChild2}
           loading="eager"
           alt=""
@@ -95,7 +96,7 @@ const FrameComponent4: NextPage = () => {
         />
         <div className={styles.retrofits}>Infrastructure
         {arrowActive3 === true && (
-          <img
+          <Image
           className={styles.hoverarrow}
           loading="eager"
           alt=""

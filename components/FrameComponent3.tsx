@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import styles from "./FrameComponent3.module.css";
+import Image from 'next/image'
 
 const FrameComponent3: NextPage = () => {
   return (
@@ -18,7 +19,7 @@ const FrameComponent3: NextPage = () => {
         <span className={styles.ourSoftwareImpact}>Our Software Impact</span>
       </h1>
       <div className={styles.gcsLogoSymbolParent}>
-        <img
+        <Image
           className={styles.gcsLogoSymbol}
           alt=""
           src="/gcs-logo-symbol@2x.png"
@@ -26,14 +27,14 @@ const FrameComponent3: NextPage = () => {
     
         <div className={styles.frameGroup}>
           <div className={styles.iconlylightarrowRight3Parent}>
-            <img
+            <Image
               className={styles.iconlylightarrowRight3}
               loading="eager"
               alt=""
               src="/iconlylightarrow--right-3@2x.png"
             />
             <h2 className={styles.architecturalFirms}>Architectural Firms</h2>
-            <img
+            <Image
               className={styles.iconlylightarrowRight2}
               loading="eager"
               alt=""
@@ -45,7 +46,7 @@ const FrameComponent3: NextPage = () => {
         <div className={styles.frameWrapper}>
           <div className={styles.learnMoreParent}>
             <div className={styles.learnMore}>Learn More</div>
-            <img
+            <Image
               className={styles.frameInner}
               loading="eager"
               alt=""

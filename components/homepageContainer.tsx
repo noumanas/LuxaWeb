@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import styles from "./homepageContainer.module.css";
-
+import Image from 'next/image'
 const homepageContainer: NextPage = () => {
   return (
     <div className={styles.text}>
@@ -26,7 +26,7 @@ const homepageContainer: NextPage = () => {
                 <button className={styles.rectangleParent}>
                   <div className={styles.frameChild} />
                   <div className={styles.iconOfscheduleACall}>
-                    <img className={styles.groupInput} src='./ArrowRight.png'/>
+                    <Image className={styles.groupInput} src='./ArrowRight.png' alt="Welcome" width={825} height={624}/>
 
                   </div>
                   <div className={styles.scheduleACall}>Schedule a call</div>

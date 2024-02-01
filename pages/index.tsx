@@ -12,6 +12,8 @@ import SecondAccordion from "../components/SecondAccordion";
 import ContactFormContainer from "../components/ContactFormContainer";
 import Accordions from "../components/Accordion";
 import { useEffect, useState } from "react";
+import Image from 'next/image'
+
 const HomeLandingPage: NextPage = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [loaded, setLoaded] = useState(false);
@@ -63,7 +65,7 @@ const HomeLandingPage: NextPage = () => {
 
             <SecondAccordion/>
             <div className={styles.wrapperContactDetails}>
-              <img
+              <Image
                 className={styles.contactDetailsIcon}
                 loading="eager"
                 alt=""
