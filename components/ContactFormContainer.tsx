@@ -46,7 +46,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
               className={styles.groupRequestaDemo}
               loading="eager"
               alt=""
-              src={imageSize}
+              src={imageSize ||"../shared/lib/get-img-props"}
               style={groupRequestaDemoStyle}
             />
             <h1 className={styles.contactUsFor}>{contactMessage}</h1>
@@ -130,7 +130,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
         className={styles.polygonBackgroundIcon}
         loading="eager"
         alt=""
-        src={renovationImageUrl}
+        src={renovationImageUrl||'../shared/lib/get-img-props'}
       />
     </section>
   );
