@@ -11,18 +11,26 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
   const [resourceisDropdownOpen, setresourceisDropdownOpen] = useState(false);
   const [submenushow, setsubmenushow] = useState(false);
   const [submenushowsecond, setsubmenushowsecond] = useState(false);
+  const [changeStroke, setchangeStroke] = useState(false);
+  const [changeStrokeresources, setchangeStrokeresources] = useState(false);
+
+
   const [activeLinks, setActiveLink] =  useState("");
   console.log('activeLink',activeLink);
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
+    setchangeStroke(true)
   };
 
   const closeDropdown = () => {
     setIsDropdownOpen(false);
+    setchangeStroke(false);
+
   };
 
   const handleMouseEnter1 = () => {
     setisknolegdeDropdownOpen(true);
+
   };
 
   const closeDropdown1 = () => {
@@ -31,10 +39,15 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
 
   const handleMouseEnter2 = () => {
     setresourceisDropdownOpen(true);
+    setchangeStrokeresources(true);
+
+
   };
 
   const closeDropdown2 = () => {
     setresourceisDropdownOpen(false);
+    setchangeStrokeresources(false);
+
   };
 
   const handleMouseEntersubmenu = () => {
@@ -74,15 +87,21 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
        
         <div className={styles.polygon}>
        
-        <div  className={styles.servicesParent} onClick={() => handleLinkClick("services")} onMouseEnter={handleMouseEnter} onMouseLeave={closeDropdown}>
+        <div  className={styles.servicesParent} onClick={() => handleLinkClick("services")} onMouseMove={handleMouseEnter} onMouseLeave={closeDropdown}>
            <Link href="/services" >
               <div className={`${styles.services} ${
               activeLink === "services" ? styles.activeLink : ""
-            }`}>Services</div>
+            }`}> 
+            <div className={styles.group}>
+            Services
+            {changeStroke === true ? (
+              <img className={styles.stroke3Icon} alt="" src="/Stroke3-hover.svg" />
+            ):(<img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />)}
+            
+          </div> 
+          </div>
            </Link>
-                <div className={styles.group}>
-                  <img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />
-                </div>
+                
           
              {/* Dropdown menu */}
             {isDropdownOpen && (
@@ -121,24 +140,27 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
           </Link>
           
           <Link href='/resources'>
-          <div className={styles.resourcesParent} onMouseEnter={handleMouseEnter2} onMouseLeave={closeDropdown2} onClick={() => handleLinkClick("resources")} >
-            <div className={`${styles.resources} ${
-              activeLink === "resources" ? styles.activeLink : "color: orange"
-            }`}>Resources</div>
-            <div className={styles.stroke2Wrapper}>
-              <img className={styles.stroke2Icon} alt="" src="/stroke-3.svg" />
-            </div>
+          <div className={styles.resourcesParent} onMouseMove={handleMouseEnter2} onMouseLeave={closeDropdown2} onClick={() => handleLinkClick("resources")} >
+            <div className={`${styles.services} ${
+              activeLink === "resources" ? styles.activeLink : ""
+            }`}>Resources  {changeStrokeresources === true ? (
+              <img className={styles.stroke3Icon} alt="" src="/Stroke3-hover.svg" />
+           ):(
+             <img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />
+           )}</div>
+             
+            
             {resourceisDropdownOpen  && (
             <div
-              className={styles.dropdownMenu}
+              className={styles.dropdownMenu2}
               onMouseEnter={handleMouseEnter2} // Prevent closing when hovering over the dropdown menu
               onMouseLeave={closeDropdown2}
             >
                 <ul>
-                  <li onMouseEnter={handleMouseEntersubmenu} onMouseLeave={closeDropdownmenu}>
+                  <li onMouseEnter={handleMouseEntersubmenu} onMouseLeave={closeDropdownmenu} className={styles.constraction}>
                     Construction Type
                   </li>
-                  <li onMouseEnter={handleMouseEntersubmenuscond} onMouseLeave={closeDropdownmenusecond}>
+                  <li onMouseEnter={handleMouseEntersubmenuscond} onMouseLeave={closeDropdownmenusecond} className={styles.constraction}>
                     Industries Type
                   </li>
                 </ul>

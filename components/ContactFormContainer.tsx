@@ -63,13 +63,13 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Full Name"
                 type="text"
               />
-              <img
+              {/* <img
                 className={styles.emailFieldFrameChild}
                 alt=""
                 src="/line-48.svg"
-              />
+              /> */}
             </div>
-            <div className={styles.emailFieldFrame1}>
+            <div className={styles.emailFieldFrame}>
               <div className={styles.emailWrapper}>
                 <div className={styles.email}>EMAIL:</div>
               </div>
@@ -84,7 +84,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 src="/line-48.svg"
               />
             </div>
-            <div className={styles.emailFieldFrame2}>
+            <div className={styles.emailFieldFrame}>
               <div className={styles.phoneWrapper}>
                 <div className={styles.phone}>PHONE:</div>
               </div>
@@ -95,7 +95,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
               />
               <img className={styles.lineIcon} alt="" src="/line-48.svg" />
             </div>
-            <div className={styles.emailFieldFrame3}>
+            <div className={styles.emailFieldFrame}>
               <div className={styles.messageWrapper}>
                 <div className={styles.message}>Message:</div>
               </div>
