@@ -162,14 +162,7 @@ const ServicesLEEDCertificationM: NextPage = () => {
                 className={styles.group10000024971}
                 loading="eager"
                 alt=""
-                src="/group-1000002497-1@2x.png"
-              />
-            </div>
-            <div className={styles.wrapperGroup12160252331}>
-              <img
-                className={styles.group12160252331}
-                alt=""
-                src="/group-1216025233-1@2x.png"
+                src="/group-1000002497-2@2x.png"
               />
             </div>
           </div>
@@ -217,7 +210,6 @@ const ServicesLEEDCertificationM: NextPage = () => {
               </div>
             </div>
             <div className={styles.lEEDCertificationManageme}>
-              <div className={styles.lEEDCertificationManagemeChild} />
               <img
                 className={styles.group12160252341}
                 loading="eager"

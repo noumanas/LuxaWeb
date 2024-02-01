@@ -1,7 +1,10 @@
 import type { NextPage } from "next";
 import styles from "./SectionServices.module.css";
 import Mheader from "./mainheader";
+import { useState } from "react";
 const SectionServices: NextPage = () => {
+  const [activeLink, setActiveLink] =  useState("company");
+
   return (
     <section className={styles.companyInner}>
       <div className={styles.rectangleParent}>
@@ -65,7 +68,7 @@ const SectionServices: NextPage = () => {
             </button>
           </div>
         </header> */}
-        <Mheader activeLink={""}/>
+        <Mheader activeLink={activeLink}/>
         <div className={styles.contactUs}>
           <div className={styles.partners}>
             <h1 className={styles.meetLuxaBuilding}>

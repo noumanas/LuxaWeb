@@ -50,7 +50,7 @@ const Header: NextPage<HeaderType> = ({
           <div className={styles.frameDiv}>
             <div className={styles.rectangleDiv} />
             <div className={styles.scroll}>Scroll</div>
-            <img className={styles.arrowIcon} alt="" src="/arrow-7.svg" />
+            <img className={styles.arrowIcon} alt="" src="/arrow-7.png" />
           </div>
         </div>
       </div>

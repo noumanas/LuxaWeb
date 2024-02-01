@@ -131,7 +131,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
               <h1 className={styles.readyToFindContainer}>
                 <p className={styles.readyToFind}>Subscribe News Letter</p>
               </h1>
-              <input type="text" alt=""/>
+              <input type="text" className={styles.subscribeInput} alt="" placeholder="Enter Email Address"/>
             </div>
             <div className={styles.subscribe}>Subscribe</div>
           </div>

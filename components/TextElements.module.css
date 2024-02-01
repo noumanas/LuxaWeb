@@ -9,6 +9,21 @@
   font-weight: 500;
   z-index: 1;
 }
+.subscribeInput{
+  padding-left: 10px;
+  border: none;
+  color: #17773D;
+  background-color: #B7D5C5;
+}
+.subscribe:hover{
+  background: linear-gradient(96.43deg, #0D703C 0%, #A2D255 100%);
+color: #FFF;
+transition: all 0.5s ease-out;
+}
+.subscribeInput::placeholder {
+  color: #17773D;
+  opacity: 1; /* Firefox */
+}
 .readyToFindContainer {
   align-self: stretch;
   height: 130px;
@@ -63,6 +78,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+cursor: pointer;
+
 }
 .emailoutreachprojectluxaorg {
   width: 339px;

@@ -239,6 +239,9 @@
 .scroll {
   position: relative;
   z-index: 2;
+  margin-top: 10px;
+  cursor: pointer;
+
 }
 .scroll {
   width: 42px;
@@ -247,7 +250,6 @@
   transform: rotate(-90deg);
 }
 .arrowIcon {
-  width: 0;
   height: 14px;
   object-fit: contain;
 }
@@ -266,6 +268,12 @@
   gap: var(--gap-5xs);
   z-index: 1;
   color: var(--color-seagreen-200);
+  cursor: pointer;
+}
+.frameDiv:hover{
+  padding-top: 15px;
+transition: all 0.5s ease-out;
+
 }
 .contactInfoFrame,
 .rectangleParent,

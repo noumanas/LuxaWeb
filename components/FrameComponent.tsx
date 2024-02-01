@@ -32,7 +32,7 @@ const FrameComponent: NextPage = () => {
             <span>{`Optimize your business intelligence with trusted `}</span>
             <b className={styles.luxa}>LUXA</b>
           </h1>
-          <div className={styles.frame} />
+          {/* <div className={styles.frame} /> */}
         </div>
       </div>
       <div className={styles.groupParent}>

@@ -81,13 +81,13 @@ const ServicesMain: NextPage = () => {
                 src="/group-1000002497-2@2x.png"
               />
             </div>
-            <div className={styles.wrapperGroup12160252332}>
+            {/* <div className={styles.wrapperGroup12160252332}>
               <img
                 className={styles.group12160252332}
                 alt=""
                 src="/group-1216025233-2@2x.png"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -171,7 +171,7 @@ const ServicesMain: NextPage = () => {
       </section>
       <FrameComponent />
       {/* <Group /> */}
-      <DataAnalyticsInsightsContainer dataforcard={"Testing.."} />
+      <DataAnalyticsInsightsContainer dataforcard={""} />
       
       <ContactFormContainer
         imageSize="/frame1.svg"

@@ -16,7 +16,7 @@ const DataAnalyticsInsightsContainer:  NextPage<wordTypeDefine> =({
             <b className={styles.luxa}>{`LUXA `}</b>
             <span>{dataforcard}</span>
           </h1>
-          <div className={styles.footerFrame} />
+          {/* <div className={styles.footerFrame} /> */}
         </div>
         <div
           className={styles.contactUsToday}

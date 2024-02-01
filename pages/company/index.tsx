@@ -5,6 +5,7 @@ import styles from "./Company.module.css";
 import Footer from "../../components/Footer";
 import ContactFormContainer from "../../components/ContactFormContainer";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
+import { useState } from "react";
 
 const Company: NextPage = () => {
   return (

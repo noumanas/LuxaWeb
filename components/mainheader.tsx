@@ -16,7 +16,6 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
 
 
   const [activeLinks, setActiveLink] =  useState("");
-  console.log('activeLink',activeLink);
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
     setchangeStroke(true)
@@ -226,7 +225,9 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
           </Link>
           
          <Link href="/company">
-         <div className={styles.company}>Company</div>
+         <div className={`${styles.company} ${
+              activeLink === "company" ? styles.activeLink : ""
+            }`} onClick={() => handleLinkClick("company")}>Company</div>
          </Link>
         
           

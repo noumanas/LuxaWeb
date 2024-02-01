@@ -233,18 +233,16 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  position: absolute;
+  /* position: absolute; */
   left: 1px;
   top: 1px;
   transform: scale(1.068);
 }
 .wrapperGroup10000024971 {
-  position: absolute;
-  top: 0;
-  left: 104px;
+margin-top: 105px;
   border-radius: var(--br-xs);
-  width: 552px;
-  height: 311px;
+  width: 656px;
+  height: 406px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,7 +254,7 @@
   object-fit: contain;
   position: absolute;
   left: 0;
-  top: 2px;
+  top: 100px;
   transform: scale(1.076);
 }
 .wrapperGroup12160252331 {
@@ -325,10 +323,10 @@
 .luxaLEEDSteps {
   width: 601px;
   border-radius: var(--br-xs);
-  border: 4px solid var(--primary-linear-color);
+  /* border: 4px solid var(--primary-linear-color); */
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   align-items: flex-start;
   justify-content: center;
   padding: var(--padding-9xs) var(--padding-7xs) var(--padding-sm)
@@ -428,7 +426,7 @@
 }
 .group12160252341 {
   height: 332px;
-  flex: 1;
+  /* flex: 1; */
   position: relative;
   border-radius: var(--br-2xs);
   max-width: 100%;
@@ -446,7 +444,7 @@
 .lEEDCertificationManageme {
   width: 654px;
   border-radius: var(--br-xs);
-  border: 4px solid var(--primary-linear-color);
+  /* border: 4px solid var(--primary-linear-color); */
   box-sizing: border-box;
   justify-content: center;
   padding: var(--padding-xs) var(--padding-sm) var(--padding-mini)
