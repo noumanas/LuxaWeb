@@ -7,6 +7,7 @@ import ContactFormContainer from "../../components/ContactFormContainer";
 import { useEffect, useState } from "react";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
 import Header from "../../components/Header";
+import Image from 'next/image'
 
 const ServicesMain: NextPage = () => {
   const [loaded, setLoaded] = useState(false);
@@ -63,7 +64,7 @@ const ServicesMain: NextPage = () => {
               </div>
               <div className={styles.learnMoreParent}>
                 <div className={styles.learnMore}>Learn More</div>
-                <img
+                <Image
                   className={styles.frameChild}
                   loading="eager"
                   alt=""
@@ -74,7 +75,7 @@ const ServicesMain: NextPage = () => {
           </div>
           <div className={styles.contactAnExpertFrame}>
             <div className={styles.wrapperGroup10000024972}>
-              <img
+              <Image
                 className={styles.group10000024972}
                 loading="eager"
                 alt=""
@@ -82,7 +83,7 @@ const ServicesMain: NextPage = () => {
               />
             </div>
             {/* <div className={styles.wrapperGroup12160252332}>
-              <img
+              <Image
                 className={styles.group12160252332}
                 alt=""
                 src="/group-1216025233-2@2x.png"
@@ -96,7 +97,7 @@ const ServicesMain: NextPage = () => {
           <div className={styles.readyToLearnFrameParent}>
             <div className={styles.readyToLearnFrame}>
               <div className={styles.readyToLearnFrameChild} />
-              <img
+              <Image
                 className={styles.group100000249312}
                 loading="eager"
                 alt=""
@@ -117,7 +118,7 @@ const ServicesMain: NextPage = () => {
                 </div>
                 <div className={styles.environmentalImpactAssessmen}>
                   <div className={styles.learnMore1}>Learn More</div>
-                  <img
+                  <Image
                     className={styles.environmentalImpactAssessmenChild}
                     loading="eager"
                     alt=""
@@ -148,7 +149,7 @@ const ServicesMain: NextPage = () => {
                   </div>
                   <div className={styles.group1}>
                     <div className={styles.learnMore2}>Learn More</div>
-                    <img
+                    <Image
                       className={styles.groupChild}
                       loading="eager"
                       alt=""
@@ -159,7 +160,7 @@ const ServicesMain: NextPage = () => {
               </div>
             </div>
             <div className={styles.wrapperGroup12160252431}>
-              <img
+              <Image
                 className={styles.group12160252431}
                 loading="eager"
                 alt=""

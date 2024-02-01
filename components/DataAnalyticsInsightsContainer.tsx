@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import styles from "./DataAnalyticsInsightsContainer.module.css";
+import Image from 'next/image'
+
 type wordTypeDefine = {
   dataforcard?:string
 }
@@ -35,7 +37,7 @@ const DataAnalyticsInsightsContainer:  NextPage<wordTypeDefine> =({
           <div className={styles.frameParent}>
             <div className={styles.rectangleGroup}>
               <div className={styles.frameItem} />
-              <img
+              <Image
                 className={styles.group12160252371}
                 loading="eager"
                 alt=""
@@ -44,7 +46,7 @@ const DataAnalyticsInsightsContainer:  NextPage<wordTypeDefine> =({
             </div>
             <div className={styles.rectangleContainer}>
               <div className={styles.frameInner} />
-              <img
+              <Image
                 className={styles.group12160252361}
                 loading="eager"
                 alt=""

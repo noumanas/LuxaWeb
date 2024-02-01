@@ -1,13 +1,14 @@
 import type { NextPage } from "next";
 import Group1 from "./Group1";
 import styles from "./FrameComponent.module.css";
+import Image from 'next/image'
 
 const FrameComponent: NextPage = () => {
   return (
     <section className={styles.frameParent}>
       <div className={styles.wrapperGroup12160252422Parent}>
         <div className={styles.wrapperGroup12160252422}>
-          <img
+          <Image
             className={styles.group12160252422}
             loading="eager"
             alt=""

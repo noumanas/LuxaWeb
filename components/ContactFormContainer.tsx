@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
 import styles from "./ContactFormContainer.module.css";
+import Image from 'next/image'
 
 type ContactFormContainerType = {
   imageSize?: string;
@@ -41,7 +42,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
         <div className={styles.registrationForm} style={registrationFormStyle}>
           <div className={styles.registrationFormChild} />
           <div className={styles.frameRegistrationForm}>
-            <img
+            <Image
               className={styles.groupRequestaDemo}
               loading="eager"
               alt=""
@@ -63,7 +64,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Full Name"
                 type="text"
               />
-              {/* <img
+              {/* <Image
                 className={styles.emailFieldFrameChild}
                 alt=""
                 src="/line-48.svg"
@@ -78,7 +79,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Your Email Address "
                 type="text"
               />
-              <img
+              <Image
                 className={styles.emailFieldFrameInner}
                 alt=""
                 src="/line-48.svg"
@@ -93,7 +94,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Your Contact Number"
                 type="text"
               />
-              <img className={styles.lineIcon} alt="" src="/line-48.svg" />
+              <Image className={styles.lineIcon} alt="" src="/line-48.svg" />
             </div>
             <div className={styles.emailFieldFrame}>
               <div className={styles.messageWrapper}>
@@ -104,7 +105,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Any Specific Message Type Here ...."
                 type="text"
               />
-              <img
+              <Image
                 className={styles.emailFieldFrameChild2}
                 alt=""
                 src="/line-48.svg"
@@ -118,14 +119,14 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
             </div>
           </form>
         </div>
-        <img
+        <Image
           className={styles.frameGettingStarted}
           loading="eager"
           alt=""
           src="/polygon-11.svg"
         />
       </div>
-      <img
+      <Image
         className={styles.polygonBackgroundIcon}
         loading="eager"
         alt=""
