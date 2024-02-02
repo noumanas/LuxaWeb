@@ -26,7 +26,7 @@ const homepageContainer: NextPage = () => {
                 <button className={styles.rectangleParent}>
                   <div className={styles.frameChild} />
                   <div className={styles.iconOfscheduleACall}>
-                    <Image className={styles.groupInput} src='./ArrowRight.png' alt="Welcome" width={825} height={624}/>
+                    <Image className={styles.groupInput} src='/ArrowRight.png' alt="Welcome" width={825} height={624}/>
 
                   </div>
                   <div className={styles.scheduleACall}>Schedule a call</div>

@@ -42,7 +42,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
         <div className={styles.registrationForm} style={registrationFormStyle}>
           <div className={styles.registrationFormChild} />
           <div className={styles.frameRegistrationForm}>
-            <Image
+            <img
               className={styles.groupRequestaDemo}
               loading="eager"
               alt=""
@@ -79,7 +79,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Your Email Address "
                 type="text"
               />
-              <Image
+              <img
                 className={styles.emailFieldFrameInner}
                 alt=""
                 src="/line-48.svg"
@@ -94,7 +94,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Your Contact Number"
                 type="text"
               />
-              <Image className={styles.lineIcon} alt="" src="/line-48.svg" />
+              <img className={styles.lineIcon} alt="" src="/line-48.svg" />
             </div>
             <div className={styles.emailFieldFrame}>
               <div className={styles.messageWrapper}>
@@ -105,7 +105,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 placeholder="Any Specific Message Type Here ...."
                 type="text"
               />
-              <Image
+              <img
                 className={styles.emailFieldFrameChild2}
                 alt=""
                 src="/line-48.svg"
@@ -119,14 +119,14 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
             </div>
           </form>
         </div>
-        <Image
+        <img
           className={styles.frameGettingStarted}
           loading="eager"
           alt=""
           src="/polygon-11.svg"
         />
       </div>
-      <Image
+      <img
         className={styles.polygonBackgroundIcon}
         loading="eager"
         alt=""

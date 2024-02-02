@@ -18,43 +18,7 @@ const FrameComponent3: NextPage = () => {
         <span>{`Unlocking Values Across Industries `}</span>
         <span className={styles.ourSoftwareImpact}>Our Software Impact</span>
       </h1>
-      <div className={styles.gcsLogoSymbolParent}>
-        <Image
-          className={styles.gcsLogoSymbol}
-          alt=""
-          src="/gcs-logo-symbol@2x.png"
-        />
-    
-        <div className={styles.frameGroup}>
-          <div className={styles.iconlylightarrowRight3Parent}>
-            <Image
-              className={styles.iconlylightarrowRight3}
-              loading="eager"
-              alt=""
-              src="/iconlylightarrow--right-3@2x.png"
-            />
-            <h2 className={styles.architecturalFirms}>Architectural Firms</h2>
-            <Image
-              className={styles.iconlylightarrowRight2}
-              loading="eager"
-              alt=""
-              src="/iconlylightarrow--right-2.svg"
-            />
-          </div>
-          {/* <div className={styles.frameItem} /> */}
-        </div>
-        <div className={styles.frameWrapper}>
-          <div className={styles.learnMoreParent}>
-            <div className={styles.learnMore}>Learn More</div>
-            <Image
-              className={styles.frameInner}
-              loading="eager"
-              alt=""
-              src="/arrow-5.svg"
-            />
-          </div>
-        </div>
-      </div>
+ 
     </section>
   );
 };

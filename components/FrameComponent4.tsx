@@ -18,6 +18,8 @@ const FrameComponent4: NextPage = () => {
           loading="eager"
           alt=""
           src="/rectangle-70@2x.png"
+          width={240}
+          height={332}
         />
    
           <div className={styles.retrofits}>New Construction
@@ -27,6 +29,8 @@ const FrameComponent4: NextPage = () => {
             loading="eager"
             alt=""
             src="/Arrowconttraction.png"
+            width={36}
+            height={0}
           />
           )}
         </div>
@@ -57,6 +61,8 @@ const FrameComponent4: NextPage = () => {
           loading="eager"
           alt=""
           src="/rectangle-631@2x.png"
+          width={240}
+          height={332}
         />
         <div className={styles.retrofits}>Retrofits
         {arrowActive1 ===true && (
@@ -65,6 +71,8 @@ const FrameComponent4: NextPage = () => {
           loading="eager"
           alt=""
           src="/Arrowconttraction.png"
+          width={36}
+          height={0}
         />
         )}
         </div>
@@ -75,6 +83,8 @@ const FrameComponent4: NextPage = () => {
           loading="eager"
           alt=""
           src="/rectangle-641@2x.png"
+          width={240}
+          height={332}
         />
         <div className={styles.retrofits}>Renovations 
         {arrowActive2===true && (
@@ -83,6 +93,8 @@ const FrameComponent4: NextPage = () => {
            loading="eager"
            alt=""
            src="/Arrowconttraction.png"
+           width={36}
+           height={0}
          />
         )}
        </div>
@@ -93,6 +105,8 @@ const FrameComponent4: NextPage = () => {
           loading="eager"
           alt=""
           src="/rectangle-65@2x.png"
+          width={240}
+          height={332}
         />
         <div className={styles.retrofits}>Infrastructure
         {arrowActive3 === true && (
@@ -101,6 +115,8 @@ const FrameComponent4: NextPage = () => {
           loading="eager"
           alt=""
           src="/Arrowconttraction.png"
+          width={36}
+          height={0}
         />
         )}
         </div>

@@ -69,7 +69,9 @@ const HomeLandingPage: NextPage = () => {
                 className={styles.contactDetailsIcon}
                 loading="eager"
                 alt=""
-                src="Rectangle4.png"
+                src="/Rectangle4.png"
+                width={527}
+                height={479}
               />
             </div>
           </div>
@@ -98,6 +100,33 @@ const HomeLandingPage: NextPage = () => {
       <FrameComponent3 />
       
       <section className={styles.homeLandingPageChild}>
+      <div className={styles.gcsLogoSymbolParent}>
+        <img
+          className={styles.gcsLogoSymbol}
+          alt=""
+          src="/gcs-logo-symbol@2x.png"
+        />
+    
+        <div className={styles.frameGroup}>
+          <div className={styles.iconlylightarrowRight3Parent}>
+            <img
+              className={styles.iconlylightarrowRight3}
+              loading="eager"
+              alt=""
+              src="/iconlylightarrow--right-3@2x.png"
+            />
+            <h2 className={styles.architecturalFirms}>Architectural Firms</h2>
+            <img
+              className={styles.iconlylightarrowRight2}
+              loading="eager"
+              alt=""
+              src="/iconlylightarrow--right-2.svg"
+
+            />
+          </div>
+          {/* <div className={styles.frameItem} /> */}
+        </div>
+      </div>
         <FRAME/>
         
       </section>
