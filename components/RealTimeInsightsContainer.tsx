@@ -23,11 +23,7 @@ const RealTimeInsightsContainer: NextPage<RealTimeInsightsContainerType> = ({
         </div>
         <div className={styles.environmentalImpactAssessmen}>
           <div className={styles.rectangleParent}>
-            <img
-              className={styles.frameChild}
-              alt=""
-              src="/rectangle-77-1@2x.png"
-            />
+            
             <div className={styles.wrapperPartnerPortal}>
               <img
                 className={styles.partnerPortalIcon}

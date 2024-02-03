@@ -5,11 +5,11 @@ const FormContainer2: NextPage = () => {
   return (
     <section className={styles.reporting}>
       <div className={styles.frameDataAnalyticsInsights}>
-        <img
+        {/* <img
           className={styles.frameDataAnalyticsInsightsChild}
           alt=""
-          src="/rectangle-51@2x.png"
-        />
+          src=""
+        /> */}
         <h1 className={styles.joinTheLuxa}>Join the Luxa Community</h1>
         <div className={styles.contactUsOurStoryPrivacyP}>
           <h2 className={styles.connectWithConstruction}>

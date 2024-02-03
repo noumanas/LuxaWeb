@@ -44,12 +44,12 @@ const DataDrivenDesignFrame: NextPage = () => {
           </div>
           <div className={styles.wrapperRectangle78Parent}>
             <div className={styles.wrapperRectangle78}>
-              <img
+              {/* <img
                 className={styles.wrapperRectangle78Child}
                 loading="eager"
                 alt=""
                 src="/rectangle-781@2x.png"
-              />
+              /> */}
             </div>
             <img
               className={styles.group10000024961}

@@ -36,7 +36,7 @@ const FrameComponent1: NextPage = () => {
             src="/group-33387.svg"
           /> */}
          
-          <div className={styles.messageTextArea}>
+          <div className={styles.messageTextArea} onClick={handleOpenModal}>
             {/* <img
               className={styles.messageTextAreaChild}
               alt=""
@@ -55,7 +55,7 @@ const FrameComponent1: NextPage = () => {
         <VideoModal videoUrl="https://www.youtube.com/watch?v=L0OVc-slFX8" onClose={()=>handleCloseModal()} />
       )}
       <div className={styles.frameWrapper}>
-        <button className={styles.rectangleParent} onClick={handleOpenModal}>
+        <button className={styles.rectangleParent} >
           <div className={styles.frameChild} />
           <div className={styles.getADemo}>Get a Demo</div>
         </button>

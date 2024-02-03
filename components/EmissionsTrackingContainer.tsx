@@ -39,11 +39,11 @@ const EmissionsTrackingContainer: NextPage<EmissionsTrackingContainerType> = ({
       </div>
       <div className={styles.frameCallToAction}>
         <div className={styles.rectangleParent} style={groupDiv1Style}>
-          <img
+          {/* <img
             className={styles.frameChild}
             alt=""
             src="/rectangle-77@2x.png"
-          />
+          /> */}
           <div className={styles.wrapperFrameEmailOutreach}>
             <img
               className={styles.frameEmailOutreach}

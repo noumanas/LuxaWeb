@@ -11,15 +11,35 @@ import CardContainer from "../../../components/CardContainer";
 const ResourcesIndustryEngineer: NextPage = () => {
   const accordionData = [
     {
-      header: "What is LEED Certification and Why is it Important?",
-      description: "LEED (Leadership in Energy and Environmental Design) is a globally recognized green building certification system. It provides a framework for healthy, efficient, carbon-saving green buildings. LEED certification is important as it demonstrates a building's commitment to environmental sustainability and can lead to reduced operational costs, increased asset value, and a healthier environment for occupants."
+      header: "How Does Luxa Help with Sustainability in Engineering Projects?",
+      description: "Luxa's software is designed to integrate sustainability into every phase of engineering projects. It offers tools for real-time emissions tracking, sustainability certification management, and efficient resource use, aiding in making environmentally responsible decisions throughout the project lifecycle."
     },
     {
-      header: "How do I register my first project?",
-      description: "Quisque eget luctus mi, vehicula mollis lorem. Proin fringilla vel erat quis sodales. Nam ex enim, eleifend venenatis lectus vitae."
+      header: "Can Luxa Integrate with Existing Engineering Design Tools?",
+      description: "Absolutely. Luxa is built with compatibility in mind and can seamlessly integrate with a wide range of engineering design tools and software, ensuring a smooth workflow and data consistency across platforms."
     },
-    // Add more accordion items as needed
+    {
+      header: "Does Luxa Support LEED Certification for Engineering Projects?",
+      description: "Yes, Luxa supports LEED certification by providing detailed tracking and reporting features that align with LEED requirements, making it easier for engineering projects to achieve and maintain this certification."
+    },
+    {
+      header: "Is Luxa Suitable for Both Small and Large-Scale Engineering Projects?",
+      description: "Definitely. Luxa is scalable and flexible, making it an ideal solution for any size of engineering project, from small-scale builds to large, complex constructions."
+    },
+    {
+      header: "How Does Luxa Ensure Data Accuracy in Emissions Tracking?",
+      description: "Luxa employs advanced algorithms and data validation techniques to ensure the accuracy of emissions data. It gathers information from reliable sources and utilizes real-time data processing to provide precise and up-to-date emissions insights."
+    },
+    {
+      header: "Can Luxa Help in Reducing the Carbon Footprint of Engineering Projects?",
+      description: "Yes, Luxa is designed to help reduce the carbon footprint of engineering projects. By providing detailed emissions data and identifying areas where efficiency can be improved, Luxa enables engineers to make informed decisions that contribute to lower carbon emissions."
+    },
+    {
+      header: "How User-Friendly is Luxa for Engineers Who Aren't Tech-Savvy?",
+      description: "Luxa is designed with a user-friendly interface, making it accessible even for those who may not be tech-savvy. It offers intuitive navigation and clear, visual data representation, ensuring that all users can efficiently utilize its features without a steep learning curve. Additionally, we provide comprehensive support and training materials to help users get the most out of our platform."
+    }
   ];
+  
   return (
     <div className={styles.resourcesIndustryEngineer}>
       <Header

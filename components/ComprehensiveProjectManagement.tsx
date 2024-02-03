@@ -33,11 +33,7 @@ const ComprehensiveProjectManagement: NextPage = () => {
       <div className={styles.ourStory}>
         <div className={styles.privacyPolicies}>
           <div className={styles.group10000024891Parent}>
-            <img
-              className={styles.group10000024891}
-              alt=""
-              src="/group-1000002489-1@2x.png"
-            />
+
             <div className={styles.wrapperRegistrationInfo}>
               <img
                 className={styles.registrationInfoIcon}
@@ -80,11 +76,11 @@ const ComprehensiveProjectManagement: NextPage = () => {
             </div>
           </div>
           <div className={styles.rectangleParent}>
-            <img
+            {/* <img
               className={styles.frameChild}
               alt=""
               src="/rectangle-77-1@2x.png"
-            />
+            /> */}
             <div className={styles.wrapperServicesOverview}>
               <img
                 className={styles.servicesOverviewIcon}

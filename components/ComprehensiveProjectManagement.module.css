@@ -108,7 +108,7 @@
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xs) var(--padding-7xl) 0;
-  background-image: url(/group-1000002489-1@2x.png);
+  /* background-image: url(/group-1000002489-1@2x.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -249,7 +249,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 var(--padding-lgi) var(--padding-12xs) 0;
-  background-image: url(/rectangle-77-1@2x.png);
+  /* background-image: url(/rectangle-77-1@2x.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

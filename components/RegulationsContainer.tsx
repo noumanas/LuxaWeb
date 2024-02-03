@@ -40,27 +40,27 @@ const RegulationsContainer: NextPage<RegulationsContainerType> = ({
   return (
     <div className={styles.contactUs}>
       <div className={styles.group10000024891Parent}>
-        <img
+        {/* <img
           className={styles.group10000024891}
           alt=""
           src="/group-1000002489-1@2x.png"
-        />
+        /> */}
         <div
           className={styles.wrapperScopeManagement}
           style={wrapperScopeManagementStyle}
         >
-          <img
+          {/* <img
             className={styles.scopeManagementIcon}
             alt=""
             src="/rectangle-78-1@2x.png"
-          />
+          /> */}
         </div>
-        <img
+        {/* <img
           className={styles.group10000024892}
           loading="eager"
           alt=""
           src="/group-1000002489-2@2x.png"
-        />
+        /> */}
       </div>
       <div
         className={styles.dataAnalyticsInsights}

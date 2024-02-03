@@ -81,21 +81,27 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                     <li>Construction Type</li>
                   </ul>
                 </div>
-                <div className={styles.ourStory}>
-                  <ul className={styles.ourStory1}>
-                    <li>New Construction - Residential and Commercialy</li>
-                  </ul>
-                </div>
-                <div className={styles.privacyPoliciesContainer}>
-                  <ul className={styles.privacyPolicies}>
-                    <li>Retrofit & Renovation</li>
-                  </ul>
-                </div>
-                <div className={styles.termsConditionsContainer}>
-                  <ul className={styles.termsConditions}>
-                    <li>Infrastructure</li>
-                  </ul>
-                </div>
+                <Link href='/resources'>
+                  <div className={styles.ourStory}>
+                    <ul className={styles.ourStory1}>
+                      <li>New Construction - Residential and Commercialy</li>
+                    </ul>
+                  </div>
+                </Link>
+                <Link href='/resources/retrofit-and-renovation'>
+                  <div className={styles.privacyPoliciesContainer}>
+                    <ul className={styles.privacyPolicies}>
+                      <li>Retrofit & Renovation</li>
+                    </ul>
+                  </div>
+                </Link>
+                <Link href='/resources/infrastructure'>
+                  <div className={styles.termsConditionsContainer}>
+                    <ul className={styles.termsConditions}>
+                      <li>Infrastructure</li>
+                    </ul>
+                  </div>
+                </Link>
                 <div className={styles.careers}>
                   <ul className={styles.careers1}>
                     {/* <li>Careers</li> */}
@@ -182,26 +188,28 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                     <li>Industries Type</li>
                   </ul>
                 </div>
-                <div className={styles.ourStory}>
-                  <ul className={styles.ourStory1}>
-                    <li>Architecture</li>
-                  </ul>
-                </div>
-                <div className={styles.privacyPoliciesContainer}>
-                  <ul className={styles.privacyPolicies}>
-                    <li>Architecture</li>
-                  </ul>
-                </div>
-                <div className={styles.termsConditionsContainer}>
-                  <ul className={styles.termsConditions}>
-                    <li>Engineering</li>
-                  </ul>
-                </div>
-                <div className={styles.careers}>
-                  <ul className={styles.careers1}>
-                    <li>Construction</li>
-                  </ul>
-                </div>
+                <Link href='/resources/architecture'>
+                  <div className={styles.ourStory}>
+                    <ul className={styles.ourStory1}>
+                      <li>Architecture</li>
+                    </ul>
+                  </div>
+                </Link>
+                <Link href='/resources/engineering'>
+                  <div className={styles.termsConditionsContainer}>
+                    <ul className={styles.termsConditions}>
+                      <li>Engineering</li>
+                    </ul>
+                  </div>
+                </Link>
+                <Link href='/resources/construction'>
+                  <div className={styles.careers}>
+                    <ul className={styles.careers1}>
+                      <li>Construction</li>
+                    </ul>
+                  </div>
+                </Link>
+                
               </div>
               <div className={styles.lEEDCertificationManageme}>
                   <h3 className={styles.partners}>Other Links</h3>

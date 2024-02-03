@@ -12,31 +12,33 @@ import CardContainer from "../../../components/CardContainer";
 const ResourcesIndustryConstruc: NextPage = () => {
   const accordionData = [
     {
-      header: " Can Luxa handle the complexities of large-scale new construction projects?",
-      description: " Absolutely. Luxa is designed to manage the intricacies of large-scale projects. Our platform scales to accommodate the size and complexity of your project, ensuring efficient management of resources, timelines, and compliance requirements."
+      header: "What sustainability certifications can Luxa help us achieve?",
+      description: "Luxa is designed to assist with a range of sustainability certifications, including LEED, BREEAM, and WELL Building Standards. Our platform streamlines the compliance process by managing documentation, tracking sustainability metrics, and providing actionable insights to meet certification criteria effectively."
     },
     {
-      header: "How does Luxa assist with sustainability goals in new construction?",
-      description: "Luxa helps you integrate sustainability from the ground up. Our features include real-time tracking of emissions, assistance in sourcing sustainable materials, and streamlined pathways to achieving green building certifications like LEED."
+      header: "How does Luxa's emissions tracking feature benefit our construction projects?",
+      description: "Luxa’s emissions tracking feature offers real-time monitoring and reporting of carbon emissions from your construction activities. This enables you to make informed decisions to reduce your environmental impact, meet regulatory requirements, and demonstrate your commitment to sustainability to stakeholders and clients."
     },
     {
-      header: "Does Luxa provide data analytics for better decision-making in new construction projects?",
-      description: "Yes, one of Luxa’s key strengths is its data analytics capability. We provide detailed insights into various aspects of your project, such as emission analysis, time efficiency, resource optimization, and environmental impact, aiding in informed decision-making."
+      header: "Can Luxa integrate with our existing project management tools?",
+      description: "Absolutely. Luxa is designed for seamless integration with a variety of existing project management tools. Our goal is to enhance your current systems with advanced sustainability tracking and reporting capabilities, not replace them."
     },
     {
-      header: ": Can Luxa integrate with other tools and systems we currently use?",
-      description: "Luxa is built with integration in mind. Our platform can seamlessly connect with various other tools and systems that you might already be using, ensuring a unified and efficient workflow."
+      header: "Is Luxa suitable for small-scale construction projects or only large ones?",
+      description: "Luxa is scalable and versatile, making it suitable for construction projects of all sizes. Whether it’s a small residential project or a large commercial development, Luxa can be tailored to meet your specific sustainability tracking and reporting needs."
     },
     {
-      header: "Is Luxa suitable for both residential and commercial new construction projects?",
-      description: " Absolutely. Luxa is versatile and can be tailored to suit both residential and commercial construction projects. Whether you are building homes or commercial properties, Luxa provides the tools and insights necessary for successful project completion."
+      header: "How user-friendly is Luxa for teams not familiar with sustainability practices?",
+      description: "Luxa is designed with user-friendliness in mind. It offers an intuitive interface and straightforward tools that make sustainability management accessible, even for teams that are new to these practices. Additionally, we provide comprehensive support and training materials to help all users get the most out of our platform."
     },
     {
-      header: "How does Luxa support collaboration among different stakeholders in a construction project?",
-      description: "Collaboration is key in construction projects. Luxa facilitates this by providing a shared platform where project managers, contractors, architects, and clients can communicate, share documents, and stay updated on project progress, ensuring everyone is on the same page."
+      header: "Does Luxa offer any support or guidance for sustainability compliance?",
+      description: "Yes, Luxa offers extensive support and guidance for sustainability compliance. Our platform includes resources and tools that help you understand and adhere to relevant sustainability standards and regulations. Furthermore, our dedicated support team is always available to provide personalized assistance and advice on best practices in sustainability compliance."
     },
-
-    // Add more accordion items as needed
+    {
+      header: "How does Luxa ensure the accuracy of its sustainability data and reports?",
+      description: "Luxa employs advanced data verification methods and uses reliable sources for data collection to ensure accuracy. Our platform utilizes a combination of real-time data feeds, manual entry verification processes, and checks against established benchmarks and standards. This multi-layered approach ensures that the sustainability data and reports generated by Luxa are both accurate and trustworthy, making them suitable for compliance documentation and stakeholder communication."
+    }
   ];
   return (
  

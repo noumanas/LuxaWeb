@@ -53,12 +53,12 @@ const ComplianceReportingContainer: NextPage<
     <div className={styles.questionFrame} style={questionFrameStyle}>
       <div className={styles.inputFrameParent}>
         <div className={styles.inputFrame}>
-          <img
+          {/* <img
             className={styles.group10000024941}
             alt=""
             src="/group-1000002494-1@2x.png"
-          />
-          <div className={styles.linkFrameParent}>
+          /> */}
+          {/* <div className={styles.linkFrameParent}>
             <img
               className={styles.linkFrameIcon}
               alt=""
@@ -83,7 +83,7 @@ const ComplianceReportingContainer: NextPage<
                 src="/group-1000002499-1@2x.png"
               />
             </div>
-          </div>
+          </div> */}
         </div>
         <img className={styles.group12160252321} alt="" src={featureImageUrl} />
       </div>
