@@ -1,7 +1,17 @@
 import type { NextPage } from "next";
 import styles from "./FrameComponent1.module.css";
-
+import VideoModal from '../components/VideoModal';
+import { useState } from "react";
 const FrameComponent1: NextPage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <div className={styles.frameParent}>
       <div className={styles.frameGroup}>
@@ -41,8 +51,11 @@ const FrameComponent1: NextPage = () => {
           </div>
         </div>
       </div>
+      {isModalOpen && (
+        <VideoModal videoUrl="https://www.youtube.com/watch?v=L0OVc-slFX8" onClose={()=>handleCloseModal()} />
+      )}
       <div className={styles.frameWrapper}>
-        <button className={styles.rectangleParent}>
+        <button className={styles.rectangleParent} onClick={handleOpenModal}>
           <div className={styles.frameChild} />
           <div className={styles.getADemo}>Get a Demo</div>
         </button>
