@@ -15,7 +15,7 @@ const DataAnalyticsInsightsContainer:  NextPage<wordTypeDefine> =({
         <div className={styles.gettingStartedWithLuxaEmisParent}>
           <h1 className={styles.gettingStartedWithContainer}>
             <span>{`Getting started with `}</span>
-            <b className={styles.luxa}>{`LUXA `}</b>
+            <b className={styles.luxa}>{`LUXA`}</b>
             <span>{dataforcard}</span>
           </h1>
           {/* <div className={styles.footerFrame} /> */}

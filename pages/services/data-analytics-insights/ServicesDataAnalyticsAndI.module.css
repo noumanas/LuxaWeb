@@ -381,15 +381,15 @@
   max-width: 100%;
 }
 .requestFrame {
-  width: 654px;
-  border-radius: var(--br-xs);
-  border: 4px solid var(--primary-linear-color);
+  /* width: 654px; */
+  /* border-radius: var(--br-xs); */
+  /* border: 4px solid var(--primary-linear-color); */
   box-sizing: border-box;
   align-items: center;
   justify-content: center;
   padding: var(--padding-xs) var(--padding-sm) var(--padding-mini)
     var(--padding-8xs);
-  min-width: 654px;
+  /* min-width: 654px; */
 }
 .contentFrame {
   align-self: stretch;

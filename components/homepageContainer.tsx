@@ -1,12 +1,26 @@
 import type { NextPage } from "next";
 import styles from "./homepageContainer.module.css";
 import Image from 'next/image'
+import { motion } from 'framer-motion';
 const homepageContainer: NextPage = () => {
   return (
-    <div className={styles.text}>
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 0.5 }}
+    >
+      <div className={styles.text}>
       <div className={styles.frameParent}>
         <div className={styles.frameWrapper}>
-          <div className={styles.contactFormParent}>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}>
+           <div className={styles.contactFormParent}>
             <div className={styles.contactForm}>
               <div className={styles.groupContainer} />
               <h1 className={styles.welcomeToLuxaContainer}>
@@ -38,7 +52,17 @@ const homepageContainer: NextPage = () => {
               </div>
             </div>
           </div>
+          </motion.div>
+         
         </div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            ease: "linear",
+            duration: 2,
+            x: { duration: 1 }
+          }}>
         <div className={styles.wrapperDashboardDesignmainD}>
             {/* <img
               className={styles.dashboardDesignmainDashboard}
@@ -47,8 +71,12 @@ const homepageContainer: NextPage = () => {
               src="/dashboard-designmain-dashboard-1@2x.png"
             /> */}
         </div>
+        </motion.div>
+
       </div>
     </div>
+    </motion.div>
+    
   );
 };
 

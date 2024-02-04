@@ -13,6 +13,8 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
   const [submenushowsecond, setsubmenushowsecond] = useState(false);
   const [changeStroke, setchangeStroke] = useState(false);
   const [changeStrokeresources, setchangeStrokeresources] = useState(false);
+  const [changeStrokeknowledge, setchangeStrokeknowledge] = useState(false);
+
 
 
   const [activeLinks, setActiveLink] =  useState("");
@@ -29,11 +31,12 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
 
   const handleMouseEnter1 = () => {
     setisknolegdeDropdownOpen(true);
-
+    setchangeStrokeknowledge(true)
   };
 
   const closeDropdown1 = () => {
     setisknolegdeDropdownOpen(false);
+    setchangeStrokeknowledge(false)
   };
 
   const handleMouseEnter2 = () => {
@@ -85,9 +88,9 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
         </Link>
        
         <div className={styles.polygon}>
-       
-        <div  className={styles.servicesParent} onClick={() => handleLinkClick("services")} onMouseMove={handleMouseEnter} onMouseLeave={closeDropdown}>
-           <Link href="/services" >
+        <Link href="/services" >
+           <div  className={styles.servicesParent} onClick={() => handleLinkClick("services")} onMouseMove={handleMouseEnter} onMouseLeave={closeDropdown}>
+          
               <div className={`${styles.services} ${
               activeLink === "services" ? styles.activeLink : ""
             }`}> 
@@ -99,7 +102,7 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
             
           </div> 
           </div>
-           </Link>
+           
                 
           
              {/* Dropdown menu */}
@@ -134,6 +137,7 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
               </div>
             )}
           </div>
+          </Link>
           <Link href='/comingsoon'>
           <div className={styles.pricing}>Pricing</div>
           </Link>
@@ -142,12 +146,12 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
           <div className={styles.resourcesParent} onMouseMove={handleMouseEnter2} onMouseLeave={closeDropdown2} onClick={() => handleLinkClick("resources")} >
             <div className={`${styles.services} ${
               activeLink === "resources" ? styles.activeLink : ""
-            }`}>Resources  {changeStrokeresources === true ? (
+            }`}>  <div className={`${styles.group} ${resourceisDropdownOpen===true ? styles.textbold:""}`}>Resources  {changeStrokeresources === true ? (
               <img className={styles.stroke3Icon} alt="" src="/Stroke3-hover.svg" />
            ):(
              <img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />
            )}</div>
-             
+             </div>
             
             {resourceisDropdownOpen  && (
             <div
@@ -232,13 +236,19 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink, ...props }) => {
         
           
           <div className={styles.knowledgeCenterParent}>
-            <div className={styles.knowledgeCenter}  onMouseEnter={handleMouseEnter1} onMouseLeave={closeDropdown1}>Knowledge Center</div>
-            <div className={styles.stroke2Container}>
-              <img className={styles.stroke2Icon1} alt="" src="/stroke-3.svg" />
-            </div>
+            <div className={styles.knowledgeCenter}  onMouseEnter={handleMouseEnter1} onMouseLeave={closeDropdown1}>
+            <div className={`${styles.services} ${
+              activeLink === "comingsoon" ? styles.activeLink : ""
+            }`}>  <div className={styles.group}> Knowledge Center  {changeStrokeknowledge === true ? (
+              <img className={styles.stroke3Icon} alt="" src="/Stroke3-hover.svg" />
+           ):(
+             <img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />
+           )}</div>
+             </div>
+             </div>
             {isknolegdeDropdownOpen && (
             <div
-              className={styles.dropdownMenu}
+              className={styles.dropdownMenuforknowledget}
               onMouseEnter={handleMouseEnter1} // Prevent closing when hovering over the dropdown menu
               onMouseLeave={closeDropdown1}
             >

@@ -12,7 +12,7 @@
   color: #333; /* Link color */
   position: absolute;
   top:110px;
-
+  left: 480px;
   width: 519px;
   height: 235px;
   border-radius: 10px;
@@ -26,7 +26,7 @@
   color: #333; /* Link color */
   position: absolute;
   top:110px;
-
+  
   width: 700px;
   height: 235px;
   border-radius: 10px;
@@ -35,6 +35,18 @@
   z-index: 3; /* Ensure the dropdown is on top of other content */
   box-shadow: 0px 3px 14px 0px #00000026;
   
+}
+.dropdownMenuforknowledget{
+  color: #333; /* Link color */
+  position: absolute;
+  top:110px;
+  width: 519px;
+  height: 235px;
+  border-radius: 10px;
+  background-color: #fff; /* Background color */
+  padding: 8px 0; /* Padding */
+  z-index: 3; /* Ensure the dropdown is on top of other content */
+  box-shadow: 0px 3px 14px 0px #00000026;
 }
 .subMenu{
   border-left: 1px solid #A6A6A6;
@@ -63,6 +75,7 @@
 .subMenu ul li:hover {
   background: #B7D5C5; /* Background color on hover */
   transition: all 0.5s ease-out;
+  font-weight: bold;
   /* Remove underline */
 
 }
@@ -76,11 +89,15 @@
 .subMenu a:hover {
   text-decoration: none;
   color: #0D703C; /* Underline on hover */
-  font-weight: bold;
+  
   transition: all 0.5s ease-out;
 
 }
-
+.dropdownMenuforknowledget ul{
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
 .dropdownMenu ul {
   list-style-type: none; /* Remove bullet points */
   margin: 0;
@@ -100,12 +117,24 @@
  .dropdownMenu2 ul li {
   padding:20px /* Padding for each menu item */
 }
+.dropdownMenuforknowledget ul li{
+  padding:20px
+}
 .dropdownMenu ul li:hover {
   background-color: #B7D5C5; /* Background color on hover */
   font-weight: bold;
   transition: all 0.5s ease-out;
 }
-
+.dropdownMenu2 ul li:hover {
+  color: orange;
+  transition: all 0.5s ease-out;
+  font-weight: bold;
+}
+.dropdownMenuforknowledget ul li:hover {
+  background-color: #B7D5C5; /* Background color on hover */
+  font-weight: bold;
+  transition: all 0.5s ease-out;
+}
 /* Optional: Style the links inside the dropdown */
  .dropdownMenu2 a {
   color: #333; /* Link color */
@@ -200,8 +229,10 @@
 }
 .resourcesParent:hover{
   color: orange;
-  font-weight: bold;
   transition: all 0.5s ease-out;
+}
+.textbold{
+font-weight: bold;
 }
 .activeLink{
 color: orange;
@@ -237,12 +268,11 @@ font-weight: bold;
   padding: var(--padding-8xs) 0 0;
 }
 .resourcesParent {
-  width: 100%;
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: var(--gap-smi);
+  align-items: flex-end;
   padding: 28px;
+  gap: var(--gap-xs);
+  cursor: pointer;
 }
 .company,
 .knowledgeCenter {
