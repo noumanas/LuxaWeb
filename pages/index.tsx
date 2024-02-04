@@ -13,18 +13,26 @@ import ContactFormContainer from "../components/ContactFormContainer";
 import Accordions from "../components/Accordion";
 import { useEffect, useState } from "react";
 import Image from 'next/image'
+import { motion } from "framer-motion";
 
 const HomeLandingPage: NextPage = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolledsecon, setisScrolledsecon] = useState(false);
+  const [isScrolledthird, setisScrolledthird] = useState(false);
+  const [isScrolledforth, setisScrolledforth] = useState(false);
+
+
+
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      console.log('window.scrollY',window.scrollY)
+      const scrollY = window.scrollY;
+        setIsScrolled(scrollY>120);
+        setisScrolledsecon(scrollY >800)
+        setisScrolledthird(scrollY>2500)
+        setisScrolledforth(scrollY>3500)
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -47,57 +55,102 @@ const HomeLandingPage: NextPage = () => {
         <Header activeLink={""} />
         <WelcomeTo />
       </section>
-      <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
-        <div className={styles.polygonParent}>
-          <div className={styles.polygon}>
-            <div className={styles.polygonInner}>
-              <div className={styles.emailParent}>
-                <div className={styles.email} />
-                <h1 className={styles.theWorlds1Container}>
-                  <span>{`The world's #1 solution to start your `}</span>
-                  <b className={styles.sustainability}>{`sustainability `}</b>
-                  <span> journey</span>
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className={styles.text}>
+      {isScrolled &&(
+          <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.1,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}> 
+              <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
+              <div className={styles.polygonParent}>
+                <div className={styles.polygon}>
+                  <div className={styles.polygonInner}>
+                    <div className={styles.emailParent}>
+                      <div className={styles.email} />
+                      <h1 className={styles.theWorlds1Container}>
+                        <span>{`The world's #1 solution to start your `}</span>
+                        <b className={styles.sustainability}>{`sustainability `}</b>
+                        <span> journey</span>
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <div className={styles.text}>
 
-            <SecondAccordion/>
-            <div className={styles.wrapperContactDetails}>
-              <Image
-                className={styles.contactDetailsIcon}
-                loading="eager"
-                alt=""
-                src="/Rectangle4.png"
-                width={527}
-                height={479}
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <LineSection />
-      <section className={styles.homeLandingPageInner}>
-        <div className={styles.frameParent}>
-          <div className={styles.frameWrapper}>
-            <div className={styles.elevatingSustainabilityInEvParent}>
-              <h1 className={styles.elevatingSustainabilityIn}>
-                Elevating Sustainability in Every Construction Type
-              </h1>
-              <div className={styles.whetherItsNew}>
-                Whether it's new construction, retrofits, renovations, or
-                infrastructure projects, our software empowers you with
-                data-driven insights, collaborative tools, and AI-recommended
-                solutions to elevate sustainability across all facets of the
-                construction industry.
+                  <SecondAccordion/>
+                  <div className={styles.wrapperContactDetails}>
+                    <Image
+                      className={styles.contactDetailsIcon}
+                      loading="eager"
+                      alt=""
+                      src="/Rectangle4.png"
+                      width={527}
+                      height={479}
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <FrameComponent4 />
-        </div>
-      </section>
-      <FrameComponent3 />
+            </section>
+          </motion.div>
+      )}
+      {isScrolledsecon && (
+       <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.8,
+            ease: [0, 0.71, 0.2, 1.01]
+          }}>
+           <LineSection />
+      </motion.div>
+      )}
+      {isScrolledthird && (
+         <motion.div
+         initial={{ opacity: 0, scale: 0.5 }}
+         animate={{ opacity: 1, scale: 1 }}
+         transition={{
+           duration: 0.8,
+           delay: 0.8,
+           ease: [0, 0.71, 0.2, 1.01]
+         }}>
+                <section className={styles.homeLandingPageInner}>
+       <div className={styles.frameParent}>
+         <div className={styles.frameWrapper}>
+           <div className={styles.elevatingSustainabilityInEvParent}>
+             <h1 className={styles.elevatingSustainabilityIn}>
+               Elevating Sustainability in Every Construction Type
+             </h1>
+             <div className={styles.whetherItsNew}>
+               Whether it's new construction, retrofits, renovations, or
+               infrastructure projects, our software empowers you with
+               data-driven insights, collaborative tools, and AI-recommended
+               solutions to elevate sustainability across all facets of the
+               construction industry.
+             </div>
+           </div>
+         </div>
+         <FrameComponent4 />
+       </div>
+     </section>
+         </motion.div>
+      )}
+         <FrameComponent3 />
+      {isScrolledforth && (
+        <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.8,
+          ease: [0, 0.71, 0.2, 1.01]
+        }}>
+        
+       
+     
       
       <section className={styles.homeLandingPageChild}>
       <div className={styles.gcsLogoSymbolParent}>
@@ -130,6 +183,9 @@ const HomeLandingPage: NextPage = () => {
         <FRAME/>
         
       </section>
+      </motion.div>
+      )}
+       
       <section className={styles.text1}>
         <div className={styles.asAnArchitecture}>
           As an architecture firm dedicated to innovation and sustainable
