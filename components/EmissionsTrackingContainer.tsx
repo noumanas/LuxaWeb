@@ -49,7 +49,7 @@ const EmissionsTrackingContainer: NextPage<EmissionsTrackingContainerType> = ({
               className={styles.frameEmailOutreach}
               loading="eager"
               alt=""
-              src="/rectangle-78@2x.png"
+              src="/AdvancedEmissionsTracking.png"
             />
           </div>
         </div>

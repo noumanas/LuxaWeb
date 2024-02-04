@@ -75,7 +75,7 @@
   flex-direction: row;
   align-items: center;
   padding: var(--padding-12xs) var(--padding-2xl) var(--padding-10xs) 0;
-  background-image: url(/rectangle-77@2x.png);
+  /* background-image: url(/rectangle-77@2x.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -91,7 +91,7 @@
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: space-between;
   gap: var(--gap-xl);
   max-width: 100%;

@@ -20,11 +20,22 @@ const HomeLandingPage: NextPage = () => {
   const [isScrolledsecon, setisScrolledsecon] = useState(false);
   const [isScrolledthird, setisScrolledthird] = useState(false);
   const [isScrolledforth, setisScrolledforth] = useState(false);
-
-
-
   const [loaded, setLoaded] = useState(false);
+  const [architecturalFirmstwo, setarchitecturalFirms] = useState(false);
+  const [architecturalFirms, setarchitectural] = useState(true);
+  const [headingText , setHeadingtext]=useState("Architectural Firms")
 
+  
+  const handleLinkClick= ()=> {
+    setarchitecturalFirms(true);
+    setarchitectural(false)
+    setHeadingtext("Architectural Second") // Set the clicked link as active
+  };
+  const handleLinkClickback= ()=> {
+    setarchitecturalFirms(false);
+    setarchitectural(true)
+    setHeadingtext("Architectural Firms") // Set the clicked link as active
+  };
   useEffect(() => {
     const handleScroll = () => {
       console.log('window.scrollY',window.scrollY)
@@ -167,20 +178,47 @@ const HomeLandingPage: NextPage = () => {
               loading="eager"
               alt=""
               src="/iconlylightarrow--right-3@2x.png"
+              onClick={handleLinkClickback}
+
             />
-            <h2 className={styles.architecturalFirms}>Architectural Firms</h2>
+            <h2 className={styles.architecturalFirms}>{headingText}</h2>
             <img
               className={styles.iconlylightarrowRight2}
               loading="eager"
               alt=""
               src="/iconlylightarrow--right-2.svg"
+              onClick={handleLinkClick}
 
             />
           </div>
           {/* <div className={styles.frameItem} /> */}
         </div>
       </div>
+      {architecturalFirms && (
+        <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.8,
+          ease: [0, 0.71, 0.2, 1.01]
+        }}>
         <FRAME/>
+        </motion.div>
+      )}
+      {architecturalFirmstwo && (
+        <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.8,
+          ease: [0, 0.71, 0.2, 1.01]
+        }}>
+          <FRAME/>
+        </motion.div>
+        
+      )}
         
       </section>
       </motion.div>

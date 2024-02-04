@@ -22,12 +22,12 @@ const AdvancedEmissionsTrackingSecti: NextPage = () => {
         propPadding1="var(--padding-12xs) var(--padding-2xl) var(--padding-10xs) 0px"
       />
       <ComplianceReportingContainer
-        featureImageUrl="/group-1216025232-1@2x.png"
+        featureImageUrl="/SimplifyingSustainabilityCertification.png"
         description="Simplifying Sustainability Certification"
         complianceImageUrl="Luxa streamlines the complex process of obtaining sustainability certifications like LEED by offering a comprehensive tracking and management system for all relevant project criteria, from energy efficiency to resource utilization. Our platform simplifies the documentation and reporting requirements, ensuring that construction projects not only achieve but also consistently maintain their green building standards with ease and accuracy."
         propMinHeight="unset"
         propPadding="var(--padding-8xs) 0px 0px"
-        propHeight="unset"
+        propHeight="px"
         propHeight1="189px"
       />
     </section>

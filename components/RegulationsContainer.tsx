@@ -49,11 +49,11 @@ const RegulationsContainer: NextPage<RegulationsContainerType> = ({
           className={styles.wrapperScopeManagement}
           style={wrapperScopeManagementStyle}
         >
-          {/* <img
+          <img
             className={styles.scopeManagementIcon}
             alt=""
-            src="/rectangle-78-1@2x.png"
-          /> */}
+            src="/group-1000002489-1@2x.png"
+          />
         </div>
         {/* <img
           className={styles.group10000024892}

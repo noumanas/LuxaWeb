@@ -40,7 +40,7 @@
   height: 344px;
   flex: 1;
   position: relative;
-  background-image: url(/group-1000002489-1@2x.png);
+  /* background-image: url(/group-1000002489-1@2x.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -92,6 +92,7 @@
   min-width: 413px;
 }
 .contactUs {
+  margin-top: 100px;
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
