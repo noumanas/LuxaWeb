@@ -52,7 +52,7 @@ const RegulationsContainer: NextPage<RegulationsContainerType> = ({
           <img
             className={styles.scopeManagementIcon}
             alt=""
-            src="/group-1000002489-1@2x.png"
+            src="/Group-1216025243.png"
           />
         </div>
         {/* <img

@@ -10,35 +10,36 @@ import Header from "../../../components/Header";
 const ResourcesConstructionType1: NextPage = () => {
   const accordionData = [
     {
-      header: "What is LEED Certification and Why is it Important?",
-      description: "LEED (Leadership in Energy and Environmental Design) is a globally recognized green building certification system. It provides a framework for healthy, efficient, carbon-saving green buildings. LEED certification is important as it demonstrates a building's commitment to environmental sustainability and can lead to reduced operational costs, increased asset value, and a healthier environment for occupants."
+      header: "How does Luxa cater to the specific needs of large-scale infrastructure projects?",
+      description: "Luxa is designed with scalability in mind, handling the complex data and coordination needs of large infrastructure projects. Our platform integrates various aspects of project management, from emissions tracking to compliance, ensuring that even the largest projects can be managed efficiently."
     },
     {
-      header: "How Does Luxa Simplify the LEED Certification Process?",
-      description: " Luxa simplifies the LEED certification process by automating much of the documentation and tracking required. Our platform consolidates all necessary data, tracks progress towards LEED credits, and provides real-time insights and compliance checks, making the process more manageable and less time-consuming."
+      header: "Can Luxa assist with the compliance requirements typical in infrastructure construction?",
+      description: "Luxa simplifies adherence to specifically environmental compliance standards. Our system keeps you updated with the latest standards and helps manage the necessary documentation and reporting."
     },
     {
-      header : "Can Luxa Help with Both LEED Certification and Recertification?",
-      description : "Yes, Luxa is designed to assist with both initial LEED certification and the recertification process. It maintains and organizes all your documentation and performance data, which is crucial for the recertification process, ensuring that your building remains compliant with LEED standards over time."
+      header: "Is Luxa capable of tracking emissions for infrastructure projects that span multiple years?",
+      description: "Yes, Luxa is equipped to track emissions over extended periods. Our robust database and analytics tools can accumulate and analyze data over the entire lifecycle of long-term infrastructure projects, providing valuable insights into their environmental impact."
     },
     {
-      header : "Is Luxa Suitable for Different Types of Construction Projects?",
-      description : "Absolutely. Luxa is versatile and can be adapted to various types of construction projects, including commercial, residential, and infrastructure. Our platform can be tailored to meet the specific sustainability goals and requirements of each unique project."
+      header: "How does Luxa facilitate collaboration among the diverse teams involved in infrastructure projects?",
+      description: "Luxa offers advanced collaboration tools that allow seamless communication and information sharing among various stakeholders, including contractors, engineers, and government bodies. This ensures that everyone is on the same page, enhancing project coordination and efficiency."
     },
     {
-      header : " How Does Luxa Ensure the Accuracy of LEED-Related Data?",
-      description : "Luxa uses advanced data validation techniques to ensure the accuracy of all LEED-related data entered into the system. Our platform cross-references entered data with LEED requirements and provides alerts for any discrepancies or missing information, ensuring high data integrity."
+      header: "Can Luxa integrate with other software systems commonly used in infrastructure projects?",
+      description: "Yes, integration is a key feature of Luxa. Our platform can seamlessly integrate with existing project management tools, GIS systems, and other software commonly used in infrastructure projects, ensuring a unified and efficient workflow."
     },
     {
-      header : " Can Luxa Help in Achieving Higher Levels of LEED Certification?",
-      description : " Yes, Luxa is an invaluable tool in striving for higher levels of LEED certification, like Silver, Gold, or Platinum. Our system provides insights and recommendations on how to achieve additional credits and improve sustainability performance, guiding you towards higher certification levels."
+      header: "Does Luxa provide real-time reporting capabilities for on-the-go decision making?",
+      description: "Luxa offers real-time data analytics and reporting features, enabling project managers and decision-makers to access up-to-date information and make informed decisions quickly, essential for the dynamic environment of infrastructure projects."
     },
     {
-      header : "What Kind of Support Does Luxa Offer for First-Time LEED Applicants?",
-      description : " For first-time LEED applicants, Luxa offers comprehensive support including guided walkthroughs of the LEED certification process, educational resources, and customer support from our team of experts. We ensure that you have all the knowledge and tools needed to navigate the LEED certification journey successfully.'"
-    },
-    // Add more accordion items as needed
+      header: "What kind of support and training does Luxa offer for teams new to the software?",
+      description: "We provide comprehensive training and ongoing support for all our clients. This includes onboarding sessions, detailed user manuals, and responsive customer support to ensure your team can make the most of Luxa’s capabilities."
+    }
   ];
+  
+
   return (
     <div className={styles.resourcesConstructionType}>
     

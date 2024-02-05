@@ -5,13 +5,14 @@ import styles from "./EmissionsTrackingContainer.module.css";
 type EmissionsTrackingContainerType = {
   featureDescription?: string;
   emissionsTrackingDescript?: string;
-
+  featureImageUrl?:string;
   /** Style props */
   propPadding?: CSSProperties["padding"];
   propPadding1?: CSSProperties["padding"];
 };
 
 const EmissionsTrackingContainer: NextPage<EmissionsTrackingContainerType> = ({
+  featureImageUrl,
   featureDescription,
   emissionsTrackingDescript,
   propPadding,
@@ -49,7 +50,7 @@ const EmissionsTrackingContainer: NextPage<EmissionsTrackingContainerType> = ({
               className={styles.frameEmailOutreach}
               loading="eager"
               alt=""
-              src="/AdvancedEmissionsTracking.png"
+              src={featureImageUrl}
             />
           </div>
         </div>

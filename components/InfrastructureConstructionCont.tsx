@@ -59,17 +59,12 @@ const InfrastructureConstructionCont: NextPage = () => {
             </div>
           </div>
           <div className={styles.rectangleParent}>
-            <img
-              className={styles.frameChild}
-              alt=""
-              src="/rectangle-77@2x.png"
-            />
             <div className={styles.wrapperFAQsFrame}>
               <img
                 className={styles.fAQsFrame}
                 loading="eager"
                 alt=""
-                src="/rectangle-78@2x.png"
+                src="/ERectangle-78.png"
               />
             </div>
           </div>
@@ -96,16 +91,16 @@ const InfrastructureConstructionCont: NextPage = () => {
       </div>
       <div className={styles.fullName}>
         <div className={styles.group10000024891Parent}>
-          <img
+          {/* <img
             className={styles.group10000024891}
             alt=""
             src="/group-1000002489-1@2x.png"
-          />
+          /> */}
           <div className={styles.wrapperRectangle78}>
             <img
               className={styles.wrapperRectangle78Child}
               alt=""
-              src="/rectangle-78-1@2x.png"
+              src="/Rectangle-78.png"
             />
           </div>
         </div>

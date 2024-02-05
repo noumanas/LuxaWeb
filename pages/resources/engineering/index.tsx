@@ -70,13 +70,13 @@ const ResourcesIndustryEngineer: NextPage = () => {
               </div>
               <div className={styles.projectDetailsWrapper}>
                 <div className={styles.projectDetails}>
-                  <div className={styles.wrapperFrameGroup}>
+                  {/* <div className={styles.wrapperFrameGroup}>
                     <img
                       className={styles.frameGroupIcon}
                       alt=""
                       src="/rectangle-77@2x.png"
                     />
-                  </div>
+                  </div> */}
                   <img
                     className={styles.rectangleTextIcon}
                     alt=""

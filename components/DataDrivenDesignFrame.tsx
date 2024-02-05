@@ -77,6 +77,7 @@ const DataDrivenDesignFrame: NextPage = () => {
           propHeight="108px"
         />
         <EmissionsTrackingContainer
+          featureImageUrl="/ERectangle-78.png"
           featureDescription="Efficient Collaboration and Project Management"
           emissionsTrackingDescript="Luxa streamlines project management by providing a centralized platform where architects, contractors, and other stakeholders can collaborate seamlessly. It enhances communication and coordination with shared dashboards, real-time updates, and integrated tools for scheduling, feedback, and document management, ensuring that every team member is on the same page, thus reducing misunderstandings and delays in the project lifecycle."
           propPadding="0px var(--padding-base) 0px var(--padding-mini)"

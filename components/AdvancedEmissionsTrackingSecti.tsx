@@ -16,7 +16,17 @@ const AdvancedEmissionsTrackingSecti: NextPage = () => {
         propMinHeight="271px"
         propHeight="108px"
       />
+      {/* <ComplianceReportingContainer
+        featureImageUrl="/Group1216025280aa.png"
+        description="Advanced Emissions Tracking for Eco-Friendly Construction"
+        complianceImageUrl="Luxa offers an advanced emissions tracking system that enables precise monitoring and management of carbon footprints at construction sites, utilizing real-time data to provide actionable insights for reducing environmental impact. This robust feature supports construction companies in adopting and maintaining environmentally responsible building practices, ensuring compliance with sustainability standards and contributing to a greener future."
+        propMinHeight="unset"
+        propPadding="var(--padding-8xs) 0px 0px"
+        propHeight="px"
+        propHeight1="189px"
+      /> */}
       <EmissionsTrackingContainer
+       featureImageUrl="/Group1216025280aa.png"
         featureDescription="Advanced Emissions Tracking for Eco-Friendly Construction"
         emissionsTrackingDescript="Luxa offers an advanced emissions tracking system that enables precise monitoring and management of carbon footprints at construction sites, utilizing real-time data to provide actionable insights for reducing environmental impact. This robust feature supports construction companies in adopting and maintaining environmentally responsible building practices, ensuring compliance with sustainability standards and contributing to a greener future."
         propPadding1="var(--padding-12xs) var(--padding-2xl) var(--padding-10xs) 0px"

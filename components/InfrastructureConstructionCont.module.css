@@ -143,10 +143,10 @@
   justify-content: flex-start;
   padding: var(--padding-12xs) var(--padding-2xl) var(--padding-10xs) 0;
   box-sizing: border-box;
-  background-image: url(/rectangle-77@2x.png);
-  background-size: cover;
+  /* background-image: url(/rectangle-77@2x.png); */
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top; */
   min-width: 623px;
 }
 .callUsCTAParent {
@@ -209,10 +209,10 @@
   justify-content: center;
   padding: 0 var(--padding-xs) var(--padding-7xl) 0;
   box-sizing: border-box;
-  background-image: url(/group-1000002489-1@2x.png);
+  /* background-image: url(/group-1000002489-1@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top; */
   min-width: 413px;
   max-width: 100%;
 }

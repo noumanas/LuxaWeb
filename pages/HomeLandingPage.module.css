@@ -253,6 +253,8 @@
   line-height: 28px;
   display: inline-block;
   max-width: 100%;
+  text-align: center;
+  align-items: center;
 }
 .text1 {
   width: 1247px;

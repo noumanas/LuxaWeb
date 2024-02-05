@@ -75,12 +75,11 @@
   position: relative;
 }
 .group12160252321 {
-  max-width: 100%;
+  width: 558px;
   overflow: hidden;
   flex-shrink: 0;
   object-fit: cover;
   z-index: 2;
-  margin-top: -344px;
 }
 .inputFrameParent {
   flex: 1;

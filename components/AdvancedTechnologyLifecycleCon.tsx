@@ -22,43 +22,7 @@ const AdvancedTechnologyLifecycleCon: NextPage = () => {
         sustainabilityTechnologyI="Luxa's advanced sustainability technology integrates seamlessly into every phase of engineering projects, from initial design through to execution and maintenance. By providing data-driven insights for eco-friendly material selection, energy-efficient design optimization, and ongoing environmental impact monitoring, Luxa ensures that sustainability is a cornerstone throughout the project lifecycle, enhancing both operational efficiency and environmental compliance."
       />
       <div className={styles.rectangle}>
-        <div className={styles.groupWrapper}>
-          <div className={styles.group}>
-            <img
-              className={styles.group10000024941}
-              alt=""
-              src="/group-1000002494-1@2x.png"
-            />
-            <div className={styles.engineeringProjectFrameParent}>
-              <img
-                className={styles.engineeringProjectFrame}
-                alt=""
-                src="/rectangle-77@2x.png"
-              />
-              <div className={styles.rectangleParent}>
-                <div className={styles.rectangle1}>
-                  <img
-                    className={styles.rectangleChild}
-                    alt=""
-                    src="/rectangle-77@2x.png"
-                  />
-                  <img
-                    className={styles.group100000249411}
-                    loading="eager"
-                    alt=""
-                    src="/group-1000002494-1@2x.png"
-                  />
-                </div>
-                <img
-                  className={styles.group10000024991}
-                  alt=""
-                  src="/group-1000002499-1@2x.png"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <DataAnalyticsHeadingContainer
+      <DataAnalyticsHeadingContainer
           featureTitle="Key Features Benefiting Engineers"
           dataAnalyticsFeatureTitle="Advanced Emissions Tracking"
           dataAnalyticsSubtitle="Energy Efficiency Analysis"
@@ -73,6 +37,21 @@ const AdvancedTechnologyLifecycleCon: NextPage = () => {
           propHeight="unset"
           propMinWidth1="265px"
         />
+        <div className={styles.groupWrapper}>
+          <div className={styles.group}>
+            <div className={styles.engineeringProjectFrameParent}>
+              <div className={styles.rectangleParent}>
+                
+                <img
+                  className={styles.group10000024991}
+                  alt=""
+                  src="/Group10000024991.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      
       </div>
     </section>
   );

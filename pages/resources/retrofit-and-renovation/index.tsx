@@ -10,15 +10,36 @@ import CardContainer from "../../../components/CardContainer";
 const ResourcesConstructionType: NextPage = () => {
   const accordionData = [
     {
-      header: "What is LEED Certification and Why is it Important?",
-      description: "LEED (Leadership in Energy and Environmental Design) is a globally recognized green building certification system. It provides a framework for healthy, efficient, carbon-saving green buildings. LEED certification is important as it demonstrates a building's commitment to environmental sustainability and can lead to reduced operational costs, increased asset value, and a healthier environment for occupants."
+      header: "How does Luxa accommodate the unique requirements of retrofit projects?",
+      description: "Luxa is designed to be highly adaptable. For retrofit projects, it allows for customized input of existing building parameters, ensuring that our analytics and recommendations are tailored to the unique aspects and challenges of your specific retrofit project."
     },
     {
-      header: "How do I register my first project?",
-      description: "Quisque eget luctus mi, vehicula mollis lorem. Proin fringilla vel erat quis sodales. Nam ex enim, eleifend venenatis lectus vitae."
+      header: "Can Luxa help in achieving energy efficiency in renovation projects?",
+      description: "Absolutely. Luxa’s platform focuses on sustainability and includes features that help track and improve energy efficiency. It provides insights on energy usage patterns and recommends sustainable alternatives for building materials and systems, aiding in making renovations more energy-efficient."
     },
-    // Add more accordion items as needed
+    {
+      header: "Is Luxa useful for small-scale renovation projects?",
+      description: "Yes, Luxa is scalable and suitable for projects of all sizes. For small-scale renovations, Luxa can streamline project management, assist in material selection for sustainability, and ensure compliance with local environmental regulations."
+    },
+    {
+      header: "How does Luxa handle historical buildings in renovation projects?",
+      description: "Luxa recognizes the importance of preserving historical integrity. Our tool can integrate historical data and consider preservation guidelines while providing solutions for modernizing and retrofitting historic structures in line with contemporary environmental standards."
+    },
+    {
+      header: "Can Luxa assist in obtaining sustainability certifications for renovation projects?",
+      description: "Definitely. Luxa simplifies the process of tracking and documenting various sustainability measures implemented in renovation projects, making it easier to apply for and obtain certifications like LEED for Existing Buildings, BREEAM Refurbishment, and others."
+    },
+    {
+      header: "Does Luxa provide support for waste management during renovation?",
+      description: "Yes, Luxa includes features to track and manage waste generated during renovation projects. It offers solutions for recycling, reusing materials, and reducing overall waste, contributing to more sustainable renovation practices."
+    },
+    {
+      header: "How can Luxa facilitate better collaboration among different contractors in a renovation project?",
+      description: "Luxa offers collaborative tools that enable seamless communication and coordination among various contractors and stakeholders involved in a renovation project. It provides a central platform for sharing updates, tracking progress, and making collective decisions, thereby enhancing team collaboration."
+    }
   ];
+  
+  
   return (
     <div className={styles.resourcesConstructionType}>
       <Header
@@ -33,13 +54,13 @@ const ResourcesConstructionType: NextPage = () => {
       <DataAnalyticsInsightsContainer dataforcard={"on Your Renovation Project"} />
       <section className={styles.faqsOnLeedCertificationManParent}>
         <h1 className={styles.faqsOnLeed}>
-          FAQs
+          FAQs on Retrofit and Renovation with Luxa
         </h1>
         <CardContainer accordionData={accordionData} />
       </section>
       <ContactFormContainer
         imageSize="/frame1.svg"
-        contactMessage="We are here to help you grow your business"
+        contactMessage="Contact Us for Your Renovation Project Needs"
         renovationImageUrl="/frame-11@2x.png"
         propPadding="109px var(--padding-60xl)"
         propMinHeight="458px"

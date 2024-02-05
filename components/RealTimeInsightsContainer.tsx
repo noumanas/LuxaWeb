@@ -15,12 +15,7 @@ const RealTimeInsightsContainer: NextPage<RealTimeInsightsContainerType> = ({
   return (
     <div className={styles.realTimeInsights}>
       <div className={styles.harnessPowerNow}>
-        <div className={styles.gettingStartedWithLuxa}>
-          <h1 className={styles.realTimeInsightsFor}>{componentTitle}</h1>
-          <div className={styles.harnessThePower}>
-            {sustainabilityAnalyticsTe}
-          </div>
-        </div>
+       
         <div className={styles.environmentalImpactAssessmen}>
           <div className={styles.rectangleParent}>
             
@@ -32,6 +27,12 @@ const RealTimeInsightsContainer: NextPage<RealTimeInsightsContainerType> = ({
                 src={imageDimensions}
               />
             </div>
+          </div>
+        </div>
+        <div className={styles.gettingStartedWithLuxa}>
+          <h1 className={styles.realTimeInsightsFor}>{componentTitle}</h1>
+          <div className={styles.harnessThePower}>
+            {sustainabilityAnalyticsTe}
           </div>
         </div>
       </div>
