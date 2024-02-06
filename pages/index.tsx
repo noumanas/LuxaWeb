@@ -10,6 +10,8 @@ import Footer from "../components/Footer";
 import styles from "./HomeLandingPage.module.css";
 import SecondAccordion from "../components/SecondAccordion";
 import ContactFormContainer from "../components/ContactFormContainer";
+import MobileMenuResponsive from "../components/MobileMenuResponsive";
+
 import Accordions from "../components/Accordion";
 import { useEffect, useState } from "react";
 import Image from 'next/image'
@@ -24,6 +26,8 @@ const HomeLandingPage: NextPage = () => {
   const [architecturalFirmstwo, setarchitecturalFirms] = useState(false);
   const [architecturalFirms, setarchitectural] = useState(true);
   const [headingText , setHeadingtext]=useState("Architectural Firms")
+  const [isMobile, setIsMobile] = useState(false);
+  const [isDestop, setisDestop] = useState(true);
 
   
   const handleLinkClick= ()=> {
@@ -36,6 +40,23 @@ const HomeLandingPage: NextPage = () => {
     setarchitectural(true)
     setHeadingtext("Architectural Firms") // Set the clicked link as active
   };
+  useEffect(() => {
+    // Check if window object is available (client-side)
+    if (typeof window !== 'undefined') {
+      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+
+      // Add an event listener to update the state when the window is resized
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+      };
+      window.addEventListener('resize', handleResize);
+      
+      // Cleanup function to remove event listener
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
+  }, []);
   useEffect(() => {
     const handleScroll = () => {
       console.log('window.scrollY',window.scrollY)
@@ -62,8 +83,12 @@ const HomeLandingPage: NextPage = () => {
   return (
     <div className={`${styles.homeLandingPage} ${loaded && styles.loaded}  ${isScrolled ? styles.scrolled : ''}`}>
       <section className={styles.maskGroupParent}>
+       
+       
         {/* <img className={styles.maskGroupIcon} alt="" src="/mask-group.svg" /> */}
-        <Header activeLink={""} />
+        {isMobile ? (
+          <MobileMenuResponsive testinfmobileMenu={true} />
+        ):( <Header activeLink={""} />)}
         <WelcomeTo />
       </section>
       {isScrolled &&(
@@ -76,6 +101,7 @@ const HomeLandingPage: NextPage = () => {
             ease: [0, 0.71, 0.2, 1.01]
           }}> 
               <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
+
               <div className={styles.polygonParent}>
                 <div className={styles.polygon}>
                   <div className={styles.polygonInner}>
