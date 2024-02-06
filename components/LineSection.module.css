@@ -898,7 +898,9 @@ line-height: normal;
     box-sizing: border-box;
   }
   .fullName {
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .component2 {
     padding-top: var(--padding-12xl);
@@ -927,6 +929,11 @@ line-height: normal;
   .lineSection {
     gap: var(--gap-4xl);
   }
+  .fullName {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 450px) {
   .transformingSustainabilityEf {
@@ -943,5 +950,10 @@ line-height: normal;
   }
   .component2 {
     height: auto;
+  }
+  .fullName {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -12,7 +12,6 @@
   color: #333; /* Link color */
   position: absolute;
   top:110px;
-  left: 480px;
   width: 519px;
   height: 235px;
   border-radius: 10px;
@@ -173,6 +172,7 @@
 }
 .services,
 .stroke3Icon {
+  display: flex;
   position: relative;
   z-index: 1;
   
@@ -186,8 +186,7 @@
 }
 
 
-.group,
-.servicesParent {
+.group {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -406,23 +405,15 @@ font-weight: bold;
   color: var(--color-darkslategray);
   font-family: var(--font-dm-sans);
 }
-@media screen and (max-width: 1200px) {
-  .polygon {
-    /* display: none; */
-  }
-  .rectangleParent {
-    width: 722px;
+@media(max-width: 1400) {
+  .subMenu{
+    right: 120px;
   }
 }
 
-
-@media screen and (max-width: 825px) {
-  .polygon {
-    gap: var(--gap-3xl);
-  }
-}
-
-@media only screen and (max-width: 768px) {
+/* Styles for small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Add styles for small devices here */
   .rectangleParent {
     flex-direction: column; /* Stack elements vertically */
     top: 0;
@@ -460,7 +451,40 @@ font-weight: bold;
     /* Style the mobile menu */
     /* You can add styles to position and style the mobile menu */
   }
-
-  /* Additional styles for the mobile menu links */
 }
 
+/* Styles for medium devices (laptops, small desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Add styles for medium devices here */
+  .polygon {
+    gap: var(--gap-3xl);
+  }
+}
+
+/* Styles for large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .polygon {
+    /* display: none; */
+  }
+  .rectangleParent {
+    width: 1000px;
+  }
+  .subMenu{
+    right: 120px;
+  }
+  /* Add styles for large devices here */
+}
+
+/* Styles for extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  /* Add styles for extra large devices here */
+  .polygon {
+    /* display: none; */
+  }
+  .rectangleParent {
+    width: 1200px;
+  }
+  .subMenu{
+    right: 240px
+  }
+}
