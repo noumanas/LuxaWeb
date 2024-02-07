@@ -146,7 +146,7 @@
   padding: 0 var(--padding-10xs);
 }
 .emailFieldFrameItem {
-  width: 165px;
+  width: 100%;
   border: 0;
   outline: 0;
   background-color: transparent;
@@ -369,6 +369,16 @@
   font-family: var(--font-clash-display);
 }
 @media screen and (max-width: 1125px) {
+  .registrationForm{
+    left: -92px;
+  }
+  .frameRegistrationForm{
+    margin-top: 100px;
+  }
+  .groupRequestaDemo{
+    right: 300px;
+    bottom: 167px
+  }
   .fAQNodes {
     padding-top: var(--padding-60xl);
     padding-bottom: var(--padding-60xl);
@@ -376,6 +386,34 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .registrationForm{
+    left: -94px;
+  }
+  .frameRegistrationForm{
+    margin-top: 100px;
+  }
+  .groupRequestaDemo{
+    right: 300px;
+    bottom: 167px
+  }
+  .mainform{
+    left: 0px;
+    /* top: 33px; */
+    width: 92%;
+    margin: 0;
+    z-index: 3;
+    position: absolute;
+  }
+  .frameGettingStarted {
+    height: 118.30000000000001px;
+    width: 171.3px;
+    position: absolute;
+    /* top: -79px; */
+    top: -55px;
+    right: 0;
+    object-fit: contain;
+    z-index: 4;
+  }
   .contactUsFor {
     font-size: var(--font-size-29xl);
     line-height: 56px;
@@ -388,6 +426,34 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .registrationForm{
+    left: -92px;
+  }
+  .frameRegistrationForm{
+    margin-top: 100px;
+  }
+  .groupRequestaDemo{
+    right: 300px;
+    bottom: 167px
+  }
+  .mainform{
+    left: 0px;
+    /* top: 33px; */
+    width: 92%;
+    margin: 0;
+    z-index: 3;
+    position: absolute;
+  }
+  .frameGettingStarted {
+    height: 118.30000000000001px;
+    width: 171.3px;
+    position: absolute;
+    /* top: -79px; */
+    top: -55px;
+    right: 0;
+    object-fit: contain;
+    z-index: 4;
+  }
   .contactUsFor {
     font-size: var(--font-size-17xl);
     line-height: 42px;

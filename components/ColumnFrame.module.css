@@ -89,6 +89,9 @@ padding-right: 10px;
   display: none;
 }
 .group12160252361 {
+  position: absolute;
+    right: 33%;
+    margin-top: 0;
   height: 336px;
   flex: 1;
   overflow: hidden;
@@ -96,7 +99,7 @@ padding-right: 10px;
   z-index: 1;
 }
 .rectangleGroup {
-  flex: 1;
+  /* flex: 1;
   border-radius: var(--br-xs);
   background-color: var(--color-gray-100);
   border: 10px solid var(--primary-linear-color);
@@ -109,7 +112,7 @@ padding-right: 10px;
     var(--padding-152xl);
   min-width: 291px;
   max-width: 100%;
-  z-index: 1;
+  z-index: 1; */
 }
 .emissionManagementFrame {
   height: 51px;
@@ -135,32 +138,32 @@ padding-right: 10px;
 .dataAnalyticsInsights,
 .servicesFrame {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .dataAnalyticsInsights {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-3xs);
-  min-width: 190px;
+  min-width: 400px;
 }
 .servicesFrame {
   width: 367px;
-  flex-direction: row;
+  flex-direction: column;
   gap: var(--gap-xl);
   max-width: 100%;
 }
 .line {
-  align-self: stretch;
-  flex-direction: column;
+  align-self: center;
+  flex-direction: row;
   gap: var(--gap-41xl);
 }
 .group2,
 .line,
 .text1 {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .group2 {
@@ -172,9 +175,9 @@ padding-right: 10px;
 }
 .text1 {
   width: 1117px;
-  flex-direction: row;
+  flex-direction: column-reverse;
   gap: var(--gap-11xl);
-  text-align: left;
+  text-align: center;
   font-size: var(--font-size-lg);
 }
 .columnFrame,

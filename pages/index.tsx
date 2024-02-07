@@ -33,7 +33,18 @@ const HomeLandingPage: NextPage = () => {
   const handleLinkClick= ()=> {
     setarchitecturalFirms(true);
     setarchitectural(false)
-    setHeadingtext("Architectural Second") // Set the clicked link as active
+    if(headingText === "Architectural Firms"){
+      setHeadingtext("Construction Industry")
+      setarchitecturalFirms(true);
+      setarchitectural(false)
+    }
+    else if(headingText === "Construction Industry"){
+      setHeadingtext("Engineering Industry")
+    }
+    else{
+      setHeadingtext("Architectural Firms");
+    }
+     // Set the clicked link as active
   };
   const handleLinkClickback= ()=> {
     setarchitecturalFirms(false);

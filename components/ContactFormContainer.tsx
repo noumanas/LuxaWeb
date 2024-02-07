@@ -60,7 +60,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 <div className={styles.name}>NAME:</div>
               </div>
               <input
-                className={styles.lineFrameContactUs}
+                className={styles.emailFieldFrameItem}
                 placeholder="Full Name"
                 type="text"
               />
@@ -90,7 +90,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 <div className={styles.phone}>PHONE:</div>
               </div>
               <input
-                className={styles.frameInput}
+                className={styles.emailFieldFrameItem}
                 placeholder="Your Contact Number"
                 type="text"
               />
@@ -101,7 +101,7 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 <div className={styles.message}>Message:</div>
               </div>
               <input
-                className={styles.emailFieldFrameChild1}
+                className={styles.emailFieldFrameItem}
                 placeholder="Any Specific Message Type Here ...."
                 type="text"
               />
