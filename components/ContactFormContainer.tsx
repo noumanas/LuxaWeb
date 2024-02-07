@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 import { useMemo, type CSSProperties } from "react";
+import React, { useState } from "react";
+import {contactApiHandelr} from "../api-helpers/api-helpers"
 import styles from "./ContactFormContainer.module.css";
 import Image from 'next/image'
 
@@ -34,7 +36,40 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
       bottom: propBottom,
     };
   }, [propBottom]);
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const handleFormSubmit = (e:any) => {
+    e.preventDefault();
+    // Here you can access the input values and perform form submission
+    console.log("Form submitted with values:", { name, email, phone, message });
+    const payload ={
+      name,
+      email, 
+      phone, 
+      message
+    }
+     // Call the contact API handler function
+     contactApiHandelr(payload)
+     .then((res) => {
+       console.log("API response:", res);
+       // Reset form after successful submission
+       setName("");
+       setEmail("");
+       setPhone("");
+       setMessage("");
+     })
+     .catch((error) => {
+       console.error("API error:", error);
+       // Handle error here (e.g., display error message to user)
+     });
+    // Reset the form after submission
+    setName("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
+  };
   return (
     <section className={styles.fAQNodes}>
       <div className={styles.fAQNodesChild} />
@@ -53,16 +88,19 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
           </div>
         </div>
         <div className={styles.mainform}>
-          <form className={styles.nameFieldFrame}>
+          <form className={styles.nameFieldFrame} onSubmit={handleFormSubmit}>
             <div className={styles.nameFieldFrameChild} />
             <div className={styles.emailFieldFrame}>
               <div className={styles.messageFieldFrame}>
                 <div className={styles.name}>NAME:</div>
               </div>
               <input
+                value={name}
                 className={styles.emailFieldFrameItem}
                 placeholder="Full Name"
                 type="text"
+                onChange={(e) => setName(e.target.value)}
+
               />
               {/* <Image
                 className={styles.emailFieldFrameChild}
@@ -78,6 +116,10 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 className={styles.emailFieldFrameItem}
                 placeholder="Your Email Address "
                 type="text"
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+
+
               />
               <img
                 className={styles.emailFieldFrameInner}
@@ -93,6 +135,8 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 className={styles.emailFieldFrameItem}
                 placeholder="Your Contact Number"
                 type="text"
+                onChange={(e) => setPhone(e.target.value)}
+
               />
               <img className={styles.lineIcon} alt="" src="/line-48.svg" />
             </div>
@@ -104,6 +148,10 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
                 className={styles.emailFieldFrameItem}
                 placeholder="Any Specific Message Type Here ...."
                 type="text"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+
+
               />
               <img
                 className={styles.emailFieldFrameChild2}
@@ -137,3 +185,4 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
 };
 
 export default ContactFormContainer;
+

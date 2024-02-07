@@ -6,13 +6,15 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@nextui-org/react": "^2.2.9",
     "@szhsin/react-accordion": "^1.2.3",
+    "axios": "^1.6.7",
     "framer-motion": "^11.0.3",
     "next": "^14.1.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.2.1"
+    "react-router-dom": "^6.2.1",
+    "sweetalert2": "^11.10.5"
   },
   "devDependencies": {
     "@types/node": "^17.0.42",
