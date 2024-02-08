@@ -6,7 +6,7 @@ const InvisibleFrame: NextPage = () => {
   return (
     <div className={styles.comingsoon}>
     <div className={styles.comingsoonchild}></div>
-    <Mheader activeLink={""}/>
+    {/* <Mheader activeLink={""}/> */}
     <div className={styles.monthlynewsletter}>
       <img
         className={styles.emptyframeicon}

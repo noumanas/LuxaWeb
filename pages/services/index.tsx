@@ -12,6 +12,7 @@ import Image from 'next/image'
 const ServicesMain: NextPage = () => {
   const [loaded, setLoaded] = useState(false);
   const [activeLink, setActiveLink] =  useState("services");
+  const [isMobile, setIsMobile] = useState(false);
 
   // const setActiveLinkhandleLinkClick = (link: string) s=> {
   //   setActiveLink(link);
@@ -23,6 +24,7 @@ const ServicesMain: NextPage = () => {
   return (
     <div  className={`${styles.servicesMain} ${loaded && styles.loaded}`}>
      <Header
+     setIsMobile={setIsMobile}
         activeLink={activeLink}
         projectDescription="Your Sustainability Command Center LUXA Dashboard"
         constructionManagementDes="Gain unparalleled insights into your sustainable projects with our interactive dashboard. Monitor ongoing projects, track certification progress, and dive into key data analytics. Empower your team to make informed decisions, leading to more sustainable and environmentally conscious outcomes."

@@ -1,8 +1,9 @@
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
+import { useMemo, type CSSProperties, useState } from "react";
 import styles from "./Header.module.css";
 import Mheader from "./mainheader";
 import { motion } from 'framer-motion';
+import MobileMenuResponsive from "./MobileMenuResponsive";
 
 type HeaderType = {
   projectDescription?: string;
@@ -11,6 +12,8 @@ type HeaderType = {
   /** Style props */
   readyToLearnFrameGap?: CSSProperties["gap"];
   propPadding?: CSSProperties["padding"];
+  setIsMobile: (isMobile: boolean) => void;
+
 };
 
 const Header: NextPage<HeaderType> = ({
@@ -19,6 +22,7 @@ const Header: NextPage<HeaderType> = ({
   readyToLearnFrameGap,
   propPadding,
   activeLink,
+  setIsMobile,
 }) => {
   const frameDivStyle: CSSProperties = useMemo(() => {
     return {
@@ -31,12 +35,18 @@ const Header: NextPage<HeaderType> = ({
       padding: propPadding,
     };
   }, [propPadding]);
+  const [isMobileMain, setIsMobileMain] = useState(false);
 
   return (
     <section className={styles.contactInfoFrame}>
       <div className={styles.rectangleParent} style={frameDivStyle}>
         <div className={styles.frameChild} />
-       <Mheader activeLink={activeLink}/>
+        {isMobileMain ? (
+          <MobileMenuResponsive testinfmobileMenu={true} setIsMobile={setIsMobileMain} />
+        ):(
+       <Mheader activeLink={activeLink} setIsMobile={setIsMobileMain}/>
+
+        )}
         <div className={styles.services1}>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

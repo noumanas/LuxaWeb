@@ -10,6 +10,7 @@ import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsIns
 import Header from "../../../components/Header";
 const ServicesLEEDCertificationM: NextPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
       setIsLoaded(true);
@@ -48,6 +49,7 @@ const ServicesLEEDCertificationM: NextPage = () => {
   return (
     <div className={`${styles.servicesLeedCertificationM} ${isLoaded ? styles.loaded : ''}`} >
       <Header
+      setIsMobile={setIsMobile}
         projectDescription="Streamline Your Path to LEED Certification with Luxa"
         constructionManagementDes="Luxa's innovative software transforms the LEED certification journey, offering an integrated, user-friendly platform that simplifies every step from compliance tracking to documentation submission, making sustainable certification more accessible and manageable than ever before."
         readyToLearnFrameGap="174px"

@@ -6,8 +6,11 @@ import ContactFormContainer from "../../../components/ContactFormContainer";
 import CardContainer from "../../../components/CardContainer";
 import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
 import Header from "../../../components/Header";
+import { useState } from "react";
 
 const ResourcesConstructionType1: NextPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   const accordionData = [
     {
       header: "How does Luxa cater to the specific needs of large-scale infrastructure projects?",
@@ -44,6 +47,7 @@ const ResourcesConstructionType1: NextPage = () => {
     <div className={styles.resourcesConstructionType}>
     
     <Header
+        setIsMobile={setIsMobile}
         projectDescription="Tailored Solutions for Infrastructure Projectsy"
         constructionManagementDes="Luxa brings unparalleled expertise and technology to the forefront of infrastructure construction, offering specialized solutions designed to tackle the intricate challenges and scale of these projects. With our innovative platform, we empower your infrastructure projects with advanced tools for data management, compliance tracking, and sustainability, ensuring every phase meets the highest standards of efficiency and excellence."
         readyToLearnFrameGap="174px"

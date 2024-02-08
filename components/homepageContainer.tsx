@@ -35,7 +35,7 @@ const homepageContainer: NextPage = () => {
             <div className={styles.text1}>
               <div
                 className={styles.discoverAPowerful}
-              >{`Discover a powerful software solution that seamlessly integrates data analytics to streamline sustainability management in the AEC Industry. Our platform conducts LEED Certification Management, Scope 1, 2, & 3 Emission Management and Reporting, and offers predictive insights for sustainable projects. Join us in shaping a greener future today.`}</div>
+              >{`Discover an AI powered software solution that seamlessly integrates data analytics to streamline sustainability management in the AEC Industry. Our platform conducts LEED Certification Management, Scope 1, 2, & 3 Emission Management and Reporting, and offers predictive insights for sustainable projects. Join us in shaping a greener future today.`}</div>
               <div className={styles.line}>
                 <button className={styles.rectangleParent}>
                   <div className={styles.frameChild} />

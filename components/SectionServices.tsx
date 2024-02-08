@@ -68,7 +68,7 @@ const SectionServices: NextPage = () => {
             </button>
           </div>
         </header> */}
-        <Mheader activeLink={activeLink}/>
+        {/* <Mheader activeLink={activeLink}/> */}
         <div className={styles.contactUs}>
           <div className={styles.partners}>
             <h1 className={styles.meetLuxaBuilding}>

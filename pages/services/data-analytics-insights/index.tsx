@@ -7,8 +7,11 @@ import ContactFormContainer from "../../../components/ContactFormContainer";
 import Header from "../../../components/Header";
 import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
 import CardContainer from "../../../components/CardContainer";
+import { useState } from "react";
 
 const ServicesDataAnalyticsAndI: NextPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   const accordionData = [
     {
       header: " How does data analytics contribute to sustainability in construction projects?",
@@ -45,6 +48,7 @@ const ServicesDataAnalyticsAndI: NextPage = () => {
   return (
     <div className={styles.servicesDataAnalyticsAndI}>
         <Header
+        setIsMobile={setIsMobile}
         projectDescription="Unleashing the Power of Sustainability Data in Construction"
         constructionManagementDes="Step into a realm of data-driven sustainability as we bring your projects to life through detailed analytics and impactful insights. Transform complex information into clear visuals that empower you to drive meaningful change."
         readyToLearnFrameGap="174px"

@@ -51,26 +51,25 @@ const HomeLandingPage: NextPage = () => {
     setarchitectural(true)
     setHeadingtext("Architectural Firms") // Set the clicked link as active
   };
-  useEffect(() => {
-    // Check if window object is available (client-side)
-    if (typeof window !== 'undefined') {
-      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+  // useEffect(() => {
+  //   // Check if window object is available (client-side)
+  //   if (typeof window !== 'undefined') {
+  //     setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
 
-      // Add an event listener to update the state when the window is resized
-      const handleResize = () => {
-        setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
-      };
-      window.addEventListener('resize', handleResize);
+  //     // Add an event listener to update the state when the window is resized
+  //     const handleResize = () => {
+  //       setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+  //     };
+  //     window.addEventListener('resize', handleResize);
       
-      // Cleanup function to remove event listener
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
-    }
-  }, []);
+  //     // Cleanup function to remove event listener
+  //     return () => {
+  //       window.removeEventListener('resize', handleResize);
+  //     };
+  //   }
+  // }, []);
   useEffect(() => {
     const handleScroll = () => {
-      console.log('window.scrollY',window.scrollY)
       const scrollY = window.scrollY;
         setIsScrolled(scrollY>120);
         setisScrolledsecon(scrollY >800)
@@ -98,8 +97,8 @@ const HomeLandingPage: NextPage = () => {
        
         {/* <img className={styles.maskGroupIcon} alt="" src="/mask-group.svg" /> */}
         {isMobile ? (
-          <MobileMenuResponsive testinfmobileMenu={true} />
-        ):( <Header activeLink={""} />)}
+          <MobileMenuResponsive testinfmobileMenu={true} setIsMobile={setIsMobile} />
+        ):( <Header activeLink={""} setIsMobile={setIsMobile} />)}
         <WelcomeTo />
       </section>
       {isScrolled &&(

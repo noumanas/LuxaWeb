@@ -7,8 +7,11 @@ import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
 import CardContainer from "../../../components/CardContainer";
+import { useState } from "react";
 
 const ResourcesIndustryEngineer: NextPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   const accordionData = [
     {
       header: "How Does Luxa Help with Sustainability in Engineering Projects?",
@@ -43,6 +46,7 @@ const ResourcesIndustryEngineer: NextPage = () => {
   return (
     <div className={styles.resourcesIndustryEngineer}>
       <Header
+        setIsMobile={setIsMobile}
         projectDescription="Tailored Solutions for the Engineering Industry"
         constructionManagementDes="We understand that sustainability is a cornerstone of modern engineering projects. Our specialized solutions are designed to seamlessly address the unique sustainability challenges faced by engineers, integrating cutting-edge technology with eco-friendly practices to ensure your projects not only meet but exceed environmental standards and goals."
         readyToLearnFrameGap="174px"

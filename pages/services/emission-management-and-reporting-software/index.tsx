@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 
 const ServicesScope123Emis: NextPage = () => {
   const [loaded, setLoaded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Set loaded to true after the component mounts
@@ -56,6 +57,7 @@ const ServicesScope123Emis: NextPage = () => {
   return (
     <div className={`${styles.servicesScope123Emis} ${loaded && styles.loaded}`}>
       <Header
+      setIsMobile={setIsMobile}
         projectDescription="Streamline Your Scope 1, 2, & 3 Emissions Management and Reporting with Luxa"
         constructionManagementDes="Take control of your project’s environmental impact with Luxa’s advanced emissions management software. Seamlessly track, analyze, and report Scope 1, 2, and 3 emissions, ensuring compliance and sustainability in every aspect of your construction project."
         readyToLearnFrameGap="174px"

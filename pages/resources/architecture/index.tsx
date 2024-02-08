@@ -6,8 +6,11 @@ import Footer from "../../../components/Footer";
 import ContactFormContainer from "../../../components/ContactFormContainer";
 import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
 import CardContainer from "../../../components/CardContainer";
+import { useState } from "react";
 
 const ResourcesIndustryArchitec: NextPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   const accordionData = [
     {
       header: "How does Luxa integrate with existing architectural design software?",
@@ -42,6 +45,7 @@ const ResourcesIndustryArchitec: NextPage = () => {
     <div className={styles.resourcesIndustryArchitec}>
    
       <Header
+        setIsMobile={setIsMobile}
         projectDescription="Revolutionizing Architecture with Advanced Technology"
         constructionManagementDes="Luxa introduces a groundbreaking fusion of sustainability-focused technology and efficient project management, tailored specifically for the modern architect. This innovative platform seamlessly bridges the gap between ecological responsibility and the complex project oversight duties of architects, elevating the standard for sustainable design and construction."
         readyToLearnFrameGap="174px"

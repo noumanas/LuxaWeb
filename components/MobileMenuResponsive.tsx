@@ -4,9 +4,11 @@ import styles from "./mobileMenu.module.css";
 import Link from "next/link";
 interface mobileMenuResponsive {
     testinfmobileMenu: boolean;
+  setIsMobile: (isMobile: boolean) => void;
+
   }
 
-const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu }) => {
+const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu , setIsMobile }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [changeStroke, setchangeStroke] = useState(false);
   const [activeLinks, setActiveLink] =  useState("services");
@@ -49,6 +51,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
         loading="eager"
         alt=""
         src="./iconsalertsalarm.svg"
+        onClick={()=>(setIsMobile(false))}
       />
     </div>
     <nav className={styles.alertframe}>

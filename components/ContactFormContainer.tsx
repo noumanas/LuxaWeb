@@ -42,8 +42,6 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
   const [message, setMessage] = useState("");
   const handleFormSubmit = (e:any) => {
     e.preventDefault();
-    // Here you can access the input values and perform form submission
-    console.log("Form submitted with values:", { name, email, phone, message });
     const payload ={
       name,
       email, 

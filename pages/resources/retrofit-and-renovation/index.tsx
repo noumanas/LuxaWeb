@@ -6,8 +6,11 @@ import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import DataAnalyticsInsightsContainer from "../../../components/DataAnalyticsInsightsContainer";
 import CardContainer from "../../../components/CardContainer";
+import { useState } from "react";
 
 const ResourcesConstructionType: NextPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   const accordionData = [
     {
       header: "How does Luxa accommodate the unique requirements of retrofit projects?",
@@ -43,6 +46,7 @@ const ResourcesConstructionType: NextPage = () => {
   return (
     <div className={styles.resourcesConstructionType}>
       <Header
+      setIsMobile={setIsMobile}
         projectDescription="Tailored Solutions for Retrofit and Renovation Projects"
         constructionManagementDes="Retrofit and renovation projects in construction present unique challenges, from integrating new systems into existing structures to meeting updated sustainability standards. Luxa offers tailored solutions that navigate these complexities, providing seamless project management, environmental compliance, and enhanced efficiency for every renovation need."
         readyToLearnFrameGap="174px"

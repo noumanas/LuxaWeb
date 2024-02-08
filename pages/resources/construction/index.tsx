@@ -8,8 +8,11 @@ import styles from "./ResourcesIndustryConstruc.module.css";
 import Footer from "../../../components/Footer";
 import ContactFormContainer from "../../../components/ContactFormContainer";
 import CardContainer from "../../../components/CardContainer";
+import { useState } from "react";
 
 const ResourcesIndustryConstruc: NextPage = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
   const accordionData = [
     {
       header: "What sustainability certifications can Luxa help us achieve?",
@@ -45,6 +48,7 @@ const ResourcesIndustryConstruc: NextPage = () => {
     <div className={styles.resourcesIndustryConstruc}>
       {/* <div className={styles.resourcesIndustryConstrucChild} /> */}
       <Header
+        setIsMobile={setIsMobile}
         projectDescription="Revolutionizing the Construction Industry with Luxa"
         constructionManagementDes="At the forefront of innovation, Luxa is redefining construction project management by integrating cutting-edge sustainability solutions. Our platform uniquely combines real-time emissions tracking, streamlined certification processes, and data-driven insights, setting a new standard in eco-conscious construction practices."
         readyToLearnFrameGap="152px"
