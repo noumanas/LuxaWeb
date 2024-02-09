@@ -241,6 +241,7 @@ transition: all 0.5s ease-out;
 }
 @media screen and (max-width: 825px) {
   .welcomeToLuxaContainer {
+    margin: 40px;
     font-size: var(--font-size-29xl);
     line-height: 64px;
   }
@@ -254,6 +255,7 @@ transition: all 0.5s ease-out;
 }
 @media screen and (max-width: 450px) {
   .welcomeToLuxaContainer {
+    margin: 40px;
     font-size: var(--font-size-17xl);
     line-height: 48px;
   }

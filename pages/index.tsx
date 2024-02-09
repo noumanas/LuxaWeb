@@ -106,7 +106,10 @@ const HomeLandingPage: NextPage = () => {
         {isMobile ? (
           <MobileMenuResponsive testinfmobileMenu={true} setIsMobile={setIsMobile} />
         ):( <Header activeLink={""} setIsMobile={setIsMobile} />)}
+        <div>
         <WelcomeTo />
+
+        </div>
       </section>
       {isScrolled &&(
           <motion.div
@@ -120,31 +123,23 @@ const HomeLandingPage: NextPage = () => {
               <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
 
               <div className={styles.polygonParent}>
-                <div className={styles.polygon}>
-                  <div className={styles.polygonInner}>
-                    <div className={styles.emailParent}>
-                      <div className={styles.email} />
                       <h1 className={styles.theWorlds1Container}>
                         <span>{`The world's #1 solution to start your `}</span>
                         <b className={styles.sustainability}>{`sustainability `}</b>
                         <span> journey</span>
                       </h1>
-                    </div>
-                  </div>
-                </div>
                 <div className={styles.text}>
-
                   <SecondAccordion/>
-                  <div className={styles.wrapperContactDetails}>
-                    <Image
-                      className={styles.contactDetailsIcon}
-                      loading="eager"
-                      alt=""
-                      src="/Rectangle4.png"
-                      width={527}
-                      height={479}
-                    />
-                  </div>
+                    <div>
+                      <Image
+                        className={styles.contactDetailsIcon}
+                        loading="eager"
+                        alt=""
+                        src="/Rectangle4.png"
+                        width={527}
+                        height={479}
+                      />
+                    </div>
                 </div>
               </div>
             </section>
@@ -171,7 +166,7 @@ const HomeLandingPage: NextPage = () => {
            delay: 0.8,
            ease: [0, 0.71, 0.2, 1.01]
          }}>
-                <section className={styles.homeLandingPageInner}>
+      <section className={styles.homeLandingPageInner}>
        <div className={styles.frameParent}>
          <div className={styles.frameWrapper}>
            <div className={styles.elevatingSustainabilityInEvParent}>

@@ -153,7 +153,7 @@
 }
 .colorLogoNoBackground {
   align-self: stretch;
-  height: 34px;
+  /* height: 34px; */
   position: relative;
   max-width: 100%;
   overflow: hidden;
@@ -308,7 +308,7 @@ font-weight: bold;
   /* gap: var(--gap-6xs); */
 }
 .polygon {
-  width: 630px;
+  width: 100%;
   align-items: flex-start;
   /* padding: 25px; */
   box-sizing: border-box;
@@ -428,7 +428,10 @@ font-weight: bold;
     flex-direction: row;
     position: absolute;
   }
+.colorLogoNoBackground{
 
+  height: 34px;
+}
   /* Style adjustments for smaller screens */
   .servicesParent,
   .resourcesParent,

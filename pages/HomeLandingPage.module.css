@@ -83,15 +83,11 @@
 
 }
 .theWorlds1Container {
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
   font-size: inherit;
   line-height: 50px;
   white-space: pre-wrap;
   display: inline-block;
-  width: 100%;
+  width: 50%;
   height: 100%;
   z-index: 1;
  
@@ -117,17 +113,7 @@
   justify-content: flex-start;
 }
 .contactDetailsIcon {
-  height: 100%;
-  flex: 1;
-  max-width: 100%;
-  overflow: hidden;
-  min-width: 413px;
-  object-fit: contain;
-  position: absolute;
-  left: 0;
-  top: 2px;
-  width: 100%;
-  transform: scale(1.058);
+ 
 }
 .text,
 .wrapperContactDetails {
@@ -143,10 +129,10 @@
   align-items: center;
 }
 .text {
-  align-self: stretch;
+  /* align-self: stretch; */
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   gap: var(--gap-16xl);
   max-width: 100%;
 }
@@ -326,6 +312,9 @@
   letter-spacing: normal;
 }
 @media screen and (max-width: 1200px) {
+  .homeLandingPageInner {
+    width: 100%;
+  }
   .maskGroupParent {
     padding-left: var(--padding-87xl);
     padding-top: var(--padding-xl);
@@ -338,6 +327,9 @@
   }
 }
 @media screen and (max-width: 825px) {
+  .homeLandingPageInner {
+    width: 100%;
+  }
   .text {
     flex-direction: column;
     align-items: center;
@@ -357,13 +349,15 @@
   }
   .text {
     gap: var(--gap-mid);
+    width: 56%;
+    align-self:none;
   }
   .polygonParent {
     gap: var(--gap-31xl);
   }
   .elevatingSustainabilityIn {
     font-size: var(--font-size-17xl);
-    line-height: 40px;
+    line-height: none;
   }
   .elevatingSustainabilityInEvParent {
     gap: var(--gap-2xl);
@@ -378,8 +372,17 @@
   .faqsParent {
     gap: var(--gap-20xl);
   }
+  .frameWrapper{
+    margin-top: 210px;
+  }
+  .whetherItsNew{
+    height: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
+  .homeLandingPageInner {
+    width: 100%;
+  }
   .maskGroupParent {
     padding-left: var(--padding-xl);
     padding-bottom: var(--padding-21xl);
@@ -394,11 +397,12 @@
   }
   .elevatingSustainabilityIn {
     font-size: var(--font-size-8xl);
-    line-height: 30px;
+    line-height: none;
   }
   .whetherItsNew {
     font-size: var(--font-size-base);
     line-height: 28px;
+    height: 100%;
   }
   .faqs {
     font-size: var(--font-size-8xl);
@@ -406,5 +410,8 @@
   }
   .faqsParent {
     gap: var(--gap-xl);
+  }
+  .frameWrapper{
+    margin-top: 210px;
   }
 } 

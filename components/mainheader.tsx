@@ -14,6 +14,8 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink,setIsMobile, ...props })
   const [submenushowsecond, setsubmenushowsecond] = useState(false);
   const [changeStroke, setchangeStroke] = useState(false);
   const [changeStrokeresources, setchangeStrokeresources] = useState(false);
+  const [changeStrokeKnowledge, setchangeStrokeKnowledge] = useState(false);
+
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
 
@@ -50,11 +52,13 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink,setIsMobile, ...props })
 
   const handleMouseEnter1 = () => {
     setisknolegdeDropdownOpen(true);
+    setchangeStrokeKnowledge(true);
 
   };
 
   const closeDropdown1 = () => {
-    setisknolegdeDropdownOpen(false);
+    setisknolegdeDropdownOpen(false)
+    setchangeStrokeKnowledge(false)
   };
 
   const handleMouseEnter2 = () => {
@@ -251,7 +255,9 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink,setIsMobile, ...props })
               <div className={styles.knowledgeCenterParent}>
                 <div className={styles.knowledgeCenter} onMouseEnter={handleMouseEnter1} onMouseLeave={closeDropdown1}>Knowledge Center</div>
                 <div className={styles.stroke2Container}>
-                  <img className={styles.stroke2Icon1} alt="" src="/stroke-3.svg" />
+                {changeStrokeKnowledge === true ? (
+                        <img className={styles.stroke3Icon} alt="" src="/Stroke3-hover.svg" />
+                      ) : (<img className={styles.stroke3Icon} alt="" src="/stroke-3.svg" />)}
                 </div>
                 {isknolegdeDropdownOpen && (
                   <div

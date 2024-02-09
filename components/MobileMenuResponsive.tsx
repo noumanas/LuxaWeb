@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./mobileMenu.module.css";
 import Link from "next/link";
 interface mobileMenuResponsive {
@@ -36,15 +36,29 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
     setchangeStrokeresources(false);
 
   };
+  useEffect(() => {
+    // Prevent scrolling and make mobile menu fullscreen when component mounts
+    const handleScroll = () => {
+      document.body.style.overflow = 'hidden';
+    };
+    handleScroll(); // Call the function to apply styles immediately
+
+    return () => {
+      // Cleanup function to restore scrolling when component unmounts
+      document.body.style.overflow = 'auto';
+    };
+  }, []);
   return (
     <div className={styles.mobileresponsiveheader}>
     <div className={styles.servicesframe}>
+    <Link href="/">
       <img
         className={styles.colorlogonobackground}
         loading="eager"
         alt=""
         src="./color-logo--no-background@2x.png"
-      />
+      /></Link>
+      
 
       <img
         className={styles.iconsalertsalarm}

@@ -17,7 +17,7 @@
 }
 .getABirdsEye {
   align-self: stretch;
-  height: 54px;
+  height: 100%;
   position: relative;
   font-size: var(--font-size-base);
   line-height: 27px;
