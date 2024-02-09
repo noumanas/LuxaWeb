@@ -64,6 +64,7 @@
   gap: var(--gap-39xl);
 }
 .lineElements {
+  margin-top: 200px;
   width: 1558px;
   justify-content: flex-end;
   padding: 0 var(--padding-xl);

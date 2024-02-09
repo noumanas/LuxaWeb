@@ -4,6 +4,7 @@ import Mheader from "./mainheader";
 import { useState } from "react";
 const SectionServices: NextPage = () => {
   const [activeLink, setActiveLink] =  useState("company");
+  const [isMobile, setIsMobile] = useState(false);
 
   return (
     <section className={styles.companyInner}>
@@ -68,7 +69,8 @@ const SectionServices: NextPage = () => {
             </button>
           </div>
         </header> */}
-        {/* <Mheader activeLink={activeLink}/> */}
+      
+        <Mheader activeLink={activeLink} setIsMobile={setIsMobile} />
         <div className={styles.contactUs}>
           <div className={styles.partners}>
             <h1 className={styles.meetLuxaBuilding}>

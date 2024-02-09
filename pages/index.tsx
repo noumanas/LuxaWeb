@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import Header from "../components/mainheader";
 import WelcomeTo from "../components/homepageContainer";
 import FRAME from "../components/FRAME";
+import ConstructionIndustry from "../components/ConstructionIndustry";
+import EngineeringIndustry from "../components/EngineeringIndustry"
 import LineSection from "../components/LineSection";
 import FrameComponent4 from "../components/FrameComponent4";
 import FrameComponent3 from "../components/FrameComponent3";
@@ -11,7 +13,6 @@ import styles from "./HomeLandingPage.module.css";
 import SecondAccordion from "../components/SecondAccordion";
 import ContactFormContainer from "../components/ContactFormContainer";
 import MobileMenuResponsive from "../components/MobileMenuResponsive";
-
 import Accordions from "../components/Accordion";
 import { useEffect, useState } from "react";
 import Image from 'next/image'
@@ -23,32 +24,38 @@ const HomeLandingPage: NextPage = () => {
   const [isScrolledthird, setisScrolledthird] = useState(false);
   const [isScrolledforth, setisScrolledforth] = useState(false);
   const [loaded, setLoaded] = useState(false);
-  const [architecturalFirmstwo, setarchitecturalFirms] = useState(false);
-  const [architecturalFirms, setarchitectural] = useState(true);
+  const [architecturalFirmstwo, setrchitecturalFirmstwo] = useState(false);
+  const [architecturalFirms, setarchitecturalFirms] = useState(true);
+  const [architecturalEngineering, setarchitecturalEngineering] = useState(false);
+
   const [headingText , setHeadingtext]=useState("Architectural Firms")
   const [isMobile, setIsMobile] = useState(false);
   const [isDestop, setisDestop] = useState(true);
 
   
   const handleLinkClick= ()=> {
-    setarchitecturalFirms(true);
-    setarchitectural(false)
     if(headingText === "Architectural Firms"){
       setHeadingtext("Construction Industry")
-      setarchitecturalFirms(true);
-      setarchitectural(false)
+      setrchitecturalFirmstwo(true);
+      setarchitecturalFirms(false)
     }
     else if(headingText === "Construction Industry"){
       setHeadingtext("Engineering Industry")
+      setarchitecturalEngineering(true);
+      setrchitecturalFirmstwo(false);
+
     }
     else{
       setHeadingtext("Architectural Firms");
+      setarchitecturalEngineering(false);
+      setarchitecturalFirms(true)
+
     }
      // Set the clicked link as active
   };
   const handleLinkClickback= ()=> {
-    setarchitecturalFirms(false);
-    setarchitectural(true)
+    setrchitecturalFirmstwo(false);
+    setarchitecturalFirms(true)
     setHeadingtext("Architectural Firms") // Set the clicked link as active
   };
   // useEffect(() => {
@@ -251,11 +258,23 @@ const HomeLandingPage: NextPage = () => {
           delay: 0.8,
           ease: [0, 0.71, 0.2, 1.01]
         }}>
-          <FRAME/>
+          <ConstructionIndustry/>
         </motion.div>
         
       )}
+         {architecturalEngineering&& (
+        <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.8,
+          ease: [0, 0.71, 0.2, 1.01]
+        }}>
+          <EngineeringIndustry/>
+        </motion.div>
         
+      )}
       </section>
       </motion.div>
       )}
