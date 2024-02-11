@@ -63,13 +63,13 @@ const homepageContainer: NextPage = () => {
             duration: 2,
             x: { duration: 1 }
           }}>
-        <div className={styles.wrapperDashboardDesignmainD}>
-            {/* <img
-              className={styles.dashboardDesignmainDashboard}
+        <div className={styles.dashboardimageContainer}>
+            <img
+              className={styles.dashboardImage}
               loading="eager"
               alt=""
               src="/dashboard-designmain-dashboard-1@2x.png"
-            /> */}
+            />
         </div>
         </motion.div>
 

@@ -2,6 +2,8 @@ import type { NextPage } from "next";
 import styles from "./FrameComponent4.module.css";
 import { useState } from "react";
 import Image from 'next/image'
+import Link from "next/link";
+
 
 const FrameComponent4: NextPage = () => {
    const [arrowActive, setarrowActive] = useState(false)
@@ -55,24 +57,24 @@ const FrameComponent4: NextPage = () => {
         </div> */}
       {/* </div> */}
       <div className={styles.rectangleContainer} onMouseLeave={()=>setarrowActive1(false)} onMouseEnter={()=>setarrowActive1(true)}>
-      
+      <Link href="/resources/retrofit-and-renovation">
         <Image
-          className={styles.rectangleIcon}
-          loading="eager"
-          alt=""
-          src="/rectangle-631@2x.png"
-          width={240}
-          height={332}
-        />
+            className={styles.rectangleIcon}
+            loading="eager"
+            alt=""
+            src="/rectangle-631@2x.png"
+            width={240}
+            height={332}
+          />
+      </Link>
+        
         <div className={styles.retrofits}>Retrofits
         {arrowActive1 ===true && (
-          <Image
+          <img
           className={styles.hoverarrow}
           loading="eager"
           alt=""
           src="/Arrowconttraction.png"
-          width={36}
-          height={0}
         />
         )}
         </div>
@@ -88,17 +90,16 @@ const FrameComponent4: NextPage = () => {
         />
         <div className={styles.retrofits}>Renovations 
         {arrowActive2===true && (
-           <Image
+           <img
            className={styles.hoverarrow}
            loading="eager"
            alt=""
            src="/Arrowconttraction.png"
-           width={36}
-           height={0}
          />
         )}
        </div>
       </div>
+
       <div className={styles.rectangleParent1} onMouseLeave={()=>setarrowActive3(false)} onMouseEnter={()=>setarrowActive3(true)}>
         <Image
           className={styles.frameChild2}
@@ -110,18 +111,18 @@ const FrameComponent4: NextPage = () => {
         />
         <div className={styles.retrofits}>Infrastructure
         {arrowActive3 === true && (
-          <Image
+          <img
           className={styles.hoverarrow}
           loading="eager"
           alt=""
           src="/Arrowconttraction.png"
-          width={36}
-          height={0}
         />
         )}
         </div>
         
       </div>
+
+     
     </div>
   );
 };

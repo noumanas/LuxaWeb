@@ -120,7 +120,7 @@ const HomeLandingPage: NextPage = () => {
             delay: 0.1,
             ease: [0, 0.71, 0.2, 1.01]
           }}> 
-              <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
+            <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
 
               <div className={styles.polygonParent}>
                       <h1 className={styles.theWorlds1Container}>
@@ -154,7 +154,10 @@ const HomeLandingPage: NextPage = () => {
             delay: 0.8,
             ease: [0, 0.71, 0.2, 1.01]
           }}>
-           <LineSection />
+                 <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
+                 <LineSection />
+
+                 </section>
       </motion.div>
       )}
       {isScrolledthird && (

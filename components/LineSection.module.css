@@ -784,6 +784,7 @@ line-height: normal;
   max-width: 100%;
 }
 .rectangle {
+  flex: 1; /* Grow to fill available space */
   align-self: stretch;
   font-size: var(--font-size-lg);
 }
@@ -892,7 +893,15 @@ line-height: normal;
   color: var(--color-black);
   font-family: var(--font-clash-display);
 }
+@media screen and (max-width: 1440px) {
+  .atGcsWe{
+    width: 70%;
+  }
+}
 @media screen and (max-width: 1200px) {
+  .atGcsWe{
+    width: 70%;
+  }
   .fullNameInput {
     padding-right: var(--padding-4xl);
     box-sizing: border-box;
@@ -909,8 +918,16 @@ line-height: normal;
   .lineSection {
     gap: var(--gap-27xl);
   }
+  .rectangle{
+  align-self: none;
+    
+  }
 }
+
 @media screen and (max-width: 825px) {
+  .atGcsWe{
+    width: 70%;
+  }
   .transformingSustainabilityEf {
     font-size: var(--font-size-17xl);
     line-height: 40px;
@@ -937,6 +954,9 @@ line-height: normal;
   }
 }
 @media screen and (max-width: 450px) {
+  .atGcsWe{
+    width: 70%;
+  }
   .transformingSustainabilityEf {
     font-size: var(--font-size-8xl);
     line-height: 30px;
