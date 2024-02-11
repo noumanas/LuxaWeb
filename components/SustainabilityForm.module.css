@@ -352,7 +352,7 @@
     flex: 1;
   }
   .luxaLEEDSoftware {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .howToRegister {
     padding-right: var(--padding-9xl);
@@ -363,21 +363,21 @@
     flex: 1;
   }
   .lEEDCertificationManageme {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .faqFrame,
   .signingCropped1Icon {
     flex: 1;
   }
   .fAQsGroup {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .doesLuxaLEEDWork,
   .warehouseForklift21Icon {
     flex: 1;
   }
   .lineFrame {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .contactAnExpertFrame {
     padding-right: var(--padding-5xl);
@@ -388,7 +388,7 @@
     flex: 1;
   }
   .accessToDataAfterCompletio {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 }
 @media screen and (max-width: 800px) {

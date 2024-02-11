@@ -88,7 +88,7 @@ background-repeat: no-repeat;
   gap: var(--gap-xl);
 }
 .contactAnExpertButton {
-  width: 1073px;
+  /* width: 1073px; */
   height: 506px;
   align-items: flex-start;
   justify-content: flex-start;

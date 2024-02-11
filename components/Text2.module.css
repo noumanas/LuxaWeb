@@ -496,9 +496,9 @@ font-weight: bold;
   .polygon {
     /* display: none; */
   }
-  .rectangleParent {
+  /* .rectangleParent {
     width: 1200px;
-  }
+  } */
   .subMenu{
     right: 240px
   }

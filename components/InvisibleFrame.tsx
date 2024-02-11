@@ -1,25 +1,31 @@
 import type { NextPage } from "next";
 import styles from "./InvisibleFrame.module.css";
 import Mheader from "./mainheader"
+import MobileMenuResponsive from "./MobileMenuResponsive";
+import { useState } from "react";
 
 const InvisibleFrame: NextPage = () => {
+const [isMobile, setIsMobile] = useState(false);
+
   return (
     <div className={styles.comingsoon}>
     <div className={styles.comingsoonchild}></div>
-    {/* <Mheader activeLink={""}/> */}
+    {isMobile ? (
+          <MobileMenuResponsive testinfmobileMenu={true} setIsMobile={setIsMobile} />
+        ):( <Mheader activeLink={"Pricing"} setIsMobile={setIsMobile} />)}
     <div className={styles.monthlynewsletter}>
-      <img
+      {/* <img
         className={styles.emptyframeicon}
         loading="eager"
         alt=""
         src="/framesoon1.svg"
-      />
+      /> */}
 
       <h1 className={styles.comingsoon1}>COMING SOON</h1>
-      {/* <h3 className={styles.inthemeantime}>
+      <p className={styles.comingsoonparegraph}>
         In the meantime, Sign up for our monthly newsletter to stay up to
         date.
-      </h3> */}
+      </p>
       <div className={styles.emailaddressgroup}>
         <input
           className={styles.emailaddressgroupchild}

@@ -257,6 +257,36 @@
   color: var(--color-black);
   font-family: var(--font-clash-display);
 }
+@media screen and (max-width: 1440px) {
+  .environmentalImpactAssessmenInner{
+    right:0;
+    bottom: -385px;
+  }
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .environmentalImpactAssessmen {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-138xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .environmentalImpactAssessmenInner{
+    right: 0;
+    bottom: -385px;
+  }
+  .gettingStartedWithContainer {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .environmentalImpactAssessmen {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-138xl);
+    box-sizing: border-box;
+  }
+}
 @media screen and (max-width: 750px) {
   .gettingStartedWithContainer {
     font-size: var(--font-size-17xl);

@@ -451,12 +451,32 @@
   align-items: center;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1400px) {
+  .wrapperGroup10000024972,.group12160252332{
+    width: 80%;
+  }
   .frameParent {
     flex-wrap: wrap;
   }
   .readyToLearnFrameParent {
     gap: var(--gap-44xl);
+  }
+  .scope12Container{
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .wrapperGroup10000024972,.group12160252332{
+    width: 80%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .readyToLearnFrameParent {
+    gap: var(--gap-44xl);
+  }
+  .scope12Container{
+    height: 100%;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -466,6 +486,9 @@
   }
   .readyToLearnFrameParent {
     flex-wrap: wrap;
+  }
+  .scope12Container{
+    height: 100%;
   }
 }
 @media screen and (max-width: 750px) {
@@ -488,6 +511,9 @@
   .group12160252431,
   .lineWrapper {
     min-width: 100%;
+  }
+  .scope12Container{
+    height: 100%;
   }
   .group {
     gap: var(--gap-19xl);
@@ -521,6 +547,7 @@
   .scope12Container {
     font-size: var(--font-size-2xl);
     line-height: 30px;
+    height: 100%;
   }
   .group {
     gap: var(--gap-lgi);
