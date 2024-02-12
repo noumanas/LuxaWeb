@@ -17,6 +17,7 @@ import Accordions from "../components/Accordion";
 import { useEffect, useState } from "react";
 import Image from 'next/image'
 import { motion } from "framer-motion";
+import LineSectionMobile from "../components/LineSectionMobile";
 
 const HomeLandingPage: NextPage = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,12 +28,28 @@ const HomeLandingPage: NextPage = () => {
   const [architecturalFirmstwo, setrchitecturalFirmstwo] = useState(false);
   const [architecturalFirms, setarchitecturalFirms] = useState(true);
   const [architecturalEngineering, setarchitecturalEngineering] = useState(false);
-
+  const [isLinesectionMobile , setIsLineSectionMobile] =useState(false);
   const [headingText , setHeadingtext]=useState("Architectural Firms")
   const [isMobile, setIsMobile] = useState(false);
   const [isDestop, setisDestop] = useState(true);
 
-  
+  useEffect(() => {
+    // Check if window object is available (client-side)
+    if (typeof window !== 'undefined') {
+      setIsLineSectionMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+
+      // Add an event listener to update the state when the window is resized
+      const handleResize = () => {
+        setIsLineSectionMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+      };
+      window.addEventListener('resize', handleResize);
+      
+      // Cleanup function to remove event listener
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
+  }, []);
   const handleLinkClick= ()=> {
     if(headingText === "Architectural Firms"){
       setHeadingtext("Construction Industry")
@@ -155,8 +172,11 @@ const HomeLandingPage: NextPage = () => {
             ease: [0, 0.71, 0.2, 1.01]
           }}>
                  <section className={`${styles.message} ${isScrolled ? styles.scrolled : ''}`}>
-                 <LineSection />
+                  {isLinesectionMobile ?(
+                <LineSectionMobile/>
 
+                  ):(
+                  <LineSection/>)}
                  </section>
       </motion.div>
       )}
