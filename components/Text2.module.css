@@ -52,7 +52,7 @@
   position: absolute;
   top:110px;
   /* left: 300px; */
-  right: 300px;
+  right: 400px;
   width: 450px;
   height: 235px;
   border-radius: 0px;
@@ -196,7 +196,7 @@
 .servicesParent {
   flex-direction: row;
   align-items: flex-end;
-  padding:28px;
+  padding:30px;
   gap: var(--gap-xs);
   cursor: pointer;
 }
@@ -388,7 +388,7 @@ font-weight: bold;
   color: orange;
 }
 .rectangleParent {
-  width: 1352px;
+  width: 1200px;
   border-radius: var(--br-3xs);
   background-color: var(--color-white);
   box-shadow: 0 3px 14px rgba(0, 0, 0, 0.15);
@@ -491,15 +491,28 @@ font-weight: bold;
 }
 
 /* Styles for extra large devices (large desktops) */
-@media (min-width: 1200px) {
+@media screen and (max-width: 1280px) {
   /* Add styles for extra large devices here */
   .polygon {
     /* display: none; */
   }
-  /* .rectangleParent {
-    width: 1200px;
-  } */
+  .text1 {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: var(--font-size-xl);
+    color: var(--color-seagreen-200);
+    padding: 0;
+    padding-right: 20px;
+  }
+  .colorLogoNoBackground{
+    max-width: 90px;
+  }
+  .colorLogoNoBackgroundWrapper{
+    padding:0;
+    margin-left:10px ;
+  }
   .subMenu{
-    right: 240px
+    right: 150px
   }
 }

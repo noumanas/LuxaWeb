@@ -24,7 +24,7 @@ const homepageContainer: NextPage = () => {
             <div className={styles.contactForm}>
               <div className={styles.groupContainer} />
               <h1 className={styles.welcomeToLuxaContainer}>
-                <span>{` Welcome to     `}</span>
+                <span>{` Welcome to  `}</span>
                 <b className={styles.luxa}>“LUXA”</b>
                 <span>
                   {" "}

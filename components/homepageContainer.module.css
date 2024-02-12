@@ -238,6 +238,26 @@ transition: all 0.5s ease-out;
     Height:424px;
   }
 }
+
+
+/* CSS for 1280x720 (720p) resolution */
+@media screen and (max-width: 1280px) and (min-height: 720px) {
+  .frameWrapper {
+    flex: 1;
+    width: 100%;
+  }
+  .wrapperDashboardDesignmainD{
+    height: auto; /* Adjust height as needed */
+    width: 100%;
+  }
+  .dashboardImage{
+    width: 525px;
+    Height:424px;
+  }
+  .luxa{
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .frameParent{
     flex-wrap: wrap;
@@ -249,6 +269,7 @@ transition: all 0.5s ease-out;
 @media screen and (max-width: 825px) {
   .contactForm{
     width: 400px;
+    height: 200px;
   }
   .text{
     flex-direction: column;
@@ -279,10 +300,14 @@ transition: all 0.5s ease-out;
     text-align: left;
     margin-left: 20px;
   }
+  .luxa{
+    font-size: 27px;
+  }
 }
 @media screen and (max-width: 600px) {
   .contactForm{
     width: 400px;
+    height: 200px;
   }
   .wrapperDashboardDesignmainD {
       /* Adjust the height and width for small screens */
@@ -313,10 +338,14 @@ transition: all 0.5s ease-out;
     text-align: left;
     margin-left: 20px;
   }
+  .luxa{
+    font-size: 27px;
+  }
 }
 @media screen and (max-width: 450px) {
   .contactForm{
     width: 400px;
+    height: 200px;
   }
   .welcomeToLuxaContainer {
     font-size: var(--font-size-17xl);
@@ -353,5 +382,8 @@ transition: all 0.5s ease-out;
   }
   .text{
     flex-direction: column;
+  }
+  .luxa{
+    font-size: 27px;
   }
 }

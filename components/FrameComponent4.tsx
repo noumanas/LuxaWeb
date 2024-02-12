@@ -26,13 +26,11 @@ const FrameComponent4: NextPage = () => {
    
           <div className={styles.retrofits}>New Construction
           {arrowActive ===true && (
-          <Image
+          <img
             className={styles.hoverarrow}
             loading="eager"
             alt=""
             src="/Arrowconttraction.png"
-            width={36}
-            height={0}
           />
           )}
         </div>

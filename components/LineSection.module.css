@@ -898,7 +898,7 @@ line-height: normal;
     width: 70%;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .atGcsWe{
     width: 70%;
   }
@@ -907,9 +907,11 @@ line-height: normal;
     box-sizing: border-box;
   }
   .fullName {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    align-self: none;
+    gap: 200px;
   }
   .component2 {
     padding-top: var(--padding-12xl);
@@ -920,7 +922,14 @@ line-height: normal;
   }
   .rectangle{
   align-self: none;
-    
+  }
+  .lineIcon,.footerLinksIcon,.frameChild,.frameInner,.headerContainerIcon {
+    width: 97px;
+    right: -100px;
+  }
+  .vectorIcon,.tEXT,.frameChild2,.messageIcon,.frameChild4 {
+    width: 97px;
+    left: -97px;
   }
 }
 
