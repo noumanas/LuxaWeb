@@ -134,7 +134,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-16xl);
-  max-width: 100%;
+  width: 100%;
 }
 .message,
 .polygonParent {
@@ -350,8 +350,8 @@
   }
   .text {
     flex-direction: column;
-    align-items: center;
-    max-width: 100%;
+    align-items: flex-start;
+    width: auto;
   }
   .maskGroupParent {
     gap: var(--gap-8xl);
@@ -361,14 +361,16 @@
   .theWorlds1Container {
     font-size: var(--font-size-17xl);
     line-height: 40px;
+    width: 90%;
   }
   .contactDetailsIcon {
-    min-width: 100%;
+   height: 320px;
+   width: 353px;
   }
   .text {
-    gap: var(--gap-mid);
-    width: 56%;
-    align-self:none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
   }
   .polygonParent {
     gap: var(--gap-31xl);
@@ -401,6 +403,10 @@
   .message{
     width: 100%;
   }
+  .contactDetailsIcon {
+    height: 320px;
+    width: 353px;
+   }
   .homeLandingPageInner {
     width: 100%;
   }
@@ -412,6 +418,7 @@
   .theWorlds1Container {
     font-size: var(--font-size-8xl);
     line-height: 30px;
+    width: 90%;
   }
   .polygonParent {
     gap: var(--gap-6xl);
