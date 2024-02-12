@@ -247,33 +247,81 @@ transition: all 0.5s ease-out;
   }
 }
 @media screen and (max-width: 825px) {
+  .contactForm{
+    width: 400px;
+  }
   .welcomeToLuxaContainer {
-    margin: 40px;
     font-size: var(--font-size-29xl);
     line-height: 64px;
   }
   .text1 {
     gap: var(--gap-mid);
+    align-items: center;
+    justify-content: flex-start;
   }
   .dashboardDesignmainDashboard {
     min-width: 100%;
     min-height: 100%;
   }
+  .dashboardImage{
+    width: 328px;
+    Height:255px;
+  }
+  .discoverAPowerful{
+    width: 400px;
+  }
 }
 @media screen and (max-width: 600px) {
+  .contactForm{
+    width: 400px;
+  }
   .wrapperDashboardDesignmainD {
       /* Adjust the height and width for small screens */
       width: 100%; /* Make the image fill the width of its container */
       height: 100%; /* Allow the height to adjust proportionally based on the width */
   }
+  .text1 {
+    gap: var(--gap-mid);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .dashboardDesignmainDashboard {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .dashboardImage{
+    width: 328px;
+    Height:255px;
+  }
+  .discoverAPowerful{
+    width: 400px;
+  }
 }
 @media screen and (max-width: 450px) {
+  .contactForm{
+    width: 400px;
+  }
   .welcomeToLuxaContainer {
-    margin: 40px;
     font-size: var(--font-size-17xl);
     line-height: 48px;
   }
   .line {
     flex-wrap: wrap;
+  }
+  .text1 {
+    gap: var(--gap-mid);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .dashboardDesignmainDashboard {
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .dashboardImage{
+    width: 328px;
+    Height:255px;
+  }
+  .discoverAPowerful{
+    width: 400px;
   }
 }
