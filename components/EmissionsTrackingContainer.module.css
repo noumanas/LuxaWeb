@@ -50,7 +50,6 @@
   left: 0;
   top: 0;
   width: 100%;
-  transform: scale(1.191);
 }
 .wrapperFrameEmailOutreach {
   height: 314px;
@@ -105,9 +104,6 @@
   .frameCallToAction {
     flex: 1;
   }
-  .frameParent {
-    flex-wrap: wrap;
-  }
 }
 @media screen and (max-width: 800px) {
   .advancedEmissionsTracking {
@@ -118,8 +114,21 @@
   .frameCallToAction {
     min-width: 100%;
   }
+  .frameParent{
+    flex-wrap: wrap-reverse;
+    margin-top:100px;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
+  .luxaOffersAn{
+    height: 100%;
+  }
+  .frameParent{
+    flex-wrap: wrap-reverse;
+    margin-top:100px;
+    height: 100%;
+  }
   .advancedEmissionsTracking {
     font-size: var(--font-size-2xl);
     line-height: 30px;

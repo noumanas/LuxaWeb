@@ -52,7 +52,6 @@
   left: 0;
   top: 0;
   width: 100%;
-  transform: scale(1.189);
 }
 .wrapperPartnerPortal {
   height: 317px;
@@ -124,8 +123,18 @@
   .gettingStartedWithLuxa {
     min-width: 100%;
   }
+  .harnessThePower{
+    height: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
+  .harnessPowerNow{
+    flex-wrap: wrap;
+    margin-top:100px;
+  }
+  .harnessThePower{
+    height: 100%;
+  }
   .realTimeInsightsFor {
     font-size: var(--font-size-2xl);
     line-height: 30px;

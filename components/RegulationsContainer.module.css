@@ -13,7 +13,6 @@
 .scopeManagementIcon {
   z-index: 1;
   object-fit: contain;
-  transform: scale(1.189);
 }
 .wrapperScopeManagement {
   position: absolute;
@@ -119,6 +118,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .scopeManagementIcon{
+    height: 185px;
+  }
   .stayingAheadOf {
     font-size: var(--font-size-2xl);
     line-height: 30px;

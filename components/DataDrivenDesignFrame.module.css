@@ -115,12 +115,15 @@
   color: var(--color-black);
   font-family: var(--font-clash-display);
 }
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1280px) {
   .partnershipFrame {
     flex: 1;
   }
   .servicesListFrame {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+  }
+  .group10000024961{
+ height: 80%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -134,6 +137,9 @@
   }
   .servicesListFrame {
     gap: var(--gap-21xl);
+    flex-wrap: wrap-reverse;
+    height: 100%;
+    width: 100%;
   }
   .architectureIntegrationParent,
   .lEEDCertification {
@@ -142,8 +148,17 @@
   .efficientDesignFrame {
     gap: var(--gap-31xl);
   }
+  .group10000024961{
+    width: 312px;
+    height: 157px;
+  }
+  .luxaEmpowersArchitects{height: 100%;}
 }
 @media screen and (max-width: 450px) {
+  .group10000024961{
+    width: 312px;
+    height: 157px;
+  }
   .sustainableDesignMade {
     font-size: var(--font-size-2xl);
     line-height: 30px;
@@ -151,11 +166,17 @@
   .lEEDCertification,
   .servicesListFrame {
     gap: var(--gap-xl);
+    flex-wrap: wrap-reverse;
+    height: 100%;
+    width: 100%;
   }
   .architectureIntegrationParent {
     gap: var(--gap-lgi);
   }
   .efficientDesignFrame {
     gap: var(--gap-6xl);
+  }
+  .luxaEmpowersArchitects{
+    height: 100%;
   }
 }

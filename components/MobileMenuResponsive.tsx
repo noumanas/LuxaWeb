@@ -56,7 +56,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
         className={styles.colorlogonobackground}
         loading="eager"
         alt=""
-        src="./color-logo--no-background@2x.png"
+        src="/color-logo--no-background@2x.png"
       /></Link>
       
 
@@ -64,7 +64,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
         className={styles.iconsalertsalarm}
         loading="eager"
         alt=""
-        src="./iconsalertsalarm.svg"
+        src="/iconsalertsalarm.svg"
         onClick={()=>(setIsMobile(false))}
       />
     </div>
@@ -187,7 +187,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           className={styles.stroke2icon1}
           loading="eager"
           alt=""
-          src="./stroke-3.svg"
+          src="/stroke-3.svg"
         />
       </div>
     </nav>
@@ -198,7 +198,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
         <img
           className={styles.iconlyboldarrowright}
           alt=""
-          src="./iconlyboldarrow--right.svg"
+          src="/iconlyboldarrow--right.svg"
         />
 
         <div className={styles.requestademo}>Request a demo</div>
@@ -210,7 +210,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           className={styles.wrappergroup1216025293child}
           loading="eager"
           alt=""
-          src="./group-1216025293.svg"
+          src="/group-1216025293.svg"
         />
       </div>
       <div className={styles.wrappergroup1216025292}>
@@ -218,7 +218,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           className={styles.wrappergroup1216025292child}
           loading="eager"
           alt=""
-          src="./group-1216025292.svg"
+          src="/group-1216025292.svg"
         />
       </div>
       <div className={styles.wrappergroup1216025291}>
@@ -226,7 +226,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           className={styles.wrappergroup1216025291child}
           loading="eager"
           alt=""
-          src="./group-1216025291.svg"
+          src="/group-1216025291.svg"
         />
       </div>
       <div className={styles.wrappergroup1216025290}>
@@ -234,7 +234,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           className={styles.wrappergroup1216025290child}
           loading="eager"
           alt=""
-          src="./group-1216025290.svg"
+          src="/group-1216025290.svg"
         />
       </div>
       <div className={styles.wrappergroup1216025289}>
@@ -242,7 +242,7 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           className={styles.wrappergroup1216025289child}
           loading="eager"
           alt=""
-          src="./group-1216025289.svg"
+          src="/group-1216025289.svg"
         />
       </div>
     </div>

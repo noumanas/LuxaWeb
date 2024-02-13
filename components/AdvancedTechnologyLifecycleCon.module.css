@@ -58,10 +58,10 @@
   height: 100%;
   z-index: 1;
 }
-.rectangleParent {
+/* .rectangleParent {
   top: calc(50% - 172px);
   left: calc(50% - 317.5px);
-}
+} */
 .engineeringProjectFrameParent {
   top: 0;
   left: 0;
@@ -120,6 +120,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .group10000024991{
+    height: auto;
+  }
   .contactExpert {
     gap: var(--gap-4xl);
   }

@@ -288,6 +288,25 @@
   
 }
 @media screen and (max-width: 450px) {
+  .wrapperGroup33400{
+    min-width: auto;
+  }
+  .catalyzingEnhancedEfficiency{
+    height: 100%;
+  }
+  .wrapperGroup33400Child{
+    width: 100%;
+  }
+  .luxaEmpowersEngineering{
+    height: 100%;
+  }
+  .gettingStartedGroup{
+    flex-wrap: wrap;
+  }
+  .rectangleTextIcon{
+    height: auto;
+    width: 300px;
+  }
   .drivingEfficiencyIn,
   .sustainabilityAndCompliance {
     font-size: var(--font-size-2xl);
@@ -295,6 +314,7 @@
   }
   .wrapperGroup33400Parent {
     gap: var(--gap-mid);
+    flex-wrap: wrap-reverse;
   }
   .howDoesLuxaHelpFrame {
     gap: var(--gap-lg);

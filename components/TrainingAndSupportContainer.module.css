@@ -259,6 +259,10 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .readyToElevate{
+    height: 100%;
+    line-height: 30px;
+  }
   .trainingAndSupport {
     font-size: var(--font-size-8xl);
     line-height: 30px;
@@ -266,4 +270,14 @@
   .joinTheCommunity {
     gap: var(--gap-lgi);
   }
+  .group12160252361{
+    width: 90%;
+    left: 7px;
+  }
+  .servicesFrame{
+  top: 279px;
+    left: 589px;
+    width: 469px;
+    height: 228px;
+    z-index: 1;}
 }
