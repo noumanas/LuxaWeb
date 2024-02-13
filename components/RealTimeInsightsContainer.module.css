@@ -113,13 +113,7 @@
   font-family: var(--font-clash-display);
 }
 @media screen and (max-width: 1325px) {
-  .environmentalImpactAssessmen,
-  .gettingStartedWithLuxa {
-    flex: 1;
-  }
-  .harnessPowerNow {
-    flex-wrap: wrap;
-  }
+ 
 }
 @media screen and (max-width: 800px) {
   .realTimeInsightsFor {

@@ -54,7 +54,7 @@
 .luxaLEEDSoftware {
   display: flex;
   flex-direction: row;
-  max-width: 100%;
+  width: 100%;
 }
 .luxaLEEDSoftware {
   width: 1266px;
@@ -67,7 +67,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-37xl) 0 var(--padding-2xl);
   box-sizing: border-box;
-  min-height: 364px;
+  min-height: 100%;
 }
 .constructionIndustryv1Icon {
   height: 100%;
@@ -360,7 +360,7 @@
   }
   .constructionIndustryv1Icon,
   .dataAnalyticsInsights {
-    flex: 1;
+    flex-wrap: wrap;
   }
   .lEEDCertificationManageme {
     /* flex-wrap: wrap; */
@@ -392,6 +392,28 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .messageTypeFrame,.greenBuilding1Icon,.constructionIndustryv1Icon,.signingCropped1Icon,.warehouseForklift21Icon{
+    height: 300px;
+    width: 300px;
+  }
+  .accessToDataAfterCompletio{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100%;
+    width: 100%;
+  }
+  .fAQsGroup.luxaSeamlesslyIntegrates,.contactAnExpertFrame{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .howToRegister{
+    flex-wrap: wrap;
+  }
   .integratingSustainabilityIn {
     font-size: var(--font-size-9xl);
     line-height: 40px;
@@ -415,6 +437,9 @@
   }
   .registerFirstProject {
     gap: var(--gap-26xl);
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
   }
   .transformingCommercialConstr {
     font-size: var(--font-size-9xl);
@@ -435,6 +460,45 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .messageTypeFrame,.greenBuilding1Icon,.constructionIndustryv1Icon,.signingCropped1Icon,.warehouseForklift21Icon{
+    height: 300px;
+    width: 300px;
+  }
+ .luxaSeamlesslyIntegrates .contactAnExpertFrame{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .luxaLEEDSoftware,.howToRegister,.fAQsGroup{
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 101px;
+  }
+
+  .lineFrame{
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 101px;
+
+  }
+  .lEEDCertificationManageme{
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 101px;
+  }
+  .wrapper20211215113225Constru,.constructionIndustryv1Icon{
+    height: 300px;
+    width: 300px;
+  }
   .integratingSustainabilityIn,
   .revolutionizingResidentialCo,
   .streamliningProjectLifecycle {
@@ -442,7 +506,9 @@
     line-height: 30px;
   }
   .registerFirstProject {
-    gap: var(--gap-4xl);
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
   }
   .dataDrivenDecisionMaking,
   .transformingCommercialConstr {
@@ -451,5 +517,10 @@
   }
   .fAQsFrame {
     gap: var(--gap-6xl);
+  }
+  .dataAnalyticsInsights{
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -70,29 +70,10 @@ const RenovationCertificationForm: NextPage = () => {
           <div className={styles.text}>
             <div className={styles.linkWrapper}>
               <div className={styles.link}>
-                <img
-                  className={styles.group10000024941}
-                  alt=""
-                  src="/group-1000002494-1@2x.png"
-                />
-                <img
-                  className={styles.linkChild}
-                  alt=""
-                  src="/rectangle-77@2x.png"
-                />
                 <div className={styles.textParent}>
                   <div className={styles.text1}>
-                    <img
-                      className={styles.textChild}
-                      alt=""
-                      src="/rectangle-77@2x.png"
-                    />
-                    <img
-                      className={styles.group100000249411}
-                      loading="eager"
-                      alt=""
-                      src="/group-1000002494-1@2x.png"
-                    />
+                  
+                   
                   </div>
                   <img
                     className={styles.group10000024991}

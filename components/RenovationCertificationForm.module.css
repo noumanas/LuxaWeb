@@ -449,7 +449,7 @@
   color: var(--color-black);
   font-family: var(--font-clash-display);
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1440px) {
   .group,
   .group12160252401,
   .projectInfoWrapper {
@@ -466,7 +466,14 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1280px) {
+  .group10000024891,.group10000024991{
+    height: 320px;
+  }
+  .shapeNodesIcon{
+    width: 520px;
+  }
+
   .group100000249311,
   .informationalText {
     flex: 1;

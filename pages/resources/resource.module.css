@@ -7,7 +7,6 @@
   justify-content: flex-start;
   padding: 0 var(--padding-24xl) 0 var(--padding-xl);
   box-sizing: border-box;
-  min-height: 2733px;
   max-width: 100%;
 } 
 

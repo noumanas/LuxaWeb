@@ -111,17 +111,25 @@
   color: var(--color-black);
   font-family: var(--font-clash-display);
 }
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1280px) {
   .rectangleParent {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 }
 @media screen and (max-width: 800px) {
   .textNode {
     gap: var(--gap-12xl);
   }
+  .rectangleParent{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 450px) {
+  .rectangleParent{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .textNode {
     gap: var(--gap-mini);
   }

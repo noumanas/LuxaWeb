@@ -70,13 +70,7 @@
   font-family: var(--font-clash-display);
 }
 @media screen and (max-width: 1325px) {
-  .serviceSection,
-  .wrapperGroup33401Child {
-    flex: 1;
-  }
-  .contentArea {
-    flex-wrap: wrap;
-  }
+  
 }
 @media screen and (max-width: 800px) {
   .advancedDataManagement {

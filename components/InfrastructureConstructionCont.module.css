@@ -281,32 +281,7 @@
   font-family: var(--font-clash-display);
 }
 @media screen and (max-width: 1325px) {
-  .navigatingTheComplexityOfIParent,
-  .wrapperGroup33400Child {
-    flex: 1;
-  }
-  .submit {
-    flex-wrap: wrap;
-  }
-  .callUsCTA,
-  .fAQsFrame {
-    flex: 1;
-  }
-  .rectangleParent {
-    flex: 1;
-    padding-right: 0;
-    box-sizing: border-box;
-  }
-  .callUsCTAParent {
-    flex-wrap: wrap;
-  }
-  .enhancingCollaborationWrapper,
-  .group10000024891Parent {
-    flex: 1;
-  }
-  .fullName {
-    flex-wrap: wrap;
-  }
+
 }
 @media screen and (max-width: 800px) {
   .navigatingTheComplexity {

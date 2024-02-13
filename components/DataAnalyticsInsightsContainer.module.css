@@ -272,7 +272,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .environmentalImpactAssessmenInner{
     right: 0;
     bottom: -385px;
@@ -298,7 +298,29 @@
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 450px) {
+  .luxa{
+    font-size: 28px;
+  }
+  .contactUsToday{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .rectangleContainer{
+    height: 300px;
+    width: 300px;
+    left: 40px;
+  }
+  .group12160252361{
+    width: 90%;
+    left: 7px;
+  }
+  .contactAnExpert{
+    font-size: 12px;
+  }
   .gettingStartedWithContainer {
     font-size: var(--font-size-8xl);
     line-height: 30px;
