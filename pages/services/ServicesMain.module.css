@@ -521,8 +521,26 @@
   .frameGroup {
     gap: var(--gap-22xl);
   }
+  .experienceTheFuture{
+    height: 100%;
+  }
 }
 @media screen and (max-width: 450px) {
+  .exploreLuxasDetailed{
+    height: 100%;
+  }
+  .takeControlOf{
+    height: 100%;
+  }
+  .group100000249312{
+    height: 100%;
+  }
+  .stayOnTrack{
+    height: 100%;
+  }
+  .dontWantTo{
+    height: 100%;
+  }
   .referringOrFind {
     font-size: var(--font-size-17xl);
     line-height: 30px;
@@ -554,5 +572,8 @@
   }
   .frameGroup {
     gap: var(--gap-xl);
+  }
+  .experienceTheFuture{
+    height: 100%;
   }
 }

@@ -178,6 +178,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .luxa{
+    font-size: 20px;
+  }
   .environmentalImpactAssessmen {
     font-size: var(--font-size-2xl);
     line-height: 30px;

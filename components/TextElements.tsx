@@ -29,7 +29,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                 className={styles.emailOutreachprojectluxaor}
                 style={emailOutreachprojectluxaorStyle}
               >
-                Email: outreach@projectluxa.org
+                Email: Luxa@projectluxa.org
               </h3>
             </div>
             <div className={styles.callUs123}>Call us: 123 456 789</div>
@@ -67,9 +67,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                     <div
                       className={styles.environmentalImpactAssessmenContainer}
                     >
-                      <ul className={styles.environmentalImpactAssessmen}>
-                        <li>Environmental Impact Assessments</li>
-                      </ul>
+
                     </div>
                   </div>
                 </div>
@@ -174,9 +172,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                     <div
                       className={styles.environmentalImpactAssessmenContainer}
                     >
-                      <ul className={styles.environmentalImpactAssessmen}>
-                        <li>Environmental Impact Assessments</li>
-                      </ul>
+                      
                     </div>
                   </div>
                 </div>
