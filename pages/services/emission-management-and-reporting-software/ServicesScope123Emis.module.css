@@ -270,7 +270,6 @@
 .emailLink {
   flex-direction: row;
   padding: 0 var(--padding-12xl) 0 var(--padding-xl);
-  min-height: 2013px;
 }
 .faqsAnsweringYour,
 .whatAreScope {

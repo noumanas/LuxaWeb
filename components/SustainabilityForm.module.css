@@ -113,9 +113,9 @@
 }
 .dataAnalyticsInsights,
 .lEEDCertificationManageme {
+  gap: 60px;
   display: flex;
   align-items: flex-start;
-  gap: var(--gap-xl);
   max-width: 100%;
 }
 .dataAnalyticsInsights {
@@ -258,7 +258,7 @@
   width: 1273px;
   align-items: center;
   justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 60px;
 }
 .contactAnExpertFrame {
   align-items: flex-start;

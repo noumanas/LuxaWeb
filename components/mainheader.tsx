@@ -294,7 +294,7 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink,setIsMobile, ...props })
                 <Link href="comingsoon">
                   <div className={styles.login}>Login</div>
                 </Link>
-
+                <Link href="/requestdemo">
                 <button className={styles.rectangleGroup}>
                   <div className={styles.frameItem} />
                   <img
@@ -303,6 +303,8 @@ const mainheader: React.FC<HeaderProps> = ({ activeLink,setIsMobile, ...props })
                     src="/iconlyboldarrow--right.svg" />
                   <div className={styles.requestADemo}>Request a demo</div>
                 </button>
+                </Link>
+               
               </div></>
        )}
         

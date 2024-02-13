@@ -9,6 +9,7 @@
   transform: scale(1.191);
 }
 .wrapperGroup33400 {
+  margin-left: 50px;
   height: 314px;
   width: 602px;
   position: relative;
@@ -52,6 +53,7 @@
   min-width: 636px;
 }
 .submit {
+  gap: 50px;
   align-self: stretch;
   flex-direction: row;
   align-items: flex-end;

@@ -14,8 +14,10 @@ const FrameComponent4: NextPage = () => {
 
   return (
     <div className={styles.frameParent}>
+
       <div className={styles.rectangleContainer}  onMouseLeave={()=>setarrowActive(false)} onMouseEnter={()=>setarrowActive(true)}>
-        <Image
+      <Link href="/resources">
+         <Image
           className={styles.rectangleIcon}
           loading="eager"
           alt=""
@@ -23,6 +25,7 @@ const FrameComponent4: NextPage = () => {
           width={240}
           height={332}
         />
+      </Link>
    
           <div className={styles.retrofits}>New Construction
           {arrowActive ===true && (
@@ -38,6 +41,7 @@ const FrameComponent4: NextPage = () => {
         
        
       </div>
+      
       {/* <div className={styles.rectangleParent}>
         <img
           className={styles.frameChild}
@@ -76,8 +80,11 @@ const FrameComponent4: NextPage = () => {
         />
         )}
         </div>
+
       </div>
       <div className={styles.frameDiv} onMouseLeave={()=>setarrowActive2(false)} onMouseEnter={()=>setarrowActive2(true)}>
+      <Link href="/resources/retrofit-and-renovation">
+
         <Image
           className={styles.frameChild1}
           loading="eager"
@@ -86,6 +93,7 @@ const FrameComponent4: NextPage = () => {
           width={240}
           height={332}
         />
+          </Link>
         <div className={styles.retrofits}>Renovations 
         {arrowActive2===true && (
            <img
@@ -96,9 +104,13 @@ const FrameComponent4: NextPage = () => {
          />
         )}
        </div>
+     
       </div>
 
       <div className={styles.rectangleParent1} onMouseLeave={()=>setarrowActive3(false)} onMouseEnter={()=>setarrowActive3(true)}>
+        <Link href="/resources/infrastructure">
+
+
         <Image
           className={styles.frameChild2}
           loading="eager"
@@ -107,6 +119,8 @@ const FrameComponent4: NextPage = () => {
           width={240}
           height={332}
         />
+        </Link>
+
         <div className={styles.retrofits}>Infrastructure
         {arrowActive3 === true && (
           <img
