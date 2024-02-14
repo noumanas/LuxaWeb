@@ -82,8 +82,21 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .contentArea{
+    flex-direction: column;
+  }
+  .luxaHarnessesAdvanced{
+    height: 100%;
+  }
+  .wrapperGroup33401Child{
+    width: 371px;
+    height: 190px;
+  }
   .advancedDataManagement {
     font-size: var(--font-size-2xl);
     line-height: 30px;
+  }
+  .wrapperGroup33401{
+    width: 300px;
   }
 }

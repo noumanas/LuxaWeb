@@ -289,4 +289,8 @@
     color: #17773d;
     font-family: var(--font-dm-sans);
   }
+  .company a {
+    color: #333; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
   

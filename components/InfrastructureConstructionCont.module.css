@@ -6,7 +6,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  transform: scale(1.191);
 }
 .wrapperGroup33400 {
   margin-left: 50px;
@@ -120,7 +119,6 @@
   left: 0;
   top: 0;
   width: 100%;
-  transform: scale(1.191);
 }
 .wrapperFAQsFrame {
   height: 314px;
@@ -191,7 +189,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  transform: scale(1.189);
+  /* transform: scale(1.189); */
 }
 .wrapperRectangle78 {
   height: 318px;
@@ -317,6 +315,20 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .wrapperGroup33400Child{
+    width: 356px;
+    height: 206.37px;
+    max-width:none;
+    position: absolute;
+    left: 268px;
+    top: -10px;
+  }
+  .infrastructureProjectsPresen,.drivingEnvironmentalExcellen{
+    height: 100%;
+  }
+  .submit{
+    flex-direction: column-reverse;
+  }
   .emissionsTrackingAnd,
   .enhancingCollaborationAcross,
   .navigatingTheComplexity {
@@ -325,8 +337,26 @@
   }
   .fullName {
     gap: var(--gap-mid);
+    flex-direction: column-reverse;
+  }
+  .luxaStreamlinesProject{
+    height: 100%;
   }
   .frameParent {
     gap: var(--gap-6xl);
+  }
+  .callUsCTAParent{
+    flex-direction: column;
+  }
+  .fAQsFrame{
+    height: 306.85px;
+    width: 371px;
+    max-width:none;
+    left: -28px;
+  }
+  .wrapperRectangle78Chil{
+    transform: none;
+    width: 371px;
+    height: 345.27px;
   }
 }

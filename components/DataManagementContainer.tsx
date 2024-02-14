@@ -41,7 +41,7 @@ const DataManagementContainer: NextPage<DataManagementContainerType> = ({
 
   const luxaHarnessesAdvancedStyle: CSSProperties = useMemo(() => {
     return {
-      height: propHeight,
+      height: '100%',
     };
   }, [propHeight]);
 

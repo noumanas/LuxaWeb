@@ -129,8 +129,7 @@
 }
 @media screen and (max-width: 450px) {
   .harnessPowerNow{
-    flex-wrap: wrap;
-    margin-top:100px;
+    flex-wrap: wrap-reverse;
   }
   .harnessThePower{
     height: 100%;

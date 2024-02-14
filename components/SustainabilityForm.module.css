@@ -394,7 +394,7 @@
 @media screen and (max-width: 800px) {
   .messageTypeFrame,.greenBuilding1Icon,.constructionIndustryv1Icon,.signingCropped1Icon,.warehouseForklift21Icon{
     height: 300px;
-    width: 300px;
+    width: 355px;
   }
   .accessToDataAfterCompletio{
     flex-wrap: wrap;
@@ -462,7 +462,10 @@
 @media screen and (max-width: 450px) {
   .messageTypeFrame,.greenBuilding1Icon,.constructionIndustryv1Icon,.signingCropped1Icon,.warehouseForklift21Icon{
     height: 300px;
-    width: 300px;
+    width: 355px;
+  }
+  .inResidentialConstruction{
+    height: 100%;
   }
  .luxaSeamlesslyIntegrates .contactAnExpertFrame{
     flex-wrap: wrap;
@@ -493,11 +496,19 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 101px;
+    gap: 0;
   }
   .wrapper20211215113225Constru,.constructionIndustryv1Icon{
     height: 300px;
-    width: 300px;
+    width: 355px;
+  }
+  .wrapper20211215113225Constru{
+    height: none; 
+    width: none;
+    max-width: none;
+    object-fit: contain;
+    position: none; 
+    transform: none;
   }
   .integratingSustainabilityIn,
   .revolutionizingResidentialCo,
@@ -519,6 +530,7 @@
     gap: var(--gap-6xl);
   }
   .dataAnalyticsInsights{
+    gap: 0;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;

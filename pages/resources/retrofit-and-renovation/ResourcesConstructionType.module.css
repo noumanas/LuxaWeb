@@ -60,5 +60,7 @@
   
 }
 @media screen and (max-width: 450px) {
-  
+  .faqsOnLeedCertificationManParent{
+    font-size: 18px;
+  }
 }

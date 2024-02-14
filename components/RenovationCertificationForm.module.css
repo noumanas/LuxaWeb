@@ -544,12 +544,26 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .luxaStreamlinesThe,.luxaElevatesRetrofit,.luxasAdvancedIntegration,.leverageLuxasAdvanced,.luxaBringsUnparalleled{
+    height: 100%;
+  }
+  .group10000024891,.group10000024991,.group100000249311{
+    height: 180px;
+  }
+  .group12160252401{
+    height: 269.47px;
+  }
+  .shapeNodesIcon{
+    height: 180px;
+    width: 380.23px;
+  }
   .complianceAndCertification {
     font-size: var(--font-size-2xl);
     line-height: 30px;
   }
   .line {
     gap: var(--gap-mid);
+    flex-wrap: wrap-reverse;
   }
   .seamlessIntegrationWith,
   .sustainabilityInRetrofitting {
@@ -575,5 +589,8 @@
   }
   .lineFrame {
     gap: var(--gap-xl);
+  }
+  .text,.shapeNodes{
+    flex-wrap: wrap-reverse;
   }
 }

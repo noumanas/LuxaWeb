@@ -180,7 +180,13 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
           src="./stroke-2.svg"
         />
       </div> */}
-      <div className={styles.company}>Company</div>
+     
+      <div className={styles.company}>
+         <Link href='/company'>Company
+      </Link>
+         
+         </div>
+
       <div className={styles.pricingresources2}>
         <div className={styles.knowledgecenter}>Knowledge Center</div>
         <img

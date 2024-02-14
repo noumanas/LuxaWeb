@@ -170,7 +170,15 @@
     line-height: 30px;
   }
   .group12160252321{
+    height: 200.98px;
+    width: 371px;
+    margin-top: 71px;
+    margin-left:-12px
+  }
+  .questionFrame{
+    flex-direction: column-reverse;
+  }
+  .luxaSimplifiesCompliance{
     height: 100%;
-    width: 100%;
   }
 }
