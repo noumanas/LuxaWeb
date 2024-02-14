@@ -45,7 +45,7 @@ const BoostProductivityContainer: NextPage<BoostProductivityContainerType> = ({
 }) => {
   const framefaqsleedStyle: CSSProperties = useMemo(() => {
     return {
-      width: '400px',
+      width: '340px',
     };
   }, [propWidth]);
 

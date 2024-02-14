@@ -474,6 +474,9 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .byContinuouslyMonitoring,.luxasAdvancedReporting,.whetherManagingA,.luxasEmissionsManagement{
+    height: 100%;
+  }
   .realTimeEmissionMonitoring,
   .seamlessReportingFor {
     font-size: var(--font-size-2xl);
@@ -481,6 +484,7 @@
   }
   .group1 {
     gap: var(--gap-mini);
+    flex-wrap: wrap-reverse;
   }
   .partnersSection {
     gap: var(--gap-mid);
@@ -500,5 +504,11 @@
   }
   .callUsButton {
     gap: var(--gap-5xl);
+  }
+  .group100000249311,.group12160252441{
+    height: 100%;
+  }
+  .wrapperFrameParent{
+    flex-wrap: wrap-reverse;
   }
 }

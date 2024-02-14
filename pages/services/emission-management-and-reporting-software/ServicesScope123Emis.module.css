@@ -8,7 +8,10 @@
   transform: translateY(0);
 }
 .luxa {
+  padding: 4px;
   color: var(--color-white);
+  border-radius: var(--br-3xs);
+  background: linear-gradient(96.43deg, #0d703c, #a2d255);
 }
 .optimizeYourBusinessContainer {
   margin: 0;
@@ -19,12 +22,7 @@
   font-family: inherit;
 }
 .triangle {
-  align-self: stretch;
-  width: 133px;
-  position: relative;
-  border-radius: var(--br-3xs);
-  background: linear-gradient(96.43deg, #0d703c, #a2d255);
-  margin-left: -126px;
+
 }
 .separator,
 .textComponent {
@@ -355,7 +353,9 @@
   }
 }
 @media screen and (max-width: 1100px) {
-
+.lineSeparator{
+  flex-wrap: wrap-reverse;
+}
   .emailReachOutProject {
     flex-wrap: wrap;
     gap: var(--gap-35xl);
@@ -395,6 +395,9 @@
 
 }
 @media screen and (max-width: 450px) {
+  .scope12,.utilizingAdvancedAlgorithms{
+    height: 100%;
+  }
   .optimizeYourBusinessContainer {
     font-size: var(--font-size-5xl);
     line-height: 30px;
@@ -442,5 +445,8 @@
   }
   .footer {
     gap: var(--gap-xl);
+  }
+  .lineSeparator{
+    flex-wrap: wrap-reverse;
   }
 }

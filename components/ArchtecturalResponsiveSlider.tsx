@@ -19,12 +19,7 @@ const ArchtecturalResponsiveSlider: NextPage = () => {
         <div className={styles.mainheading}>
         Unlocking Values Across Industries Our Software Impact
         </div>
-        <div className={styles.operationBTn}>
-          <div className={clicked ? styles.withoutLuxatwo :styles.withoutLuxa} onClick={handleChande}>Architectural Firms</div>
-          <div className={clicked ? styles.withLuxatwo:  styles.withLuxa} onClick={handleClick}>Construction Industry</div>
-          <div className={clicked ? styles.withLuxatwo:  styles.withLuxa} onClick={handleClick}>Engineering Industry</div>
-
-        </div>
+        
         <div className={styles.withContents}>
           <div className={styles.imageswithoutluxa}>
           

@@ -74,7 +74,6 @@
   width: 599px;
   padding: var(--padding-9xs) 0 0;
   box-sizing: border-box;
-  min-width: 599px;
 }
 .group12160252431 {
   height: 100%;
@@ -158,8 +157,6 @@
   justify-content: flex-end;
   padding: var(--padding-smi) var(--padding-xs) var(--padding-base)
     var(--padding-7xl);
-  min-width: 555px;
-  max-width: 100%;
 }
 .framecalluslink,
 .groupfaqsaboutdata {
@@ -218,7 +215,7 @@
   width: 599px;
   padding: var(--padding-smi) 0 0;
   box-sizing: border-box;
-  min-width: 599px;
+  /* min-width: 599px; */
 }
 .group12160252422 {
   height: 100%;
@@ -306,7 +303,7 @@
   flex-direction: column;
   padding: var(--padding-2xl) 0 0;
   box-sizing: border-box;
-  min-width: 413px;
+  /* min-width: 413px; */
 }
 .lEEDCertificationManageme {
   align-self: stretch;
@@ -352,7 +349,7 @@
   width: 599px;
   padding: var(--padding-9xl) 0 0;
   box-sizing: border-box;
-  min-width: 599px;
+  /* min-width: 599px; */
 }
 .requestFrameChild {
   height: 359px;
@@ -447,6 +444,74 @@
   font-size: var(--font-size-base);
   color: var(--primary-linear-color);
   font-family: var(--font-dm-sans);
+}
+
+@media screen and (max-width: 450px) {
+  .groupsupportandcareers{
+    flex-direction: column;
+  }
+  .grouppartnerportal{
+    width: 100%;
+    min-width: none;
+  }
+  .wrapperGroup12160252431{
+    width: 350px;
+  }
+  .framellcnotice{
+   gap: 50px; 
+  }
+  .groupfaqsaboutdata{
+    flex-direction: column-reverse;
+  }
+  .groupfaqsaboutdata{
+    min-width: none;
+    max-width: none;
+    width: 328px;
+  }
+  .trialCheckbox{
+    flex-direction: column;
+  }
+  .activateProjectFrame{
+    width: 100%;
+    min-width: none;
+  }
+  .supportTeam{
+    gap: 50px;
+  }
+  .wrapperGroup12160252422{
+    width: 340px;
+  }
+  .lEEDCertificationManageme{
+    flex-direction: column-reverse;
+  }
+  .dataAnalyticsInsights,.customSolutions{
+    width: 100%;
+    min-width: none;
+  }
+  .environmentalImpactAssessmen{
+    gap: 60px;
+  }
+  .wrapperGroup33401{
+    width: 340px;
+  }
+  .contentFrame{
+    flex-direction: column;
+  }
+  .scaleType{
+    gap: 60px;
+  }
+  .noMatterThe{
+    height: 100%;
+  }
+  .group100000249311{
+    height: 206px;
+  }
+  .linehowdoesitwork{
+    width: 330px;
+  }
+  .group12160252341{
+    height: 100%;
+  }
 }
 /* @media screen and (max-width: 1325px) {
   .group12160252431,

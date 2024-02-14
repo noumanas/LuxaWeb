@@ -95,11 +95,18 @@
 }
 @media screen and (max-width: 1125px) {
   .framelexalogo {
-    flex-wrap: wrap;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media  screen and (max-widh : 450px) {
   .framefaqsleed{
     width: 389px;
+  }
+  .framelexalogo{
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
   }
 }
