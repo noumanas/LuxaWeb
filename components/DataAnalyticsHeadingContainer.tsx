@@ -40,7 +40,7 @@ const DataAnalyticsHeadingContainer: NextPage<
   const dataAnalyticsHeadingStyle: CSSProperties = useMemo(() => {
     return {
       padding: propPadding,
-      minWidth: propMinWidth,
+      minWidth: "50%",
     };
   }, [propPadding, propMinWidth]);
 

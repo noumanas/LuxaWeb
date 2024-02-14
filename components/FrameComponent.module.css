@@ -178,6 +178,10 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .wrapperGroup12160252422Parent{
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+  }
   .luxa{
     font-size: 20px;
   }

@@ -159,6 +159,14 @@ background-repeat: no-repeat;
   }
 }
 @media screen and (max-width: 450px) {
+  .messageTextArea{
+    padding:0;
+    width: 329px;
+    height: 194px;
+  }
+  .contactAnExpertButton{
+    height: auto;
+  }
   .visualizeYourOngoing {
     font-size: var(--font-size-5xl);
     line-height: 30px;

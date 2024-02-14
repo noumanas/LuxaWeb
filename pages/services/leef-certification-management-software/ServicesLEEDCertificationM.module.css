@@ -82,8 +82,6 @@
   justify-content: center;
   padding: var(--padding-base) var(--padding-4xs) var(--padding-6xs)
     var(--padding-base);
-  min-width: 522px;
-  max-width: 100%;
 }
 .text {
   flex: 1;
@@ -534,5 +532,121 @@ margin-top: 105px;
   
 }
 @media screen and (max-width: 450px) {
+  .luxasLeedCertification{
+    height: 100%;
+    width: 100%;
+  }
+  .howLuxaOptimizesLEED{
+    gap: 60px;
+  }
+  .howLuxaOptimizes{
+    height: 100%;
+  }
+ .text{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .group12160252401{
+  width:380.97px;
+  height:292px;
+ }
+ .fAQGroup{
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+ }
+ .groupParent{
+  display: block;
+ }
+ .gettingStarted{
+  flex-wrap: wrap-reverse;
+ }
+ .leedLeadershipIn{
+  height: 100%;
+  width: 90%;
+ }
+ .understandingLeedCertificati{
+  width: 90%;
+  gap: 60px;
+ }
+ .requestDemoFrame{
+  height: 100%;
+    width: 100%;
+    align-items: center;
+ }
+ .leedCertificationLevels1Icon{
+  width: 370px;
+ }
+ .projectRegistrationLine {
+  width: 100%;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  min-width: 100%;
+  max-width: 100%;
+}
+.group12160252351{
+  width: 378.45px;
+  height: 301px;
+}
+.partnersGroup{
+  flex-direction: column;
+}
+.group10000024971{
+  height: 237px;
+    width: 339px;
+}
+.environmentalImpactAssessmen{
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  gap:0px
+}
+.contactUsForm {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+.understandingLeedCertificatiParent{
+  gap: 60px;
+}
+.wrapperGroup10000024971{
+  margin-top: 0;
+  width: 100%;
+}
+.whetherYoureDeveloping,.customizedSolutionsFor{
+  height: 100%;
+  width: 96%;
+  padding: 10px;
+}
+.servicesFrame{
+  flex-direction: column-reverse;
+}
+.projectInfoFrame{
+    width: 400px;
+    margin-left: 20px;
+}
+.rectangleGroupFrame {
+  width: 100%;
+
+  min-width:100%;
+  max-width: 100%;
+}
+.gettingStartedRequestDemo{
+  flex-direction: column;
+}
+.lEEDCertificationManageme {
+  width: 100%;
  
+  min-width: 100%;
+}
+.group1216025234{
+  height: auto;
+}
+.group12160252341{
+  height: 100%;
+}
 }

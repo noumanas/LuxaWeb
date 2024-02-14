@@ -141,11 +141,8 @@
 .group10000024972 {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  position: absolute;
-  left: 1px;
-  top: 1px;
-  transform: scale(1.079);
+  
+  /* transform: scale(1.079); */
 }
 .wrapperGroup10000024972 {
   position: absolute;
@@ -526,6 +523,28 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .group12160252431{
+    position: none;
+    width: 357.63px;
+    height: 204.25px;
+    margin-right: 42px;
+  }
+  .group10000024972{
+    width: 354px;
+    height: 237.32px;
+    position:  none;
+  }
+  .wrapperGroup10000024972{
+    width: 48%;
+    position:  none;
+    height: 100%;
+  }
+  .servicesMainInner{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
   .exploreLuxasDetailed{
     height: 100%;
   }
@@ -560,6 +579,7 @@
     min-width: 100%;
   }
   .readyToLearnFrameParent {
+    flex-wrap: wrap-reverse;
     gap: var(--gap-base);
   }
   .scope12Container {
@@ -569,6 +589,7 @@
   }
   .group {
     gap: var(--gap-lgi);
+    justify-content: center;
   }
   .frameGroup {
     gap: var(--gap-xl);

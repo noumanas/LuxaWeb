@@ -86,16 +86,15 @@
     font-size: var(--font-size-9xl);
     line-height: 40px;
   }
-  .fAQs {
-    flex-wrap: wrap;
-  }
   .dataAnalyticsHeading {
-    min-width: 100%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
   .keyFeaturesOf {
-    font-size: var(--font-size-2xl);
     line-height: 30px;
+  }
+  .dataAnalyticsHeading {
+    width: 100%;
   }
 }

@@ -20,7 +20,7 @@
   display: inline-block;
 }
 .framefaqsleed {
-  width: 293px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,5 +96,10 @@
 @media screen and (max-width: 1125px) {
   .framelexalogo {
     flex-wrap: wrap;
+  }
+}
+@media  screen and (max-widh : 450px) {
+  .framefaqsleed{
+    width: 389px;
   }
 }
