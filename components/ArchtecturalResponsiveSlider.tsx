@@ -17,7 +17,7 @@ const ArchtecturalResponsiveSlider: NextPage = () => {
     <section className={styles.lineSection}>
       <div className={styles.main}>
         <div className={styles.mainheading}>
-        Transforming Sustainability Efforts: Why Our Software Matters
+        Unlocking Values Across Industries Our Software Impact
         </div>
         <div className={styles.operationBTn}>
           <div className={clicked ? styles.withoutLuxatwo :styles.withoutLuxa} onClick={handleChande}>Architectural Firms</div>

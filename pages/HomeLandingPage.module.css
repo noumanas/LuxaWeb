@@ -7,7 +7,30 @@
   opacity: 1;
   transform: translateY(0);
 }
+.operationBTn{
+  display: flex;
+  gap: 20px;
+  font-family: DM Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+}
+.active1{
+  color: #D36135;
+}
+.active2{
+  color: #D36135;
 
+}
+.active3{
+  color: #D36135;
+
+}
+.notactive{
+  color: #000000;
+}
 .maskGroupParent {
   align-self: stretch;
   display: flex;
@@ -233,7 +256,7 @@
   min-height: 636px;
 }
 .asAnArchitecture {
-  height: 56px;
+  height: 100%;
   flex: 1;
   position: relative;
   line-height: 28px;
@@ -405,7 +428,8 @@
     line-height: 40px;
   }
   .faqsParent {
-    gap: var(--gap-20xl);
+    gap: var(--gap-xl);
+    margin-top: 35px;
   }
   .frameWrapper{
     margin-top: 210px;
@@ -413,8 +437,25 @@
   .whetherItsNew{
     height: 100%;
   }
+  .homeLandingPageChild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+  }
 }
 @media screen and (max-width: 450px) {
+  .homeLandingPageChild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
   .message{
     width: 100%;
   }
@@ -453,6 +494,7 @@
   }
   .faqsParent {
     gap: var(--gap-xl);
+    margin-top: 35px;
   }
   .frameWrapper{
     margin-top: 210px;

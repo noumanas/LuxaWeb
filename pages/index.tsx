@@ -18,6 +18,7 @@ import { useEffect, useState } from "react";
 import Image from 'next/image'
 import { motion } from "framer-motion";
 import LineSectionMobile from "../components/LineSectionMobile";
+import ArchtecturalResponsiveSlider from "../components/ArchtecturalResponsiveSlider";
 
 const HomeLandingPage: NextPage = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,6 +33,10 @@ const HomeLandingPage: NextPage = () => {
   const [headingText , setHeadingtext]=useState("Architectural Firms")
   const [isMobile, setIsMobile] = useState(false);
   const [isDestop, setisDestop] = useState(true);
+  const [clicked1, setClicked1] = useState(true);
+  const [clicked2, setClicked2] = useState(false);
+  const [clicked3, setClicked3] = useState(false);
+
 
   useEffect(() => {
     // Check if window object is available (client-side)
@@ -50,6 +55,36 @@ const HomeLandingPage: NextPage = () => {
       };
     }
   }, []);
+
+  const handleClick1 = () => {
+    // Toggle the state value when clicked
+    if(clicked1 === true){
+      setClicked1(false)
+      setClicked2(true)
+    }
+    else if(clicked2 === true){
+      setClicked2(false)
+      setClicked3(true)
+
+    }
+    else if(clicked3 === true){
+      setClicked1(true)
+      setClicked2(false)
+      setClicked3(false)
+
+    }
+  };
+  const handleClick2 = () => {
+    // Toggle the state value when clicked
+    setClicked1(false)
+    setClicked2(true);
+  };
+  const handleChande = () => {
+    // Toggle the state value when clicked
+    setClicked1(true)
+
+
+  };
   const handleLinkClick= ()=> {
     if(headingText === "Architectural Firms"){
       setHeadingtext("Construction Industry")
@@ -225,36 +260,45 @@ const HomeLandingPage: NextPage = () => {
      
       
       <section className={styles.homeLandingPageChild}>
-      <div className={styles.gcsLogoSymbolParent}>
-        <img
-          className={styles.gcsLogoSymbol}
-          alt=""
-          src="/gcs-logo-symbol@2x.png"
-        />
-    
-        <div className={styles.frameGroup}>
-          <div className={styles.iconlylightarrowRight3Parent}>
-            <img
-              className={styles.iconlylightarrowRight3}
-              loading="eager"
-              alt=""
-              src="/iconlylightarrow--right-3@2x.png"
-              onClick={handleLinkClickback}
+        {isLinesectionMobile ? (
+        <div className={styles.operationBTn}>
+          <div className={headingText === "Architectural Firms" ? styles.active1 :styles.notactive} onClick={handleLinkClick}>Architectural Firms</div>
+          <div className={headingText === "Construction Industry" ? styles.active2:  styles.notactive} onClick={handleLinkClick}>Construction Industry</div>
+          <div className={headingText === "Engineering Industry" ? styles.active3:  styles.notactive} onClick={handleLinkClick}>Engineering Industry</div>
 
-            />
-            <h2 className={styles.architecturalFirms}>{headingText}</h2>
-            <img
-              className={styles.iconlylightarrowRight2}
-              loading="eager"
-              alt=""
-              src="/iconlylightarrow--right-2.svg"
-              onClick={handleLinkClick}
+       </div>
 
-            />
+        ):(<div className={styles.gcsLogoSymbolParent}>
+          <img
+            className={styles.gcsLogoSymbol}
+            alt=""
+            src="/gcs-logo-symbol@2x.png"
+          />
+      
+          <div className={styles.frameGroup}>
+            <div className={styles.iconlylightarrowRight3Parent}>
+              <img
+                className={styles.iconlylightarrowRight3}
+                loading="eager"
+                alt=""
+                src="/iconlylightarrow--right-3@2x.png"
+                onClick={handleLinkClickback}
+  
+              />
+              <h2 className={styles.architecturalFirms}>{headingText}</h2>
+              <img
+                className={styles.iconlylightarrowRight2}
+                loading="eager"
+                alt=""
+                src="/iconlylightarrow--right-2.svg"
+                onClick={handleLinkClick}
+  
+              />
+            </div>
+            {/* <div className={styles.frameItem} /> */}
           </div>
-          {/* <div className={styles.frameItem} /> */}
-        </div>
-      </div>
+        </div>)}
+   
       {architecturalFirms && (
         <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
