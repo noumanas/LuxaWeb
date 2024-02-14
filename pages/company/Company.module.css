@@ -46,7 +46,7 @@
   flex: 1;
   position: relative;
   border-radius: var(--br-3xs);
-  min-width: 469px;
+  /* min-width: 469px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -919,6 +919,21 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .lineElements{
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .luxasMissionIs{
+    height: 100%;
+  }
+  .wrapperRectangle33{
+    height: 100%;
+    min-width: 100%;
+  }
+  .wrapperInnerFrameHolder{
+     height: 300px;
+    width: 300px;;
+  }
   .gettingStartedWithContainer,
   .ourMission {
     font-size: var(--font-size-8xl);

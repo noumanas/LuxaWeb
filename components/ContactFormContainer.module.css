@@ -431,6 +431,7 @@
   }
   .frameRegistrationForm{
     margin-top: 100px;
+    width: 330px;
   }
   .groupRequestaDemo{
     right: 300px;
@@ -465,5 +466,8 @@
     padding-top: var(--padding-32xl);
     padding-bottom: var(--padding-32xl);
     box-sizing: border-box;
+  }
+  .polygonBackgroundIcon{
+    z-index: 0;
   }
 }

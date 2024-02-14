@@ -16,7 +16,8 @@
   flex: 1;
   position: relative;
   border-radius: var(--br-3xs);
-  min-width: 475px;
+  /* min-width: 475px; */
+  width: 475px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,27 +146,10 @@
   max-width: 100%;
 }
 .frameGroupLine {
-  height: 100%;
-  flex: 1;
-  max-width: 100%;
-  overflow: hidden;
-  min-width: 469px;
-  object-fit: contain;
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 100%;
-  transform: scale(1.055);
+  Width: 549px;
+  Height: 424px;
 }
 .wrapperFrameGroupLine {
-  height: 507px;
-  flex: 1;
-  position: relative;
-  border-radius: var(--br-3xs);
-  min-width: 469px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .frameParent,
 .iconGroupParent {
@@ -242,16 +226,36 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .frameGroupLine{
+    Width:371px;
+    Height:260.88px;
+    margin-top: 54px;
+  }
+  .frameParent{
+    margin-top: 55px;
+    margin-left: -5px;
+  }
+  .loremIpsumIsSimplyContainer{
+    height: 100%;
+  }
   .whoWeAre {
     font-size: var(--font-size-8xl);
   }
   .clickableButton {
     gap: var(--gap-base);
+    flex-wrap: wrap-reverse;
   }
   .ourValues {
     font-size: var(--font-size-8xl);
   }
   .iconGroupParent {
     gap: var(--gap-lg);
+  }
+  .wrapperRectangle33{
+    height: 400px;
+    width: 100%;
+  }
+  .wrapperFrameGroupLine{
+    /* height: 600px; */
   }
 }
