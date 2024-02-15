@@ -75,6 +75,7 @@ const DataDrivenDesignFrame: NextPage = () => {
           propTop="calc(50% - 172.4px)"
           propPadding="0px 0px var(--padding-lg)"
           propHeight="108px"
+          marginLeft="0px"
         />
         <EmissionsTrackingContainer
           featureImageUrl="/ERectangle-78.png"

@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import styles from "./SectionServices.module.css";
 import Mheader from "./mainheader";
 import { useState } from "react";
+import MobileMenuResponsive from "./MobileMenuResponsive";
 const SectionServices: NextPage = () => {
   const [activeLink, setActiveLink] =  useState("company");
   const [isMobile, setIsMobile] = useState(false);
@@ -69,8 +70,12 @@ const SectionServices: NextPage = () => {
             </button>
           </div>
         </header> */}
-      
-        <Mheader activeLink={activeLink} setIsMobile={setIsMobile} />
+              
+        {isMobile ? (
+          <MobileMenuResponsive testinfmobileMenu={true} setIsMobile={setIsMobile} />
+        ):(
+          <Mheader activeLink={activeLink} setIsMobile={setIsMobile} />
+        )}
         <div className={styles.contactUs}>
           <div className={styles.partners}>
             <h1 className={styles.meetLuxaBuilding}>

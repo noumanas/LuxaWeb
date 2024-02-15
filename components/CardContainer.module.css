@@ -63,3 +63,9 @@ line-height: 32px; /* 177.778% */
   transform: rotate(45deg);
 
 }
+@media screen and (max-width: 450px) {
+  .itemBtn,.itemPanel{
+    font-size: 12px;
+    line-height: 22px;
+  }
+}

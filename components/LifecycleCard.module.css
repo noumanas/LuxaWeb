@@ -106,7 +106,8 @@
     line-height: 30px;
   }
   .frameParent{
-    flex-wrap:wrap ;
+    flex-wrap:wrap-reverse;
+    height: 100%;
   }
   .wrapperGroup33400Child{
     width: 326px;

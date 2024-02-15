@@ -36,7 +36,6 @@
   width: 636px;
   padding: var(--padding-6xs) 0 0;
   box-sizing: border-box;
-  min-width: 636px;
 }
 .wrapperGroup33400Child {
   height: 100%;
@@ -153,7 +152,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--gap-xl);
-  min-width: 413px;
+  width: 413px;
 }
 .ourStory {
   align-self: stretch;
@@ -309,16 +308,12 @@
     font-size: var(--font-size-9xl);
     line-height: 40px;
   }
-  .footerFrame,
   .privacyPolicies {
     min-width: 100%;
   }
   .customizedSolutionsFor {
     font-size: var(--font-size-9xl);
     line-height: 40px;
-  }
-  .demoRequest {
-    min-width: 100%;
   }
   .ourStory {
     gap: var(--gap-15xl);
@@ -339,6 +334,37 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .leverageLuxasAdvanced{
+    width: 350px;
+    height: 100%;
+    margin-left: 136px;
+  }
+  .customizedSolutionsFor{
+    width: 420px;
+  }
+  .demoRequest{
+    width: 500px;
+  }
+  .tailoredForEvery{
+    width: 350px;
+    height: 100%;
+  }
+  .transformYourProject{
+    height: 100%;
+  }
+  .wrapperGroup33400{
+    height: 191px;
+  }
+  .footerFrame{
+    width: 360px;
+  }
+  .wrapperRegistrationInfo{
+    height: 200px;
+  }
+  .wrapperServicesOverview{
+    height: 182px;
+  }
+  .dataAnalytics{flex-direction: column;}
   .comprehensiveProjectManageme,
   .customizedSolutionsFor {
     font-size: var(--font-size-2xl);
@@ -346,10 +372,14 @@
   }
   .ourStory {
     gap: var(--gap-mid);
+    flex-direction: column-reverse;
   }
   .dataDrivenDecisionMaking {
     font-size: var(--font-size-2xl);
     line-height: 30px;
+    height: 100%;
+    width: 350px;
+    margin-left: 140px
   }
   .projectRegistration {
     gap: var(--gap-7xl);

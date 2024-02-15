@@ -97,6 +97,7 @@ const ComprehensiveProjectManagement: NextPage = () => {
           propTop="calc(50% - 172px)"
           propPadding="var(--padding-4xs) 0px 0px"
           propHeight="135px"
+          marginLeft="150px"
         />
       </div>
     </div>

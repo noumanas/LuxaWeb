@@ -275,9 +275,15 @@
     left: 7px;
   }
   .servicesFrame{
-  top: 279px;
-    left: 589px;
-    width: 469px;
-    height: 228px;
+    top: 41px;
+    /* left: 589px; */
+    width: 360px;
+    height: 340px;
     z-index: 1;}
+    .requestADemo{
+      font-size: 14px;
+    }
+    .contactAnExpert{
+      font-size: 12px;
+    }
 }

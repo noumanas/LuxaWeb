@@ -166,7 +166,7 @@
   .lEEDCertification,
   .servicesListFrame {
     gap: var(--gap-xl);
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     height: 100%;
     width: 100%;
   }

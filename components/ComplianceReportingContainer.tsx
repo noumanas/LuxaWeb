@@ -45,7 +45,7 @@ const ComplianceReportingContainer: NextPage<
 
   const luxaSimplifiesComplianceStyle: CSSProperties = useMemo(() => {
     return {
-      height: propHeight1,
+      height: '100%',
     };
   }, [propHeight1]);
 

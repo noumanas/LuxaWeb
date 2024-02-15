@@ -10,6 +10,7 @@ type RegulationsContainerType = {
   propTop?: CSSProperties["top"];
   propPadding?: CSSProperties["padding"];
   propHeight?: CSSProperties["height"];
+  marginLeft?: CSSProperties["marginLeft"];
 };
 
 const RegulationsContainer: NextPage<RegulationsContainerType> = ({
@@ -18,6 +19,7 @@ const RegulationsContainer: NextPage<RegulationsContainerType> = ({
   propTop,
   propPadding,
   propHeight,
+  marginLeft,
 }) => {
   const wrapperScopeManagementStyle: CSSProperties = useMemo(() => {
     return {
@@ -33,9 +35,14 @@ const RegulationsContainer: NextPage<RegulationsContainerType> = ({
 
   const stayInformedStayStyle: CSSProperties = useMemo(() => {
     return {
-      height: propHeight,
+      height: '100%',
     };
   }, [propHeight]);
+  const environmentalImpactAssessmen: CSSProperties = useMemo(()=>{
+    return {
+      marginLeft: marginLeft,
+    };
+  },[marginLeft])
 
   return (
     <div className={styles.contactUs}>
@@ -66,7 +73,7 @@ const RegulationsContainer: NextPage<RegulationsContainerType> = ({
         className={styles.dataAnalyticsInsights}
         style={dataAnalyticsInsightsStyle}
       >
-        <div className={styles.environmentalImpactAssessmen}>
+        <div className={styles.environmentalImpactAssessmen} style={environmentalImpactAssessmen}>
           <h1 className={styles.stayingAheadOf}>{featureTitle}</h1>
           <div
             className={styles.stayInformedStay}
