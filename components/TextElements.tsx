@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
+import { useMemo, type CSSProperties, useState } from "react";
 import styles from "./TextElements.module.css";
 import Link from "next/link";
+import {contactApiHandelr} from "../api-helpers/api-helpers"
 
 type TextElementsType = {
   /** Style props */
@@ -14,6 +15,28 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
       margin: propMargin,
     };
   }, [propMargin]);
+  const [email, setEmail] = useState("");
+
+  const handleFormSubmit = (e:any) => {
+    e.preventDefault();
+    const payload ={
+      email, 
+
+    }
+     // Call the contact API handler function
+     contactApiHandelr(payload)
+     .then((res) => {
+       console.log("API response:", res);
+       setEmail("");
+     })
+     .catch((error) => {
+       console.error("API error:", error);
+       // Handle error here (e.g., display error message to user)
+     });
+    // Reset the form after submission
+    setEmail("");
+  
+  };
 
   return (
     <div className={styles.textElements}>
@@ -135,9 +158,9 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
               <h1 className={styles.readyToFindContainer}>
                 <p className={styles.readyToFind}>Subscribe News Letter</p>
               </h1>
-              <input type="text" className={styles.subscribeInput} alt="" placeholder="Enter Email Address"/>
+              <input type="text" onChange={(e) => setEmail(e.target.value)} className={styles.subscribeInput} alt="" placeholder="Enter Email Address"/>
             </div>
-            <div className={styles.subscribe}>Subscribe</div>
+            <div className={styles.subscribe} onClick={(handleFormSubmit)}>Subscribe</div>
           </div>
           <div className={styles.contactUsFooter}>
             <div className={styles.servicesFrame}>

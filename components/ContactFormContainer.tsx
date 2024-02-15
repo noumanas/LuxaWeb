@@ -132,8 +132,10 @@ const ContactFormContainer: NextPage<ContactFormContainerType> = ({
               <input
                 className={styles.emailFieldFrameItem}
                 placeholder="Your Contact Number"
-                type="text"
+                type="number"
                 onChange={(e) => setPhone(e.target.value)}
+                value={phone}
+
 
               />
               <img className={styles.lineIcon} alt="" src="/line-48.svg" />

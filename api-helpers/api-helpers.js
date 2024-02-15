@@ -9,6 +9,7 @@ export const contactApiHandelr = async (data) => {
         name: data.name,
         email: data.email,
         message: data.message,
+        phone:data.phone
       }
     );
     {
