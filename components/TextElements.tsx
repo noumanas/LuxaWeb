@@ -27,7 +27,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
      contactApiHandelr(payload)
      .then((res) => {
        console.log("API response:", res);
-       setEmail("");
+       setEmail(" ");
      })
      .catch((error) => {
        console.error("API error:", error);
@@ -158,7 +158,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
               <h1 className={styles.readyToFindContainer}>
                 <p className={styles.readyToFind}>Subscribe News Letter</p>
               </h1>
-              <input type="text" onChange={(e) => setEmail(e.target.value)} className={styles.subscribeInput} alt="" placeholder="Enter Email Address"/>
+              <input type="text" onChange={(e) => setEmail(e.target.value)} className={styles.subscribeInput} alt="" placeholder="Enter Email Address" value={email}/>
             </div>
             <div className={styles.subscribe} onClick={(handleFormSubmit)}>Subscribe</div>
           </div>
@@ -166,7 +166,7 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
             <div className={styles.servicesFrame}>
               <div className={styles.lEEDCertificationManageme}>
                 <h3 className={styles.services}>Knowledge Center</h3>
-                <Link href='/services/leef-certification-management-software'>
+                <Link href='/comingsoon'>
                 <div className={styles.leedCertificationManagementContainer}>
                   <ul className={styles.leedCertificationManagement}>
                     <li>Certifications</li>
@@ -175,7 +175,8 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                 </Link>
                 
                 <div className={styles.dataAnalyticsInsights}>
-                   <Link href='/services/emission-management-and-reporting-software'>
+                <Link href='/comingsoon'>
+
                     <div className={styles.scope12Container}>
                       <ul className={styles.scope123EmissionManag}>
                         <li>Reporting</li>
@@ -184,7 +185,8 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                   </Link>
                   
                   <div className={styles.dataAnalyticsInsightsParent}>
-                  <Link href='/services/data-analytics-insights'>
+                  <Link href='/comingsoon'>
+
                   <div className={styles.dataAnalyticsContainer}>
                       <ul className={styles.dataAnalyticsInsights1}>
                         <li>Climate Initiatives</li>

@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import TextElements from "./TextElements";
 import styles from "./Footer.module.css";
+import Link from "next/link";
 
 const Footer: NextPage = () => {
   return (
@@ -18,10 +19,13 @@ const Footer: NextPage = () => {
             </span>
           </h3>
           <div className={styles.servicesList}>
+            <Link href="https://www.linkedin.com/company/projectluxa" target="_blank">
             <button className={styles.emailInputGroup}>
               <div className={styles.submitButtonFrame} />
               <img className={styles.linkedinIcon} alt="" src="/linkedin.svg" />
             </button>
+            </Link>
+            
             <div className={styles.emailInputGroup1}>
               <div className={styles.emailInputGroupChild} />
               <img

@@ -491,6 +491,7 @@ text-align: center;
   .faqs {
     font-size: var(--font-size-8xl);
     line-height: 30px;
+    margin-top: 40px;
   }
   .faqsParent {
     gap: var(--gap-xl);
