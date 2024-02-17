@@ -19,8 +19,7 @@ const ColumnFrame: NextPage = () => {
               </div>
             </div>
             <div className={styles.inJustA}>
-              In just a few easy steps, you can start crushing your certificate
-              documentation.
+            Your Journey Towards Sustainable Construction Begins Here
             </div>
           </div>
         </div>
@@ -44,7 +43,7 @@ const ColumnFrame: NextPage = () => {
                 />
                 <div className={styles.dataAnalyticsInsights}>
                   <div className={styles.createYourProject}>
-                    Create your project
+                  Lay the Foundation
                   </div>
                   <div className={styles.createYourProject1}>
                     Create your project in Luxa by logging in here.
@@ -60,7 +59,7 @@ const ColumnFrame: NextPage = () => {
                 />
                 <div className={styles.dataAnalyticsInsights}>
                   <div className={styles.createYourProject}>
-                  Kick-off your project
+                  Launch into Action
                   </div>
                   <div className={styles.createYourProject1}>
                   Luxa experts will train your project team during a project kick-off call.
@@ -76,7 +75,7 @@ const ColumnFrame: NextPage = () => {
                 />
                 <div className={styles.dataAnalyticsInsights}>
                   <div className={styles.createYourProject}>
-                  Achieve your certification goals
+                  Certify Your Commitment to Sustainability
                   </div>
                   <div className={styles.createYourProject1}>
                   Use Luxa to track all of your certification construction related documentation and stay on track of credit progress.

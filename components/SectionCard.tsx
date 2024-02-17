@@ -18,35 +18,15 @@ const SectionCard: NextPage = () => {
             <h1 className={styles.whoWeAre}>Who We Are?</h1>
             <div className={styles.loremIpsumIsSimplyContainer}>
               <p className={styles.loremIpsumIsSimply}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+              At Luxa, we are pioneers at the intersection of technology and sustainability in the construction industry. Founded by a team of passionate innovators, engineers, and environmental advocates, we are dedicated to transforming how the world builds. Our mission is to empower construction professionals, architects, and engineers with cutting-edge software solutions that make sustainable building practices not just an aspiration but a reality.
+
+We believe that a greener future is built on the foundations of today’s projects. That’s why Luxa offers comprehensive tools for managing green certifications and tracking carbon emissions, simplifying the complex journey toward sustainability. Our platform is designed to support projects of all sizes, from small residential builds to large commercial developments, ensuring that every project has the potential to contribute positively to our planet.
+
+In everything we do, we strive to be more than just a software provider. We aim to be a partner in sustainability, helping our clients navigate the evolving landscape of environmental regulations and green building standards. With Luxa, achieving sustainability isn’t just easier; it’s a shared journey toward a more sustainable and responsible construction industry.
+
+Who we are is defined by the change we seek to create: a world where every construction project is an opportunity for environmental stewardship. Join us in building that world.
               </p>
-              <p className={styles.itWasPopularised}>
-                It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with
-                desktop publishing software like Aldus PageMaker including
-                versions of Lorem IpsumLorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a galley of type and scrambled it to make a
-                type specimen book.
-              </p>
-              <p className={styles.itHasSurvived}>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions.
-              </p>
-              <p className={styles.loremIpsumIsSimply1}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
-              </p>
+             
             </div>
           </div>
         </div>

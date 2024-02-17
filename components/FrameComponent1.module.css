@@ -101,6 +101,9 @@ background-repeat: no-repeat;
   background: linear-gradient(96.43deg, #0d703c, #a2d255);
   display: none;
 }
+.frameChild a {
+  text-decoration: none;
+}
 .getADemo {
   position: relative;
   font-size: var(--font-size-lg);

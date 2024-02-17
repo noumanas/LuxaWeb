@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import styles from "./DataAnalyticsInsightsContainer.module.css";
 import Image from 'next/image'
+import Link from "next/link";
 
 type wordTypeDefine = {
   dataforcard?:string
@@ -24,14 +25,20 @@ const DataAnalyticsInsightsContainer:  NextPage<wordTypeDefine> =({
           className={styles.contactUsToday}
         >{`Contact us today to discover how to seamlessly integrate Luxa’s emission management and reporting software into your projects. We will discuss how we can tailor our technology to meet your project's specific needs, ensuring efficiency, sustainability, and success every step of the way. `}</div>
         <div className={styles.ourStory}>
+        <Link href="/requestdemo">
           <button className={styles.rectangleParent}>
             <div className={styles.frameChild} />
+          
             <div className={styles.requestADemo}>Request a Demo</div>
+
           </button>
+          </Link>
+          <Link href="/requestdemo">
           <button className={styles.headerFrame}>
             <div className={styles.headerFrameChild} />
             <div className={styles.contactAnExpert}>Contact an expert</div>
           </button>
+          </Link>
         </div>
         <div className={styles.environmentalImpactAssessmenInner}>
           <div className={styles.frameParent}>

@@ -52,10 +52,10 @@ const TextElements: NextPage<TextElementsType> = ({ propMargin }) => {
                 className={styles.emailOutreachprojectluxaor}
                 style={emailOutreachprojectluxaorStyle}
               >
-                Email: Luxa@projectluxa.org
+                Email: outreach@projectluxa.org
               </h3>
             </div>
-            <div className={styles.callUs123}>Call us: 123 456 789</div>
+            {/* <div className={styles.callUs123}>Call us: 123 456 789</div> */}
           </div>
           <div className={styles.contactUsFooter}>
             <div className={styles.servicesFrame}>

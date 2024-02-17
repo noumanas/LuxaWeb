@@ -30,7 +30,7 @@ const HomeLandingPage: NextPage = () => {
   const [architecturalFirms, setarchitecturalFirms] = useState(true);
   const [architecturalEngineering, setarchitecturalEngineering] = useState(false);
   const [isLinesectionMobile , setIsLineSectionMobile] =useState(false);
-  const [headingText , setHeadingtext]=useState("Architectural Firms")
+  const [headingText , setHeadingtext]=useState("Architectural Industry")
   const [isMobile, setIsMobile] = useState(false);
   const [isDestop, setisDestop] = useState(true);
   const [clicked1, setClicked1] = useState(true);
@@ -86,7 +86,7 @@ const HomeLandingPage: NextPage = () => {
 
   };
   const handleLinkClick= ()=> {
-    if(headingText === "Architectural Firms"){
+    if(headingText === "Architectural Industry"){
       setHeadingtext("Construction Industry")
       setrchitecturalFirmstwo(true);
       setarchitecturalFirms(false)
@@ -98,7 +98,7 @@ const HomeLandingPage: NextPage = () => {
 
     }
     else{
-      setHeadingtext("Architectural Firms");
+      setHeadingtext("Architectural Industry");
       setarchitecturalEngineering(false);
       setarchitecturalFirms(true)
 
@@ -108,7 +108,7 @@ const HomeLandingPage: NextPage = () => {
   const handleLinkClickback= ()=> {
     setrchitecturalFirmstwo(false);
     setarchitecturalFirms(true)
-    setHeadingtext("Architectural Firms") // Set the clicked link as active
+    setHeadingtext("Architectural Industry") // Set the clicked link as active
   };
   // useEffect(() => {
   //   // Check if window object is available (client-side)
@@ -262,7 +262,7 @@ const HomeLandingPage: NextPage = () => {
       <section className={styles.homeLandingPageChild}>
         {isLinesectionMobile ? (
         <div className={styles.operationBTn}>
-          <div className={headingText === "Architectural Firms" ? styles.active1 :styles.notactive} onClick={handleLinkClick}>Architectural Firms</div>
+          <div className={headingText === "Architectural Industry" ? styles.active1 :styles.notactive} onClick={handleLinkClick}>Architectural Industry</div>
           <div className={headingText === "Construction Industry" ? styles.active2:  styles.notactive} onClick={handleLinkClick}>Construction Industry</div>
           <div className={headingText === "Engineering Industry" ? styles.active3:  styles.notactive} onClick={handleLinkClick}>Engineering Industry</div>
 

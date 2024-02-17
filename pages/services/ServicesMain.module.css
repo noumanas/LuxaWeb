@@ -121,6 +121,12 @@
   gap: var(--gap-sm);
   color: var(--primary-linear-color);
 }
+.learnMoreParent a {
+  color: var(--primary-linear-color);
+  text-decoration: none;
+  display: inline;
+}
+
 .frameWrapper,
 .leedCertificationManagementParent {
   display: flex;

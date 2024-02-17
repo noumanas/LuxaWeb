@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import styles from "./FrameComponent1.module.css";
 import VideoModal from '../components/VideoModal';
 import { useState } from "react";
+import Link from "next/link";
 const FrameComponent1: NextPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -57,7 +58,9 @@ const FrameComponent1: NextPage = () => {
       <div className={styles.frameWrapper}>
         <button className={styles.rectangleParent} >
           <div className={styles.frameChild} />
-          <div className={styles.getADemo}>Get a Demo</div>
+          <Link href="/requestdemo">
+            <div className={styles.getADemo}>Get a Demo</div>
+          </Link>
         </button>
       </div>
     </div>

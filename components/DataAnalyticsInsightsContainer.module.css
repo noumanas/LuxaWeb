@@ -141,6 +141,9 @@
   gap: var(--gap-20xl);
   max-width: 100%;
 }
+.ourStory a{
+  text-decoration: none;
+}
 .frameItem {
   position: absolute;
   top: 0;

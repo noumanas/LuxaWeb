@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import DataAnalyticsInsightsContainer from "../../components/DataAnalyticsInsightsContainer";
 import Header from "../../components/Header";
 import Image from 'next/image'
+import Link from "next/link";
 
 const ServicesMain: NextPage = () => {
   const [loaded, setLoaded] = useState(false);
@@ -64,15 +65,22 @@ const ServicesMain: NextPage = () => {
                 requirements, and understand the steps needed to achieve
                 certification.
               </div>
+             
+
               <div className={styles.learnMoreParent}>
+              <Link href="/services/leef-certification-management-software">
                 <div className={styles.learnMore}>Learn More</div>
+                </Link>
                 <Image
                   className={styles.frameChild}
                   loading="eager"
                   alt=""
                   src="/arrow-5.svg"
-                />
+                /> 
+        
+
               </div>
+
             </div>
           </div>
           <div className={styles.contactAnExpertFrame}>
@@ -118,8 +126,10 @@ const ServicesMain: NextPage = () => {
                   Transform complex data into actionable insights through
                   intuitive charts and graphs.
                 </div>
-                <div className={styles.environmentalImpactAssessmen}>
-                  <div className={styles.learnMore1}>Learn More</div>
+                <div className={styles.learnMoreParent}>
+                <Link href="/services/data-analytics-insights">
+                <div className={styles.learnMore}>Learn More</div>
+                </Link>
                   <Image
                     className={styles.environmentalImpactAssessmenChild}
                     loading="eager"
@@ -149,8 +159,10 @@ const ServicesMain: NextPage = () => {
                     ensuring compliance and sustainability in every aspect of
                     your construction project.
                   </div>
-                  <div className={styles.group1}>
-                    <div className={styles.learnMore2}>Learn More</div>
+                  <div className={styles.learnMoreParent}>
+                  <Link href="/services/emission-management-and-reporting-software">
+                <div className={styles.learnMore}>Learn More</div>
+                </Link>
                     <Image
                       className={styles.groupChild}
                       loading="eager"
