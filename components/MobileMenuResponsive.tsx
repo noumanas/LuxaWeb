@@ -112,7 +112,10 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
               </div>
             )}
          </div> 
-      <div className={styles.pricing}>Pricing</div>
+          <Link href="/comingsoon">
+
+            <div className={styles.pricing}>Pricing</div>
+          </Link>
             <div className={styles.pricingresources} onMouseMove={handleMouseEnter2} onMouseLeave={closeDropdown2} >
                 <div className={`${styles.services} ${
                   activeLinks === "resources" ? styles.activeLink : ""
@@ -188,7 +191,10 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
          </div>
 
       <div className={styles.pricingresources2}>
+       <Link href="/comingsoon">
+
         <div className={styles.knowledgecenter}>Knowledge Center</div>
+        </Link>
         <img
           className={styles.stroke2icon1}
           loading="eager"
@@ -198,7 +204,9 @@ const MobileMenuResponsive: React.FC<mobileMenuResponsive> =({ testinfmobileMenu
       </div>
     </nav>
     <div className={styles.loginform}>
-      <div className={styles.login}>Login</div>
+     <Link href="/comingsoon">
+     <div className={styles.login}>Login</div>
+      </Link> 
       <Link href="/requestdemo">
       <button className={styles.rectangleparent}>
         <div className={styles.framechild}></div>

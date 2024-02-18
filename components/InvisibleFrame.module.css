@@ -358,6 +358,9 @@ text-align: center;
   }
 }
 @media screen and (max-width: 450px) {
+  .emailaddressgroup{
+    flex-direction: column;
+  }
   .comingsoon1 {
     font-size: 37px;
   }

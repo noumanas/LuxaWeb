@@ -6,10 +6,10 @@ const SustainabilityForm: NextPage = () => {
   return (
     <div className={styles.fAQsFrame}>
       <EngageStakeholdersContainer
-        reportingAndDisclosuresTe="Leverage Environmental data to streamline reporting and disclosures; engage with customers, employees, investors, and other stakeholders."
+        reportingAndDisclosuresTe="Leverage ESG data to streamline reporting and disclosures; engage with customers, employees, investors, and other stakeholders."
         sustainabilityGoalsText="Achieve Sustainability Goals"
-        systemOfRecordText="Benchmark your project against 15+ sustainability targets with verified emission and material data."
-        esgDataAndEvidenceText="Centralize all Environmental data and evidence collection to work efficiently with internal and external auditors."
+        systemOfRecordText="Bring audit, risk, compliance, internal control, and ESG management into a single system of record."
+        esgDataAndEvidenceText="Centralize all ESG data and evidence collection to work efficiently with internal and external auditors."
         propGap="35px"
         propMinHeight="unset"
         propHeight="108px"

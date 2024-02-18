@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import styles from "./homepageContainer.module.css";
 import Image from 'next/image'
 import { motion } from 'framer-motion';
+import Link from "next/link";
 const homepageContainer: NextPage = () => {
   return (
     <motion.div
@@ -37,6 +38,7 @@ const homepageContainer: NextPage = () => {
                 className={styles.discoverAPowerful}
               >{`Discover an AI powered software solution that seamlessly integrates data analytics to streamline sustainability management in the AEC Industry. Our platform conducts LEED Certification Management, Scope 1, 2, & 3 Emission Management and Reporting, and offers predictive insights for sustainable projects. Join us in shaping a greener future today.`}</div>
               <div className={styles.line}>
+                <Link href="/requestdemo">
                 <button className={styles.rectangleParent}>
                   <div className={styles.frameChild} />
                   <div className={styles.iconOfscheduleACall}>
@@ -45,10 +47,14 @@ const homepageContainer: NextPage = () => {
                   </div>
                   <div className={styles.scheduleACall}>Schedule a call</div>
                 </button>
+                </Link>
+                <Link href="/requestdemo">
+                
                 <button className={styles.rectangleGroup}>
                   <div className={styles.frameItem} />
                   <div className={styles.moreDetail}>More Detail</div>
                 </button>
+                </Link>
               </div>
             </div>
           </div>
