@@ -26,29 +26,29 @@ const frameAccordion = () => {
     <div className={styles.accordion}>
     {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
     <Accordion transition transitionTimeout={250}>
-      <AccordionItem header="Sustainable Design and Construction Integration" initialEntered>
-      Luxa bridges the gap between sustainable architectural design and practical construction execution. It helps architects ensure that their eco-friendly designs are translated accurately into sustainable construction practices, maintaining the integrity of the design’s environmental goals.
+      <AccordionItem header="Streamlined Certification Process" initialEntered>
+      Luxa simplifies the path to achieving multiple green certifications, offering architects an integrated platform that streamlines the application and documentation process. Architects are a major stakeholder in the design phase of certifications and Luxa saves time and reduces the complexity involved in managing multiple certification requirements. 
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>
       </div>
       </AccordionItem>
-      <AccordionItem header="Compliance with Environmental Standards and Certifications" >
-      Luxa consolidates all sustainability-related project aspects into a single platform. This centralized approach simplifies the management of green certifications, emissions tracking, and compliance reporting, making it easier for project managers to monitor progress, make informed decisions, and maintain oversight on all sustainability fronts.
+      <AccordionItem header="Enhanced Sustainable Design Decision-Making" >
+      With Luxa's advanced data analytics and emission tracking, architects gain invaluable insights into the environmental impact of their design choices. This feature supports the incorporation of sustainable practices from the earliest design stages, enabling architects to optimize for energy efficiency, material sustainability, and overall environmental footprint.
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>
       </div>
     </AccordionItem>
-    <AccordionItem header="Comprehensive Emission Tracking for Green Architecture" >
-      Luxa consolidates all sustainability-related project aspects into a single platform. This centralized approach simplifies the management of green certifications, emissions tracking, and compliance reporting, making it easier for project managers to monitor progress, make informed decisions, and maintain oversight on all sustainability fronts.
+    <AccordionItem header="Comprehensive Carbon Footprint Analysis" >
+    Luxa provides detailed carbon emissions data and analysis tools that enable architects to assess and reduce the carbon footprint of their projects. This not only aids in meeting green building standards but also aligns with global sustainability goals. By Integrating carbon management into the project lifecycle, architects can demonstrate leadership in environmental stewardship and meet the growing demand for sustainable architecture.
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>
       </div>
     </AccordionItem>
-    <AccordionItem header="Lifecycle Assessment and Reporting" >
-      Luxa consolidates all sustainability-related project aspects into a single platform. This centralized approach simplifies the management of green certifications, emissions tracking, and compliance reporting, making it easier for project managers to monitor progress, make informed decisions, and maintain oversight on all sustainability fronts.
+    <AccordionItem header="Collaborative Project Management" >
+    The Luxa platform fosters collaboration across all stages of the architectural project, ensuring that sustainability goals are communicated and achieved throughout the construction process. This collaborative environment enhances the integration of green building practices, facilitates compliance with environmental regulations, and ensures that the final construction remains true to the original sustainable design intentions.
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>

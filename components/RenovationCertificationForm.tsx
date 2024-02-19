@@ -5,14 +5,14 @@ import styles from "./RenovationCertificationForm.module.css";
 const RenovationCertificationForm: NextPage = () => {
   return (
     <div className={styles.lineFrame}>
-      <EngageStakeholdersContainer
+       <EngageStakeholdersContainer
         reportingAndDisclosuresTe="Leverage ESG data to streamline reporting and disclosures; engage with customers, employees, investors, and other stakeholders."
-        sustainabilityGoalsText="Extend ERM to ESG"
+        sustainabilityGoalsText="Achieve Sustainability Goals"
         systemOfRecordText="Bring audit, risk, compliance, internal control, and ESG management into a single system of record."
         esgDataAndEvidenceText="Centralize all ESG data and evidence collection to work efficiently with internal and external auditors."
-        propGap="62px"
-        propMinHeight="267px"
-        propHeight="81px"
+        propGap="35px"
+        propMinHeight="unset"
+        propHeight="108px"
       />
       <div className={styles.lineParent}>
         <div className={styles.line}>

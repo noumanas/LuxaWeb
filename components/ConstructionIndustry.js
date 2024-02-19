@@ -28,30 +28,28 @@ const ConstructionIndustry = () => {
     <Accordion transition transitionTimeout={250}>
       <AccordionItem header="Streamlined Certification Process
 " initialEntered>
-      With Luxa's advanced data analytics and emission tracking, architects gain invaluable insights into the environmental impact of their design choices. This feature supports the incorporation of sustainable practices from the earliest design stages, enabling architects to optimize for energy efficiency, material sustainability, and overall environmental footprint.
-
+     Luxa simplifies the complex journey towards achieving green certifications. Our platform help automate the documentation and submission process, reducing administrative burdens and ensuring accuracy. By guiding construction projects through each step of the certification process, Luxa enables teams to focus on what they do best - building sustainably - while we handle the compliance intricacies.
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>
       </div>
       </AccordionItem>
-      <AccordionItem header="Comprehensive Carbon Footprint Analysis" >
-        Luxa provides detailed carbon emissions data and analysis tools that enable architects to assess and reduce the carbon footprint of their projects. This not only aids in meeting green building standards but also aligns with global sustainability goals. By Integrating carbon management into the project lifecycle, architects can demonstrate leadership in environmental stewardship and meet the growing demand for sustainable architecture.
-     
+      <AccordionItem header="Real-Time Carbon Emission Tracking" >
+      With Luxa's cutting edge emissions tracking feature, construction projects can monitor their carbon footprint in real-time, enabling immediate adjustments to meet emissions targets. This dynamic approach to managing and reporting emissions helps construction companies stay ahead of regulations, avoid potential penalties, and demonstrate environmental responsibility.
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>
       </div>
     </AccordionItem>
-    <AccordionItem header="Collaborative Project Management" >
-      Luxa consolidates all sustainability-related project aspects into a single platform. This centralized approach simplifies the management of green certifications, emissions tracking, and compliance reporting, making it easier for project managers to monitor progress, make informed decisions, and maintain oversight on all sustainability fronts.
+    <AccordionItem header="Cost Reduction through Sustainable Practices" >
+    Luxa identifies opportunities for sustainable materials use and waste reduction, directly contributing to cost savings. By optimizing resource allocation and reducing reliance on high-carbon materials, construction projects can significantly lower both their environmental footprint and operational costs. 
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
         <img src="./arrow-4.svg"/>
       </div>
     </AccordionItem>
-    <AccordionItem header="Lifecycle Assessment and Reporting" >
-      The Luxa platform fosters collaboration across all stages of the architectural project, ensuring that sustainability goals are communicated and achieved throughout the construction process. This collaborative environment enhances the integration of green building practices, facilitates compliance with environmental regulations, and ensures that the final construction remains true to the original sustainable design intentions.
+    <AccordionItem header="Enhancing Project Appeal and Compliance" >
+    In an era where sustainability is increasingly prioritized by clients, investors, and regulators, Luxa equips construction projects with the tools to excel. Our platform ensures that projects not only comply with existing environmental regulations but are also positioned to meet the criteria for emerging green building standards. This proactive approach to sustainability enhances a project's appeal, potentially leading to higher occupancy rates, rental premiums, and investment returns.
 
       <div className={styles.getStarttbn}>
         <a>Get Started</a>
