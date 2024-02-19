@@ -106,9 +106,23 @@ const HomeLandingPage: NextPage = () => {
      // Set the clicked link as active
   };
   const handleLinkClickback= ()=> {
-    setrchitecturalFirmstwo(false);
-    setarchitecturalFirms(true)
-    setHeadingtext("Architectural Industry") // Set the clicked link as active
+    if(headingText === "Architectural Industry"){
+      setHeadingtext("Construction Industry")
+      setrchitecturalFirmstwo(true);
+      setarchitecturalFirms(false)
+    }
+    else if(headingText === "Construction Industry"){
+      setHeadingtext("Engineering Industry")
+      setarchitecturalEngineering(true);
+      setrchitecturalFirmstwo(false);
+
+    }
+    else{
+      setHeadingtext("Architectural Industry");
+      setarchitecturalEngineering(false);
+      setarchitecturalFirms(true)
+
+    } // Set the clicked link as active
   };
   // useEffect(() => {
   //   // Check if window object is available (client-side)
